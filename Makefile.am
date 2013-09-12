@@ -1,10 +1,10 @@
 ###############################################################################
-## Makefile for apertium-lvs
+## Makefile for apertium-urd
 ###############################################################################
 
 RELEASE=0.1
 VERSION=0.1.0
-LANG1=lvs
+LANG1=urd
 BASENAME=apertium-$(LANG1)
 
 TARGETS_COMMON = $(LANG1).automorf.bin $(LANG1).autogen.bin \
@@ -12,7 +12,7 @@ TARGETS_COMMON = $(LANG1).automorf.bin $(LANG1).autogen.bin \
         $(LANG1).rlx.bin modes
 
 ###############################################################################
-## Latvian transducer
+## Urdu transducer
 ###############################################################################
 
 $(LANG1).autogen.bin: $(BASENAME).$(LANG1).dix
@@ -38,16 +38,16 @@ $(LANG1).rlx.bin: $(BASENAME).$(LANG1).rlx
 ## Installation stuff
 ###############################################################################
 #
-#   apertium_lvs_libdir: This is where the compiled binaries go
-#   apertium_lvs_srcdir: This is where the source files go
+#   apertium_urd_libdir: This is where the compiled binaries go
+#   apertium_urd_srcdir: This is where the source files go
 
 modes: modes.xml
 	apertium-gen-modes modes.xml
 
-apertium_lvsdir=$(prefix)/lib/apertium/$(BASENAME)/
-apertium_lvs_srcdir=$(prefix)/share/apertium/$(BASENAME)/
+apertium_urddir=$(prefix)/lib/apertium/$(BASENAME)/
+apertium_urd_srcdir=$(prefix)/share/apertium/$(BASENAME)/
 
-apertium_lvs_DATA=$(LANG1).automorf.bin $(LANG1).autogen.bin \
+apertium_urd_DATA=$(LANG1).automorf.bin $(LANG1).autogen.bin \
 		    $(LANG1).automorf.att.gz $(LANG1).autogen.att.gz \
 		    $(LANG1).rlx.bin modes
 
@@ -55,8 +55,8 @@ pkgconfigdir = $(libdir)/pkgconfig
 pkgconfig_DATA = $(BASENAME)-$(RELEASE).pc
 
 install-data-local:
-	if [ ! -d $(DESTDIR)$(apertium_lvs_srcdir) ]; then mkdir -p $(DESTDIR)$(apertium_lvs_srcdir); fi
-	$(INSTALL_DATA) $(BASENAME).$(LANG1).dix $(DESTDIR)$(apertium_lvs_srcdir)
-	$(INSTALL_DATA) $(BASENAME).$(LANG1).rlx $(DESTDIR)$(apertium_lvs_srcdir)
+	if [ ! -d $(DESTDIR)$(apertium_urd_srcdir) ]; then mkdir -p $(DESTDIR)$(apertium_urd_srcdir); fi
+	$(INSTALL_DATA) $(BASENAME).$(LANG1).dix $(DESTDIR)$(apertium_urd_srcdir)
+	$(INSTALL_DATA) $(BASENAME).$(LANG1).rlx $(DESTDIR)$(apertium_urd_srcdir)
 
 CLEANFILES = -r $(TARGETS_COMMON) .deps/

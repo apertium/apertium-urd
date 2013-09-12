@@ -5,6 +5,9 @@
 /Makefile.am -text
 /NEWS -text
 /README -text
+/apertium-urd-0.1.pc.in -text
 /apertium-urd.urd.dix -text
+/apertium-urd.urd.rlx -text
 /autogen.sh -text
 /configure.ac -text
+/modes.xml -text
