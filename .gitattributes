@@ -10,4 +10,7 @@
 /apertium-urd.urd.rlx -text
 /autogen.sh -text
 /configure.ac -text
+dev/replace-list.tsv -text
+dev/speling-convertor-urdu.py -text
+dev/urdu.fullform -text
 /modes.xml -text

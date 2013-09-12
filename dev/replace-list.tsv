@@ -1,0 +1,903 @@
+Adj1 - AdjF1	; adj
+Adj - AdjF Pl Nom Fem	f.pl.nom; adj
+Adj - AdjF Pl Nom Masc	m.pl.nom; adj
+Adj - AdjF Pl Obl Fem	f.pl.obl; adj
+Adj - AdjF Pl Obl Masc	m.pl.obl; adj
+Adj - AdjF Pl Voc Fem	f.pl.voc; adj
+Adj - AdjF Pl Voc Masc	m.pl.voc; adj
+Adj - AdjF Sg Nom Fem	f.sg.nom; adj
+Adj - AdjF Sg Nom Masc	m.sg.nom; adj
+Adj - AdjF Sg Obl Fem	f.sg.obl; adj
+Adj - AdjF Sg Obl Masc	m.sg.obl; adj
+Adj - AdjF Sg Voc Fem	f.sg.voc; adj
+Adj - AdjF Sg Voc Masc	m.sg.voc; adj
+AdjD - AdjDegF Comp	sint.comp; adj.sint
+AdjD - AdjDegF Posit	sint; adj.sint
+AdjD - AdjDegF Super	sint.sup; adj.sint
+Adv - AdverbF	; adv
+Conj - ConjF	; conj
+DemPron - DPF Pl Nom - Pers3_Distant 	p3.dst.pl.nom; prn.dem
+DemPron - DPF Pl Nom - Pers3_Near 	p3.prx.pl.nom; prn.dem
+DemPron - DPF Pl Obl - Pers3_Distant 	p3.dst.pl.obl; prn.dem
+DemPron - DPF Pl Obl - Pers3_Near 	p3.prx.pl.obl; prn.dem
+DemPron - DPF Sg Nom - Pers3_Distant 	p3.dst.sg.nom; prn.dem
+DemPron - DPF Sg Nom - Pers3_Near 	p3.prx.sg.nom; prn.dem
+DemPron - DPF Sg Obl - Pers3_Distant 	p3.dst.sg.obl; prn.dem
+DemPron - DPF Sg Obl - Pers3_Near 	p3.prx.sg.obl; prn.dem
+IndefPron1 - IPF1 Nom	mf.nom; prn.ind
+IndefPron1 - IPF1 Obl	mf.obl; prn.ind
+IndefPron1 - IPF1 Voc	mf.voc; prn.ind
+IndefPron2 - IPF2	prn.ind; prn.ind
+IndefPron - IPF Nom Fem	f.nom; prn.ind
+IndefPron - IPF Nom Masc	m.nom; prn.ind
+IndefPron - IPF Obl Fem	f.obl; prn.ind
+IndefPron - IPF Obl Masc	m.obl; prn.ind
+IndefPron - IPF Voc Fem	f.voc; prn.ind
+IndefPron - IPF Voc Masc	m.voc; prn.ind
+InterPron1 - IntPF1	prn.itg; prn.itg
+InterPron2 - IntPF2 Pl Nom Masc	m.pl.nom; prn.itg
+InterPron2 - IntPF2 Pl Obl Masc	m.pl.obl; prn.itg
+InterPron2 - IntPF2 Pl Voc Masc	m.pl.voc; prn.itg
+InterPron2 - IntPF2 Sg Nom Fem	f.sg.nom; prn.itg
+InterPron2 - IntPF2 Sg Nom Masc	m.sg.nom; prn.itg
+InterPron2 - IntPF2 Sg Obl Fem	f.sg.obl; prn.itg
+InterPron2 - IntPF2 Sg Obl Masc	m.sg.obl; prn.itg
+InterPron2 - IntPF2 Sg Voc Fem	f.sg.voc; prn.itg
+InterPron2 - IntPF2 Sg Voc Masc	m.sg.voc; prn.itg
+InterPron3 - IntPF3 Pl Fem	f.pl; prn.itg
+InterPron3 - IntPF3 Pl Masc	m.pl; prn.itg
+InterPron3 - IntPF3 Sg Fem	f.sg; prn.itg
+InterPron3 - IntPF3 Sg Masc	m.sg; prn.itg
+InterPron - IntPF Pl Nom	mf.pl.nom; prn.itg
+InterPron - IntPF Pl Obl	mf.pl.obl; prn.itg
+InterPron - IntPF Pl Voc	mf.pl.voc; prn.itg
+InterPron - IntPF Sg Nom	mf.sg.nom; prn.itg
+InterPron - IntPF Sg Obl	mf.sg.obl; prn.itg
+InterPron - IntPF Sg Voc	mf.sg.voc; prn.itg
+Intjunc - IntjuncF	ij; ij
+Neg - NegF	neg; neg
+N - NF Pl Nom - Fem 	pl.nom; n.f
+N - NF Pl Nom - Masc 	pl.nom; n.m
+N - NF Pl Obl - Fem 	pl.obl; n.f
+N - NF Pl Obl - Masc 	pl.obl; n.m
+N - NF Pl Voc - Fem 	pl.voc; n.f
+N - NF Pl Voc - Masc 	pl.voc; n.m
+N - NF Sg Nom - Fem 	sg.nom; n.f
+N - NF Sg Nom - Masc 	sg.nom; n.m
+N - NF Sg Obl - Fem 	sg.obl; n.f
+N - NF Sg Obl - Masc 	sg.obl; n.m
+N - NF Sg Voc - Fem 	sg.voc; n.f
+N - NF Sg Voc - Masc 	sg.voc; n.m
+Num - NumeralF - Pl 	pl; num
+Part - ParticleF	; part
+PersPron - PPF Pl Pers1 Nom	p1.pl.nom; prn.pers
+PersPron - PPF Pl Pers1 Obl	p1.pl.obl; prn.pers
+PersPron - PPF Pl Pers2_Casual Nom	p2.cas.pl.nom; prn.pers
+PersPron - PPF Pl Pers2_Casual Obl	p2.cas.pl.obl; prn.pers
+PersPron - PPF Pl Pers2_Casual Voc	p2.cas.pl.voc; prn.pers
+PersPron - PPF Pl Pers2_Familiar Nom	p2.fam.pl.nom; prn.pers
+PersPron - PPF Pl Pers2_Familiar Obl	p2.fam.pl.obl; prn.pers
+PersPron - PPF Pl Pers2_Familiar Voc	p2.fam.pl.voc; prn.pers
+PersPron - PPF Pl Pers2_Respect Nom	p2.pol.pl.nom; prn.pers
+PersPron - PPF Pl Pers2_Respect Obl	p2.pol.pl.obl; prn.pers
+PersPron - PPF Pl Pers2_Respect Voc	p2.pol.pl.voc; prn.pers
+PersPron - PPF Pl Pers3_Distant Nom	p3.dst.pl.nom; prn.pers
+PersPron - PPF Pl Pers3_Distant Obl	p3.dst.pl.obl; prn.pers
+PersPron - PPF Pl Pers3_Near Nom	p3.prx.pl.nom; prn.pers
+PersPron - PPF Pl Pers3_Near Obl	p3.prx.pl.obl; prn.pers
+PersPron - PPF Sg Pers1 Nom	p1.sg.nom; prn.pers
+PersPron - PPF Sg Pers1 Obl	p1.sg.obl; prn.pers
+PersPron - PPF Sg Pers2_Casual Nom	p2.cas.sg.nom; prn.pers
+PersPron - PPF Sg Pers2_Casual Obl	p2.cas.sg.obl; prn.pers
+PersPron - PPF Sg Pers2_Casual Voc	p2.cas.sg.voc; prn.pers
+PersPron - PPF Sg Pers2_Familiar Nom	p2.fam.sg.nom; prn.pers
+PersPron - PPF Sg Pers2_Familiar Obl	p2.fam.sg.obl; prn.pers
+PersPron - PPF Sg Pers2_Familiar Voc	p2.fam.sg.voc; prn.pers
+PersPron - PPF Sg Pers2_Respect Nom	p2.pol.sg.nom; prn.pers
+PersPron - PPF Sg Pers2_Respect Obl	p2.pol.sg.obl; prn.pers
+PersPron - PPF Sg Pers2_Respect Voc	p2.pol.sg.voc; prn.pers
+PersPron - PPF Sg Pers3_Distant Nom	p3.dst.sg.nom; prn.pers
+PersPron - PPF Sg Pers3_Distant Obl	p3.dst.sg.obl; prn.pers
+PersPron - PPF Sg Pers3_Near Nom	p3.prx.sg.nom; prn.pers
+PersPron - PPF Sg Pers3_Near Obl	p3.prx.sg.obl; prn.pers
+PN - PNF Nom - Fem 	pn.pnf.nom.f; pn.pnf
+PN - PNF Nom - Masc 	pn.pnf.nom.m; pn.pnf
+PN - PNF Obl - Fem 	pn.pnf.obl.f; pn.pnf
+PN - PNF Obl - Masc 	pn.pnf.obl.m; pn.pnf
+PN - PNF Voc - Fem 	pn.pnf.voc.f; pn.pnf
+PN - PNF Voc - Masc 	pn.pnf.voc.m; pn.pnf
+PossPostPos - PossPostPF Pl Fem	f.pl; spost
+PossPostPos - PossPostPF Pl Masc	m.pl; spost
+PossPostPos - PossPostPF Sg Fem	f.sg; spost
+PossPostPos - PossPostPF Sg Masc	m.sg; spost
+PossPron - PossF Pl Pers1 Fem	p1.f.pl; prn.pos
+PossPron - PossF Pl Pers1 Masc	p1.m.pl; prn.pos
+PossPron - PossF Pl Pers2_Casual Fem	p2.cas.f.pl; prn.pos
+PossPron - PossF Pl Pers2_Casual Masc	p2.cas.m.pl; prn.pos
+PossPron - PossF Pl Pers2_Familiar Fem	p2.fam.f.pl; prn.pos
+PossPron - PossF Pl Pers2_Familiar Masc	p2.fam.m.pl; prn.pos
+PossPron - PossF Pl Pers2_Respect Fem	p2.pol.f.pl; prn.pos
+PossPron - PossF Pl Pers2_Respect Masc	p2.pol.m.pl; prn.pos
+PossPron - PossF Pl Pers3_Distant Fem	p3.dst.f.pl; prn.pos
+PossPron - PossF Pl Pers3_Distant Masc	p3.dst.m.pl; prn.pos
+PossPron - PossF Pl Pers3_Near Fem	p3.prx.f.pl; prn.pos
+PossPron - PossF Pl Pers3_Near Masc	p3.prx.m.pl; prn.pos
+PossPron - PossF Sg Pers1 Fem	p1.f.sg; prn.pos
+PossPron - PossF Sg Pers1 Masc	p1.m.sg; prn.pos
+PossPron - PossF Sg Pers2_Casual Fem	p2.cas.f.sg; prn.pos
+PossPron - PossF Sg Pers2_Casual Masc	p2.cas.m.sg; prn.pos
+PossPron - PossF Sg Pers2_Familiar Fem	p2.fam.f.sg; prn.pos
+PossPron - PossF Sg Pers2_Familiar Masc	p2.fam.m.sg; prn.pos
+PossPron - PossF Sg Pers2_Respect Fem	p2.pol.f.sg; prn.pos
+PossPron - PossF Sg Pers2_Respect Masc	p2.pol.m.sg; prn.pos
+PossPron - PossF Sg Pers3_Distant Fem	p3.dst.f.sg; prn.pos
+PossPron - PossF Sg Pers3_Distant Masc	p3.dst.m.sg; prn.pos
+PossPron - PossF Sg Pers3_Near Fem	p3.prx.f.sg; prn.pos
+PossPron - PossF Sg Pers3_Near Masc	p3.prx.m.sg; prn.pos
+PostP - PostPosF	post; post
+Quest - QuestF	qst; qst
+RefPron - RefPF	; prn.ref
+RelPron1 - RPF1 Pl Fem	f.pl; prn.rel
+RelPron1 - RPF1 Pl Masc	m.pl; prn.rel
+RelPron1 - RPF1 Sg Fem	f.sg; prn.rel
+RelPron1 - RPF1 Sg Masc	m.sg; prn.rel
+RelPron2 - RPF2 Nom	nom; prn.rel
+RelPron2 - RPF2 Obl	obl; prn.rel
+RelPron2 - RPF2 Voc	voc; prn.rel
+RelPron3 - RPF3	; prn.rel
+RelPron - RPF Pl Nom	pl.nom; prn.rel
+RelPron - RPF Pl Obl	pl.obl; prn.rel
+RelPron - RPF Sg Nom	sg.nom; prn.rel
+RelPron - RPF Sg Obl	sg.obl; prn.rel
+Verb1 - Caus1 Imperf Pers1 Pl Fem	impf.p1.f.pl; vblex.caus1
+Verb1 - Caus1 Imperf Pers1 Pl Masc	impf.p1.m.pl; vblex.caus1
+Verb1 - Caus1 Imperf Pers1 Sg Fem	impf.p1.f.sg; vblex.caus1
+Verb1 - Caus1 Imperf Pers1 Sg Masc	impf.p1.m.sg; vblex.caus1
+Verb1 - Caus1 Imperf Pers2_Casual Pl Fem	impf.p2.cas.f.pl; vblex.caus1
+Verb1 - Caus1 Imperf Pers2_Casual Pl Masc	impf.p2.cas.m.pl; vblex.caus1
+Verb1 - Caus1 Imperf Pers2_Casual Sg Fem	impf.p2.cas.f.sg; vblex.caus1
+Verb1 - Caus1 Imperf Pers2_Casual Sg Masc	impf.p2.cas.m.sg; vblex.caus1
+Verb1 - Caus1 Imperf Pers2_Familiar Pl Fem	impf.p2.fam.f.pl; vblex.caus1
+Verb1 - Caus1 Imperf Pers2_Familiar Pl Masc	impf.p2.fam.m.pl; vblex.caus1
+Verb1 - Caus1 Imperf Pers2_Familiar Sg Fem	impf.p2.fam.f.sg; vblex.caus1
+Verb1 - Caus1 Imperf Pers2_Familiar Sg Masc	impf.p2.fam.m.sg; vblex.caus1
+Verb1 - Caus1 Imperf Pers2_Respect Pl Fem	impf.p2.pol.f.pl; vblex.caus1
+Verb1 - Caus1 Imperf Pers2_Respect Pl Masc	impf.p2.pol.m.pl; vblex.caus1
+Verb1 - Caus1 Imperf Pers2_Respect Sg Fem	impf.p2.pol.f.sg; vblex.caus1
+Verb1 - Caus1 Imperf Pers2_Respect Sg Masc	impf.p2.pol.m.sg; vblex.caus1
+Verb1 - Caus1 Imperf Pers3_Distant Pl Fem	impf.p3.dst.f.pl; vblex.caus1
+Verb1 - Caus1 Imperf Pers3_Distant Pl Masc	impf.p3.dst.m.pl; vblex.caus1
+Verb1 - Caus1 Imperf Pers3_Distant Sg Fem	impf.p3.dst.f.sg; vblex.caus1
+Verb1 - Caus1 Imperf Pers3_Distant Sg Masc	impf.p3.dst.m.sg; vblex.caus1
+Verb1 - Caus1 Imperf Pers3_Near Pl Fem	impf.p3.prx.f.pl; vblex.caus1
+Verb1 - Caus1 Imperf Pers3_Near Pl Masc	impf.p3.prx.m.pl; vblex.caus1
+Verb1 - Caus1 Imperf Pers3_Near Sg Fem	impf.p3.prx.f.sg; vblex.caus1
+Verb1 - Caus1 Imperf Pers3_Near Sg Masc	impf.p3.prx.m.sg; vblex.caus1
+Verb1 - Caus1_Inf	inf; vblex.caus1
+Verb1 - Caus1_Inf_Obl	inf.obl; vblex.caus1
+Verb1 - Caus1 Perf Pers1 Pl Fem	perf.p1.f.pl; vblex.caus1
+Verb1 - Caus1 Perf Pers1 Pl Masc	perf.p1.m.pl; vblex.caus1
+Verb1 - Caus1 Perf Pers1 Sg Fem	perf.p1.f.sg; vblex.caus1
+Verb1 - Caus1 Perf Pers1 Sg Masc	perf.p1.m.sg; vblex.caus1
+Verb1 - Caus1 Perf Pers2_Casual Pl Fem	perf.p2.cas.f.pl; vblex.caus1
+Verb1 - Caus1 Perf Pers2_Casual Pl Masc	perf.p2.cas.m.pl; vblex.caus1
+Verb1 - Caus1 Perf Pers2_Casual Sg Fem	perf.p2.cas.f.sg; vblex.caus1
+Verb1 - Caus1 Perf Pers2_Casual Sg Masc	perf.p2.cas.m.sg; vblex.caus1
+Verb1 - Caus1 Perf Pers2_Familiar Pl Fem	perf.p2.fam.f.pl; vblex.caus1
+Verb1 - Caus1 Perf Pers2_Familiar Pl Masc	perf.p2.fam.m.pl; vblex.caus1
+Verb1 - Caus1 Perf Pers2_Familiar Sg Fem	perf.p2.fam.f.sg; vblex.caus1
+Verb1 - Caus1 Perf Pers2_Familiar Sg Masc	perf.p2.fam.m.sg; vblex.caus1
+Verb1 - Caus1 Perf Pers2_Respect Pl Fem	perf.p2.pol.f.pl; vblex.caus1
+Verb1 - Caus1 Perf Pers2_Respect Pl Masc	perf.p2.pol.m.pl; vblex.caus1
+Verb1 - Caus1 Perf Pers2_Respect Sg Fem	perf.p2.pol.f.sg; vblex.caus1
+Verb1 - Caus1 Perf Pers2_Respect Sg Masc	perf.p2.pol.m.sg; vblex.caus1
+Verb1 - Caus1 Perf Pers3_Distant Pl Fem	perf.p3.dst.f.pl; vblex.caus1
+Verb1 - Caus1 Perf Pers3_Distant Pl Masc	perf.p3.dst.m.pl; vblex.caus1
+Verb1 - Caus1 Perf Pers3_Distant Sg Fem	perf.p3.dst.f.sg; vblex.caus1
+Verb1 - Caus1 Perf Pers3_Distant Sg Masc	perf.p3.dst.m.sg; vblex.caus1
+Verb1 - Caus1 Perf Pers3_Near Pl Fem	perf.p3.prx.f.pl; vblex.caus1
+Verb1 - Caus1 Perf Pers3_Near Pl Masc	perf.p3.prx.m.pl; vblex.caus1
+Verb1 - Caus1 Perf Pers3_Near Sg Fem	perf.p3.prx.f.sg; vblex.caus1
+Verb1 - Caus1 Perf Pers3_Near Sg Masc	perf.p3.prx.m.sg; vblex.caus1
+Verb1 - Caus1_Root	root; vblex.caus1
+Verb1 - Caus1 Subj Pers1 Pl Fem	prs.p1.f.pl; vblex.caus1
+Verb1 - Caus1 Subj Pers1 Pl Masc	prs.p1.m.pl; vblex.caus1
+Verb1 - Caus1 Subj Pers1 Sg Fem	prs.p1.f.sg; vblex.caus1
+Verb1 - Caus1 Subj Pers1 Sg Masc	prs.p1.m.sg; vblex.caus1
+Verb1 - Caus1 Subj Pers2_Casual Pl Fem	prs.p2.cas.f.pl; vblex.caus1
+Verb1 - Caus1 Subj Pers2_Casual Pl Masc	prs.p2.cas.m.pl; vblex.caus1
+Verb1 - Caus1 Subj Pers2_Casual Sg Fem	prs.p2.cas.f.sg; vblex.caus1
+Verb1 - Caus1 Subj Pers2_Casual Sg Masc	prs.p2.cas.m.sg; vblex.caus1
+Verb1 - Caus1 Subj Pers2_Familiar Pl Fem	prs.p2.fam.f.pl; vblex.caus1
+Verb1 - Caus1 Subj Pers2_Familiar Pl Masc	prs.p2.fam.m.pl; vblex.caus1
+Verb1 - Caus1 Subj Pers2_Familiar Sg Fem	prs.p2.fam.f.sg; vblex.caus1
+Verb1 - Caus1 Subj Pers2_Familiar Sg Masc	prs.p2.fam.m.sg; vblex.caus1
+Verb1 - Caus1 Subj Pers2_Respect Pl Fem	prs.p2.pol.f.pl; vblex.caus1
+Verb1 - Caus1 Subj Pers2_Respect Pl Masc	prs.p2.pol.m.pl; vblex.caus1
+Verb1 - Caus1 Subj Pers2_Respect Sg Fem	prs.p2.pol.f.sg; vblex.caus1
+Verb1 - Caus1 Subj Pers2_Respect Sg Masc	prs.p2.pol.m.sg; vblex.caus1
+Verb1 - Caus1 Subj Pers3_Distant Pl Fem	prs.p3.dst.f.pl; vblex.caus1
+Verb1 - Caus1 Subj Pers3_Distant Pl Masc	prs.p3.dst.m.pl; vblex.caus1
+Verb1 - Caus1 Subj Pers3_Distant Sg Fem	prs.p3.dst.f.sg; vblex.caus1
+Verb1 - Caus1 Subj Pers3_Distant Sg Masc	prs.p3.dst.m.sg; vblex.caus1
+Verb1 - Caus1 Subj Pers3_Near Pl Fem	prs.p3.prx.f.pl; vblex.caus1
+Verb1 - Caus1 Subj Pers3_Near Pl Masc	prs.p3.prx.m.pl; vblex.caus1
+Verb1 - Caus1 Subj Pers3_Near Sg Fem	prs.p3.prx.f.sg; vblex.caus1
+Verb1 - Caus1 Subj Pers3_Near Sg Masc	prs.p3.prx.m.sg; vblex.caus1
+Verb1 - Caus2 Imperf Pers1 Pl Fem	impf.p1.f.pl; vblex.caus2
+Verb1 - Caus2 Imperf Pers1 Pl Masc	impf.p1.m.pl; vblex.caus2
+Verb1 - Caus2 Imperf Pers1 Sg Fem	impf.p1.f.sg; vblex.caus2
+Verb1 - Caus2 Imperf Pers1 Sg Masc	impf.p1.m.sg; vblex.caus2
+Verb1 - Caus2 Imperf Pers2_Casual Pl Fem	impf.p2.cas.f.pl; vblex.caus2
+Verb1 - Caus2 Imperf Pers2_Casual Pl Masc	impf.p2.cas.m.pl; vblex.caus2
+Verb1 - Caus2 Imperf Pers2_Casual Sg Fem	impf.p2.cas.f.sg; vblex.caus2
+Verb1 - Caus2 Imperf Pers2_Casual Sg Masc	impf.p2.cas.m.sg; vblex.caus2
+Verb1 - Caus2 Imperf Pers2_Familiar Pl Fem	impf.p2.fam.f.pl; vblex.caus2
+Verb1 - Caus2 Imperf Pers2_Familiar Pl Masc	impf.p2.fam.m.pl; vblex.caus2
+Verb1 - Caus2 Imperf Pers2_Familiar Sg Fem	impf.p2.fam.f.sg; vblex.caus2
+Verb1 - Caus2 Imperf Pers2_Familiar Sg Masc	impf.p2.fam.m.sg; vblex.caus2
+Verb1 - Caus2 Imperf Pers2_Respect Pl Fem	impf.p2.pol.f.pl; vblex.caus2
+Verb1 - Caus2 Imperf Pers2_Respect Pl Masc	impf.p2.pol.m.pl; vblex.caus2
+Verb1 - Caus2 Imperf Pers2_Respect Sg Fem	impf.p2.pol.f.sg; vblex.caus2
+Verb1 - Caus2 Imperf Pers2_Respect Sg Masc	impf.p2.pol.m.sg; vblex.caus2
+Verb1 - Caus2 Imperf Pers3_Distant Pl Fem	impf.p3.dst.f.pl; vblex.caus2
+Verb1 - Caus2 Imperf Pers3_Distant Pl Masc	impf.p3.dst.m.pl; vblex.caus2
+Verb1 - Caus2 Imperf Pers3_Distant Sg Fem	impf.p3.dst.f.sg; vblex.caus2
+Verb1 - Caus2 Imperf Pers3_Distant Sg Masc	impf.p3.dst.m.sg; vblex.caus2
+Verb1 - Caus2 Imperf Pers3_Near Pl Fem	impf.p3.prx.f.pl; vblex.caus2
+Verb1 - Caus2 Imperf Pers3_Near Pl Masc	impf.p3.prx.m.pl; vblex.caus2
+Verb1 - Caus2 Imperf Pers3_Near Sg Fem	impf.p3.prx.f.sg; vblex.caus2
+Verb1 - Caus2 Imperf Pers3_Near Sg Masc	impf.p3.prx.m.sg; vblex.caus2
+Verb1 - Caus2_Inf	inf; vblex.caus2
+Verb1 - Caus2_Inf_Obl	inf.obl; vblex.caus2
+Verb1 - Caus2 Perf Pers1 Pl Fem	perf.p1.f.pl; vblex.caus2
+Verb1 - Caus2 Perf Pers1 Pl Masc	perf.p1.m.pl; vblex.caus2
+Verb1 - Caus2 Perf Pers1 Sg Fem	perf.p1.f.sg; vblex.caus2
+Verb1 - Caus2 Perf Pers1 Sg Masc	perf.p1.m.sg; vblex.caus2
+Verb1 - Caus2 Perf Pers2_Casual Pl Fem	perf.p2.cas.f.pl; vblex.caus2
+Verb1 - Caus2 Perf Pers2_Casual Pl Masc	perf.p2.cas.m.pl; vblex.caus2
+Verb1 - Caus2 Perf Pers2_Casual Sg Fem	perf.p2.cas.f.sg; vblex.caus2
+Verb1 - Caus2 Perf Pers2_Casual Sg Masc	perf.p2.cas.m.sg; vblex.caus2
+Verb1 - Caus2 Perf Pers2_Familiar Pl Fem	perf.p2.fam.f.pl; vblex.caus2
+Verb1 - Caus2 Perf Pers2_Familiar Pl Masc	perf.p2.fam.m.pl; vblex.caus2
+Verb1 - Caus2 Perf Pers2_Familiar Sg Fem	perf.p2.fam.f.sg; vblex.caus2
+Verb1 - Caus2 Perf Pers2_Familiar Sg Masc	perf.p2.fam.m.sg; vblex.caus2
+Verb1 - Caus2 Perf Pers2_Respect Pl Fem	perf.p2.pol.f.pl; vblex.caus2
+Verb1 - Caus2 Perf Pers2_Respect Pl Masc	perf.p2.pol.m.pl; vblex.caus2
+Verb1 - Caus2 Perf Pers2_Respect Sg Fem	perf.p2.pol.f.sg; vblex.caus2
+Verb1 - Caus2 Perf Pers2_Respect Sg Masc	perf.p2.pol.m.sg; vblex.caus2
+Verb1 - Caus2 Perf Pers3_Distant Pl Fem	perf.p3.dst.f.pl; vblex.caus2
+Verb1 - Caus2 Perf Pers3_Distant Pl Masc	perf.p3.dst.m.pl; vblex.caus2
+Verb1 - Caus2 Perf Pers3_Distant Sg Fem	perf.p3.dst.f.sg; vblex.caus2
+Verb1 - Caus2 Perf Pers3_Distant Sg Masc	perf.p3.dst.m.sg; vblex.caus2
+Verb1 - Caus2 Perf Pers3_Near Pl Fem	perf.p3.prx.f.pl; vblex.caus2
+Verb1 - Caus2 Perf Pers3_Near Pl Masc	perf.p3.prx.m.pl; vblex.caus2
+Verb1 - Caus2 Perf Pers3_Near Sg Fem	perf.p3.prx.f.sg; vblex.caus2
+Verb1 - Caus2 Perf Pers3_Near Sg Masc	perf.p3.prx.m.sg; vblex.caus2
+Verb1 - Caus2_Root	root; vblex.caus2
+Verb1 - Caus2 Subj Pers1 Pl Fem	prs.p1.f.pl; vblex.caus2
+Verb1 - Caus2 Subj Pers1 Pl Masc	prs.p1.m.pl; vblex.caus2
+Verb1 - Caus2 Subj Pers1 Sg Fem	prs.p1.f.sg; vblex.caus2
+Verb1 - Caus2 Subj Pers1 Sg Masc	prs.p1.m.sg; vblex.caus2
+Verb1 - Caus2 Subj Pers2_Casual Pl Fem	prs.p2.cas.f.pl; vblex.caus2
+Verb1 - Caus2 Subj Pers2_Casual Pl Masc	prs.p2.cas.m.pl; vblex.caus2
+Verb1 - Caus2 Subj Pers2_Casual Sg Fem	prs.p2.cas.f.sg; vblex.caus2
+Verb1 - Caus2 Subj Pers2_Casual Sg Masc	prs.p2.cas.m.sg; vblex.caus2
+Verb1 - Caus2 Subj Pers2_Familiar Pl Fem	prs.p2.fam.f.pl; vblex.caus2
+Verb1 - Caus2 Subj Pers2_Familiar Pl Masc	prs.p2.fam.m.pl; vblex.caus2
+Verb1 - Caus2 Subj Pers2_Familiar Sg Fem	prs.p2.fam.f.sg; vblex.caus2
+Verb1 - Caus2 Subj Pers2_Familiar Sg Masc	prs.p2.fam.m.sg; vblex.caus2
+Verb1 - Caus2 Subj Pers2_Respect Pl Fem	prs.p2.pol.f.pl; vblex.caus2
+Verb1 - Caus2 Subj Pers2_Respect Pl Masc	prs.p2.pol.m.pl; vblex.caus2
+Verb1 - Caus2 Subj Pers2_Respect Sg Fem	prs.p2.pol.f.sg; vblex.caus2
+Verb1 - Caus2 Subj Pers2_Respect Sg Masc	prs.p2.pol.m.sg; vblex.caus2
+Verb1 - Caus2 Subj Pers3_Distant Pl Fem	prs.p3.dst.f.pl; vblex.caus2
+Verb1 - Caus2 Subj Pers3_Distant Pl Masc	prs.p3.dst.m.pl; vblex.caus2
+Verb1 - Caus2 Subj Pers3_Distant Sg Fem	prs.p3.dst.f.sg; vblex.caus2
+Verb1 - Caus2 Subj Pers3_Distant Sg Masc	prs.p3.dst.m.sg; vblex.caus2
+Verb1 - Caus2 Subj Pers3_Near Pl Fem	prs.p3.prx.f.pl; vblex.caus2
+Verb1 - Caus2 Subj Pers3_Near Pl Masc	prs.p3.prx.m.pl; vblex.caus2
+Verb1 - Caus2 Subj Pers3_Near Sg Fem	prs.p3.prx.f.sg; vblex.caus2
+Verb1 - Caus2 Subj Pers3_Near Sg Masc	prs.p3.prx.m.sg; vblex.caus2
+Verb1 - Inf1	inf1; vblex
+Verb1 - Inf_Fem1	inf.f1; vblex
+Verb1 - Inf_Obl1	inf.obl1; vblex
+Verb1 - Root1	root1; vblex
+Verb1 - VF1 Imperf Pers1 Pl Fem	impf.p1.f.pl; vblex.vf1
+Verb1 - VF1 Imperf Pers1 Pl Masc	impf.p1.m.pl; vblex.vf1
+Verb1 - VF1 Imperf Pers1 Sg Fem	impf.p1.f.sg; vblex.vf1
+Verb1 - VF1 Imperf Pers1 Sg Masc	impf.p1.m.sg; vblex.vf1
+Verb1 - VF1 Imperf Pers2_Casual Pl Fem	impf.p2.cas.f.pl; vblex.vf1
+Verb1 - VF1 Imperf Pers2_Casual Pl Masc	impf.p2.cas.m.pl; vblex.vf1
+Verb1 - VF1 Imperf Pers2_Casual Sg Fem	impf.p2.cas.f.sg; vblex.vf1
+Verb1 - VF1 Imperf Pers2_Casual Sg Masc	impf.p2.cas.m.sg; vblex.vf1
+Verb1 - VF1 Imperf Pers2_Familiar Pl Fem	impf.p2.fam.f.pl; vblex.vf1
+Verb1 - VF1 Imperf Pers2_Familiar Pl Masc	impf.p2.fam.m.pl; vblex.vf1
+Verb1 - VF1 Imperf Pers2_Familiar Sg Fem	impf.p2.fam.f.sg; vblex.vf1
+Verb1 - VF1 Imperf Pers2_Familiar Sg Masc	impf.p2.fam.m.sg; vblex.vf1
+Verb1 - VF1 Imperf Pers2_Respect Pl Fem	impf.p2.pol.f.pl; vblex.vf1
+Verb1 - VF1 Imperf Pers2_Respect Pl Masc	impf.p2.pol.m.pl; vblex.vf1
+Verb1 - VF1 Imperf Pers2_Respect Sg Fem	impf.p2.pol.f.sg; vblex.vf1
+Verb1 - VF1 Imperf Pers2_Respect Sg Masc	impf.p2.pol.m.sg; vblex.vf1
+Verb1 - VF1 Imperf Pers3_Distant Pl Fem	impf.p3.dst.f.pl; vblex.vf1
+Verb1 - VF1 Imperf Pers3_Distant Pl Masc	impf.p3.dst.m.pl; vblex.vf1
+Verb1 - VF1 Imperf Pers3_Distant Sg Fem	impf.p3.dst.f.sg; vblex.vf1
+Verb1 - VF1 Imperf Pers3_Distant Sg Masc	impf.p3.dst.m.sg; vblex.vf1
+Verb1 - VF1 Imperf Pers3_Near Pl Fem	impf.p3.prx.f.pl; vblex.vf1
+Verb1 - VF1 Imperf Pers3_Near Pl Masc	impf.p3.prx.m.pl; vblex.vf1
+Verb1 - VF1 Imperf Pers3_Near Sg Fem	impf.p3.prx.f.sg; vblex.vf1
+Verb1 - VF1 Imperf Pers3_Near Sg Masc	impf.p3.prx.m.sg; vblex.vf1
+Verb1 - VF1 Perf Pers1 Pl Fem	perf.p1.f.pl; vblex.vf1
+Verb1 - VF1 Perf Pers1 Pl Masc	perf.p1.m.pl; vblex.vf1
+Verb1 - VF1 Perf Pers1 Sg Fem	perf.p1.f.sg; vblex.vf1
+Verb1 - VF1 Perf Pers1 Sg Masc	perf.p1.m.sg; vblex.vf1
+Verb1 - VF1 Perf Pers2_Casual Pl Fem	perf.p2.cas.f.pl; vblex.vf1
+Verb1 - VF1 Perf Pers2_Casual Pl Masc	perf.p2.cas.m.pl; vblex.vf1
+Verb1 - VF1 Perf Pers2_Casual Sg Fem	perf.p2.cas.f.sg; vblex.vf1
+Verb1 - VF1 Perf Pers2_Casual Sg Masc	perf.p2.cas.m.sg; vblex.vf1
+Verb1 - VF1 Perf Pers2_Familiar Pl Fem	perf.p2.fam.f.pl; vblex.vf1
+Verb1 - VF1 Perf Pers2_Familiar Pl Masc	perf.p2.fam.m.pl; vblex.vf1
+Verb1 - VF1 Perf Pers2_Familiar Sg Fem	perf.p2.fam.f.sg; vblex.vf1
+Verb1 - VF1 Perf Pers2_Familiar Sg Masc	perf.p2.fam.m.sg; vblex.vf1
+Verb1 - VF1 Perf Pers2_Respect Pl Fem	perf.p2.pol.f.pl; vblex.vf1
+Verb1 - VF1 Perf Pers2_Respect Pl Masc	perf.p2.pol.m.pl; vblex.vf1
+Verb1 - VF1 Perf Pers2_Respect Sg Fem	perf.p2.pol.f.sg; vblex.vf1
+Verb1 - VF1 Perf Pers2_Respect Sg Masc	perf.p2.pol.m.sg; vblex.vf1
+Verb1 - VF1 Perf Pers3_Distant Pl Fem	perf.p3.dst.f.pl; vblex.vf1
+Verb1 - VF1 Perf Pers3_Distant Pl Masc	perf.p3.dst.m.pl; vblex.vf1
+Verb1 - VF1 Perf Pers3_Distant Sg Fem	perf.p3.dst.f.sg; vblex.vf1
+Verb1 - VF1 Perf Pers3_Distant Sg Masc	perf.p3.dst.m.sg; vblex.vf1
+Verb1 - VF1 Perf Pers3_Near Pl Fem	perf.p3.prx.f.pl; vblex.vf1
+Verb1 - VF1 Perf Pers3_Near Pl Masc	perf.p3.prx.m.pl; vblex.vf1
+Verb1 - VF1 Perf Pers3_Near Sg Fem	perf.p3.prx.f.sg; vblex.vf1
+Verb1 - VF1 Perf Pers3_Near Sg Masc	perf.p3.prx.m.sg; vblex.vf1
+Verb1 - VF1 Subj Pers1 Pl Fem	prs.p1.f.pl; vblex.vf1
+Verb1 - VF1 Subj Pers1 Pl Masc	prs.p1.m.pl; vblex.vf1
+Verb1 - VF1 Subj Pers1 Sg Fem	prs.p1.f.sg; vblex.vf1
+Verb1 - VF1 Subj Pers1 Sg Masc	prs.p1.m.sg; vblex.vf1
+Verb1 - VF1 Subj Pers2_Casual Pl Fem	prs.p2.cas.f.pl; vblex.vf1
+Verb1 - VF1 Subj Pers2_Casual Pl Masc	prs.p2.cas.m.pl; vblex.vf1
+Verb1 - VF1 Subj Pers2_Casual Sg Fem	prs.p2.cas.f.sg; vblex.vf1
+Verb1 - VF1 Subj Pers2_Casual Sg Masc	prs.p2.cas.m.sg; vblex.vf1
+Verb1 - VF1 Subj Pers2_Familiar Pl Fem	prs.p2.fam.f.pl; vblex.vf1
+Verb1 - VF1 Subj Pers2_Familiar Pl Masc	prs.p2.fam.m.pl; vblex.vf1
+Verb1 - VF1 Subj Pers2_Familiar Sg Fem	prs.p2.fam.f.sg; vblex.vf1
+Verb1 - VF1 Subj Pers2_Familiar Sg Masc	prs.p2.fam.m.sg; vblex.vf1
+Verb1 - VF1 Subj Pers2_Respect Pl Fem	prs.p2.pol.f.pl; vblex.vf1
+Verb1 - VF1 Subj Pers2_Respect Pl Masc	prs.p2.pol.m.pl; vblex.vf1
+Verb1 - VF1 Subj Pers2_Respect Sg Fem	prs.p2.pol.f.sg; vblex.vf1
+Verb1 - VF1 Subj Pers2_Respect Sg Masc	prs.p2.pol.m.sg; vblex.vf1
+Verb1 - VF1 Subj Pers3_Distant Pl Fem	prs.p3.dst.f.pl; vblex.vf1
+Verb1 - VF1 Subj Pers3_Distant Pl Masc	prs.p3.dst.m.pl; vblex.vf1
+Verb1 - VF1 Subj Pers3_Distant Sg Fem	prs.p3.dst.f.sg; vblex.vf1
+Verb1 - VF1 Subj Pers3_Distant Sg Masc	prs.p3.dst.m.sg; vblex.vf1
+Verb1 - VF1 Subj Pers3_Near Pl Fem	prs.p3.prx.f.pl; vblex.vf1
+Verb1 - VF1 Subj Pers3_Near Pl Masc	prs.p3.prx.m.pl; vblex.vf1
+Verb1 - VF1 Subj Pers3_Near Sg Fem	prs.p3.prx.f.sg; vblex.vf1
+Verb1 - VF1 Subj Pers3_Near Sg Masc	prs.p3.prx.m.sg; vblex.vf1
+Verb2 - Inf2	inf2; vblex
+Verb2 - Inf_Fem2	inf.f2; vblex
+Verb2 - Inf_Obl2	inf.obl2; vblex
+Verb2 - Root2	root2; vblex
+Verb2 - VCaus1 Imperf Pers1 Pl Fem	impf.p1.f.pl; vblex.vcaus1
+Verb2 - VCaus1 Imperf Pers1 Pl Masc	impf.p1.m.pl; vblex.vcaus1
+Verb2 - VCaus1 Imperf Pers1 Sg Fem	impf.p1.f.sg; vblex.vcaus1
+Verb2 - VCaus1 Imperf Pers1 Sg Masc	impf.p1.m.sg; vblex.vcaus1
+Verb2 - VCaus1 Imperf Pers2_Casual Pl Fem	impf.p2.cas.f.pl; vblex.vcaus1
+Verb2 - VCaus1 Imperf Pers2_Casual Pl Masc	impf.p2.cas.m.pl; vblex.vcaus1
+Verb2 - VCaus1 Imperf Pers2_Casual Sg Fem	impf.p2.cas.f.sg; vblex.vcaus1
+Verb2 - VCaus1 Imperf Pers2_Casual Sg Masc	impf.p2.cas.m.sg; vblex.vcaus1
+Verb2 - VCaus1 Imperf Pers2_Familiar Pl Fem	impf.p2.fam.f.pl; vblex.vcaus1
+Verb2 - VCaus1 Imperf Pers2_Familiar Pl Masc	impf.p2.fam.m.pl; vblex.vcaus1
+Verb2 - VCaus1 Imperf Pers2_Familiar Sg Fem	impf.p2.fam.f.sg; vblex.vcaus1
+Verb2 - VCaus1 Imperf Pers2_Familiar Sg Masc	impf.p2.fam.m.sg; vblex.vcaus1
+Verb2 - VCaus1 Imperf Pers2_Respect Pl Fem	impf.p2.pol.f.pl; vblex.vcaus1
+Verb2 - VCaus1 Imperf Pers2_Respect Pl Masc	impf.p2.pol.m.pl; vblex.vcaus1
+Verb2 - VCaus1 Imperf Pers2_Respect Sg Fem	impf.p2.pol.f.sg; vblex.vcaus1
+Verb2 - VCaus1 Imperf Pers2_Respect Sg Masc	impf.p2.pol.m.sg; vblex.vcaus1
+Verb2 - VCaus1 Imperf Pers3_Distant Pl Fem	impf.p3.dst.f.pl; vblex.vcaus1
+Verb2 - VCaus1 Imperf Pers3_Distant Pl Masc	impf.p3.dst.m.pl; vblex.vcaus1
+Verb2 - VCaus1 Imperf Pers3_Distant Sg Fem	impf.p3.dst.f.sg; vblex.vcaus1
+Verb2 - VCaus1 Imperf Pers3_Distant Sg Masc	impf.p3.dst.m.sg; vblex.vcaus1
+Verb2 - VCaus1 Imperf Pers3_Near Pl Fem	impf.p3.prx.f.pl; vblex.vcaus1
+Verb2 - VCaus1 Imperf Pers3_Near Pl Masc	impf.p3.prx.m.pl; vblex.vcaus1
+Verb2 - VCaus1 Imperf Pers3_Near Sg Fem	impf.p3.prx.f.sg; vblex.vcaus1
+Verb2 - VCaus1 Imperf Pers3_Near Sg Masc	impf.p3.prx.m.sg; vblex.vcaus1
+Verb2 - VCaus1_Inf	inf; vblex.vcaus1
+Verb2 - VCaus1_Inf_Obl	inf.obl; vblex.vcaus1
+Verb2 - VCaus1 Perf Pers1 Pl Fem	perf.p1.f.pl; vblex.vcaus1
+Verb2 - VCaus1 Perf Pers1 Pl Masc	perf.p1.m.pl; vblex.vcaus1
+Verb2 - VCaus1 Perf Pers1 Sg Fem	perf.p1.f.sg; vblex.vcaus1
+Verb2 - VCaus1 Perf Pers1 Sg Masc	perf.p1.m.sg; vblex.vcaus1
+Verb2 - VCaus1 Perf Pers2_Casual Pl Fem	perf.p2.cas.f.pl; vblex.vcaus1
+Verb2 - VCaus1 Perf Pers2_Casual Pl Masc	perf.p2.cas.m.pl; vblex.vcaus1
+Verb2 - VCaus1 Perf Pers2_Casual Sg Fem	perf.p2.cas.f.sg; vblex.vcaus1
+Verb2 - VCaus1 Perf Pers2_Casual Sg Masc	perf.p2.cas.m.sg; vblex.vcaus1
+Verb2 - VCaus1 Perf Pers2_Familiar Pl Fem	perf.p2.fam.f.pl; vblex.vcaus1
+Verb2 - VCaus1 Perf Pers2_Familiar Pl Masc	perf.p2.fam.m.pl; vblex.vcaus1
+Verb2 - VCaus1 Perf Pers2_Familiar Sg Fem	perf.p2.fam.f.sg; vblex.vcaus1
+Verb2 - VCaus1 Perf Pers2_Familiar Sg Masc	perf.p2.fam.m.sg; vblex.vcaus1
+Verb2 - VCaus1 Perf Pers2_Respect Pl Fem	perf.p2.pol.f.pl; vblex.vcaus1
+Verb2 - VCaus1 Perf Pers2_Respect Pl Masc	perf.p2.pol.m.pl; vblex.vcaus1
+Verb2 - VCaus1 Perf Pers2_Respect Sg Fem	perf.p2.pol.f.sg; vblex.vcaus1
+Verb2 - VCaus1 Perf Pers2_Respect Sg Masc	perf.p2.pol.m.sg; vblex.vcaus1
+Verb2 - VCaus1 Perf Pers3_Distant Pl Fem	perf.p3.dst.f.pl; vblex.vcaus1
+Verb2 - VCaus1 Perf Pers3_Distant Pl Masc	perf.p3.dst.m.pl; vblex.vcaus1
+Verb2 - VCaus1 Perf Pers3_Distant Sg Fem	perf.p3.dst.f.sg; vblex.vcaus1
+Verb2 - VCaus1 Perf Pers3_Distant Sg Masc	perf.p3.dst.m.sg; vblex.vcaus1
+Verb2 - VCaus1 Perf Pers3_Near Pl Fem	perf.p3.prx.f.pl; vblex.vcaus1
+Verb2 - VCaus1 Perf Pers3_Near Pl Masc	perf.p3.prx.m.pl; vblex.vcaus1
+Verb2 - VCaus1 Perf Pers3_Near Sg Fem	perf.p3.prx.f.sg; vblex.vcaus1
+Verb2 - VCaus1 Perf Pers3_Near Sg Masc	perf.p3.prx.m.sg; vblex.vcaus1
+Verb2 - VCaus1_Root	root; vblex.vcaus1
+Verb2 - VCaus1 Subj Pers1 Pl Fem	prs.p1.f.pl; vblex.vcaus1
+Verb2 - VCaus1 Subj Pers1 Pl Masc	prs.p1.m.pl; vblex.vcaus1
+Verb2 - VCaus1 Subj Pers1 Sg Fem	prs.p1.f.sg; vblex.vcaus1
+Verb2 - VCaus1 Subj Pers1 Sg Masc	prs.p1.m.sg; vblex.vcaus1
+Verb2 - VCaus1 Subj Pers2_Casual Pl Fem	prs.p2.cas.f.pl; vblex.vcaus1
+Verb2 - VCaus1 Subj Pers2_Casual Pl Masc	prs.p2.cas.m.pl; vblex.vcaus1
+Verb2 - VCaus1 Subj Pers2_Casual Sg Fem	prs.p2.cas.f.sg; vblex.vcaus1
+Verb2 - VCaus1 Subj Pers2_Casual Sg Masc	prs.p2.cas.m.sg; vblex.vcaus1
+Verb2 - VCaus1 Subj Pers2_Familiar Pl Fem	prs.p2.fam.f.pl; vblex.vcaus1
+Verb2 - VCaus1 Subj Pers2_Familiar Pl Masc	prs.p2.fam.m.pl; vblex.vcaus1
+Verb2 - VCaus1 Subj Pers2_Familiar Sg Fem	prs.p2.fam.f.sg; vblex.vcaus1
+Verb2 - VCaus1 Subj Pers2_Familiar Sg Masc	prs.p2.fam.m.sg; vblex.vcaus1
+Verb2 - VCaus1 Subj Pers2_Respect Pl Fem	prs.p2.pol.f.pl; vblex.vcaus1
+Verb2 - VCaus1 Subj Pers2_Respect Pl Masc	prs.p2.pol.m.pl; vblex.vcaus1
+Verb2 - VCaus1 Subj Pers2_Respect Sg Fem	prs.p2.pol.f.sg; vblex.vcaus1
+Verb2 - VCaus1 Subj Pers2_Respect Sg Masc	prs.p2.pol.m.sg; vblex.vcaus1
+Verb2 - VCaus1 Subj Pers3_Distant Pl Fem	prs.p3.dst.f.pl; vblex.vcaus1
+Verb2 - VCaus1 Subj Pers3_Distant Pl Masc	prs.p3.dst.m.pl; vblex.vcaus1
+Verb2 - VCaus1 Subj Pers3_Distant Sg Fem	prs.p3.dst.f.sg; vblex.vcaus1
+Verb2 - VCaus1 Subj Pers3_Distant Sg Masc	prs.p3.dst.m.sg; vblex.vcaus1
+Verb2 - VCaus1 Subj Pers3_Near Pl Fem	prs.p3.prx.f.pl; vblex.vcaus1
+Verb2 - VCaus1 Subj Pers3_Near Pl Masc	prs.p3.prx.m.pl; vblex.vcaus1
+Verb2 - VCaus1 Subj Pers3_Near Sg Fem	prs.p3.prx.f.sg; vblex.vcaus1
+Verb2 - VCaus1 Subj Pers3_Near Sg Masc	prs.p3.prx.m.sg; vblex.vcaus1
+Verb2 - VF2 Imperf Pers1 Pl Fem	impf.p1.f.pl; vblex.vf2
+Verb2 - VF2 Imperf Pers1 Pl Masc	impf.p1.m.pl; vblex.vf2
+Verb2 - VF2 Imperf Pers1 Sg Fem	impf.p1.f.sg; vblex.vf2
+Verb2 - VF2 Imperf Pers1 Sg Masc	impf.p1.m.sg; vblex.vf2
+Verb2 - VF2 Imperf Pers2_Casual Pl Fem	impf.p2.cas.f.pl; vblex.vf2
+Verb2 - VF2 Imperf Pers2_Casual Pl Masc	impf.p2.cas.m.pl; vblex.vf2
+Verb2 - VF2 Imperf Pers2_Casual Sg Fem	impf.p2.cas.f.sg; vblex.vf2
+Verb2 - VF2 Imperf Pers2_Casual Sg Masc	impf.p2.cas.m.sg; vblex.vf2
+Verb2 - VF2 Imperf Pers2_Familiar Pl Fem	impf.p2.fam.f.pl; vblex.vf2
+Verb2 - VF2 Imperf Pers2_Familiar Pl Masc	impf.p2.fam.m.pl; vblex.vf2
+Verb2 - VF2 Imperf Pers2_Familiar Sg Fem	impf.p2.fam.f.sg; vblex.vf2
+Verb2 - VF2 Imperf Pers2_Familiar Sg Masc	impf.p2.fam.m.sg; vblex.vf2
+Verb2 - VF2 Imperf Pers2_Respect Pl Fem	impf.p2.pol.f.pl; vblex.vf2
+Verb2 - VF2 Imperf Pers2_Respect Pl Masc	impf.p2.pol.m.pl; vblex.vf2
+Verb2 - VF2 Imperf Pers2_Respect Sg Fem	impf.p2.pol.f.sg; vblex.vf2
+Verb2 - VF2 Imperf Pers2_Respect Sg Masc	impf.p2.pol.m.sg; vblex.vf2
+Verb2 - VF2 Imperf Pers3_Distant Pl Fem	impf.p3.dst.f.pl; vblex.vf2
+Verb2 - VF2 Imperf Pers3_Distant Pl Masc	impf.p3.dst.m.pl; vblex.vf2
+Verb2 - VF2 Imperf Pers3_Distant Sg Fem	impf.p3.dst.f.sg; vblex.vf2
+Verb2 - VF2 Imperf Pers3_Distant Sg Masc	impf.p3.dst.m.sg; vblex.vf2
+Verb2 - VF2 Imperf Pers3_Near Pl Fem	impf.p3.prx.f.pl; vblex.vf2
+Verb2 - VF2 Imperf Pers3_Near Pl Masc	impf.p3.prx.m.pl; vblex.vf2
+Verb2 - VF2 Imperf Pers3_Near Sg Fem	impf.p3.prx.f.sg; vblex.vf2
+Verb2 - VF2 Imperf Pers3_Near Sg Masc	impf.p3.prx.m.sg; vblex.vf2
+Verb2 - VF2 Perf Pers1 Pl Fem	perf.p1.f.pl; vblex.vf2
+Verb2 - VF2 Perf Pers1 Pl Masc	perf.p1.m.pl; vblex.vf2
+Verb2 - VF2 Perf Pers1 Sg Fem	perf.p1.f.sg; vblex.vf2
+Verb2 - VF2 Perf Pers1 Sg Masc	perf.p1.m.sg; vblex.vf2
+Verb2 - VF2 Perf Pers2_Casual Pl Fem	perf.p2.cas.f.pl; vblex.vf2
+Verb2 - VF2 Perf Pers2_Casual Pl Masc	perf.p2.cas.m.pl; vblex.vf2
+Verb2 - VF2 Perf Pers2_Casual Sg Fem	perf.p2.cas.f.sg; vblex.vf2
+Verb2 - VF2 Perf Pers2_Casual Sg Masc	perf.p2.cas.m.sg; vblex.vf2
+Verb2 - VF2 Perf Pers2_Familiar Pl Fem	perf.p2.fam.f.pl; vblex.vf2
+Verb2 - VF2 Perf Pers2_Familiar Pl Masc	perf.p2.fam.m.pl; vblex.vf2
+Verb2 - VF2 Perf Pers2_Familiar Sg Fem	perf.p2.fam.f.sg; vblex.vf2
+Verb2 - VF2 Perf Pers2_Familiar Sg Masc	perf.p2.fam.m.sg; vblex.vf2
+Verb2 - VF2 Perf Pers2_Respect Pl Fem	perf.p2.pol.f.pl; vblex.vf2
+Verb2 - VF2 Perf Pers2_Respect Pl Masc	perf.p2.pol.m.pl; vblex.vf2
+Verb2 - VF2 Perf Pers2_Respect Sg Fem	perf.p2.pol.f.sg; vblex.vf2
+Verb2 - VF2 Perf Pers2_Respect Sg Masc	perf.p2.pol.m.sg; vblex.vf2
+Verb2 - VF2 Perf Pers3_Distant Pl Fem	perf.p3.dst.f.pl; vblex.vf2
+Verb2 - VF2 Perf Pers3_Distant Pl Masc	perf.p3.dst.m.pl; vblex.vf2
+Verb2 - VF2 Perf Pers3_Distant Sg Fem	perf.p3.dst.f.sg; vblex.vf2
+Verb2 - VF2 Perf Pers3_Distant Sg Masc	perf.p3.dst.m.sg; vblex.vf2
+Verb2 - VF2 Perf Pers3_Near Pl Fem	perf.p3.prx.f.pl; vblex.vf2
+Verb2 - VF2 Perf Pers3_Near Pl Masc	perf.p3.prx.m.pl; vblex.vf2
+Verb2 - VF2 Perf Pers3_Near Sg Fem	perf.p3.prx.f.sg; vblex.vf2
+Verb2 - VF2 Perf Pers3_Near Sg Masc	perf.p3.prx.m.sg; vblex.vf2
+Verb2 - VF2 Subj Pers1 Pl Fem	prs.p1.f.pl; vblex.vf2
+Verb2 - VF2 Subj Pers1 Pl Masc	prs.p1.m.pl; vblex.vf2
+Verb2 - VF2 Subj Pers1 Sg Fem	prs.p1.f.sg; vblex.vf2
+Verb2 - VF2 Subj Pers1 Sg Masc	prs.p1.m.sg; vblex.vf2
+Verb2 - VF2 Subj Pers2_Casual Pl Fem	prs.p2.cas.f.pl; vblex.vf2
+Verb2 - VF2 Subj Pers2_Casual Pl Masc	prs.p2.cas.m.pl; vblex.vf2
+Verb2 - VF2 Subj Pers2_Casual Sg Fem	prs.p2.cas.f.sg; vblex.vf2
+Verb2 - VF2 Subj Pers2_Casual Sg Masc	prs.p2.cas.m.sg; vblex.vf2
+Verb2 - VF2 Subj Pers2_Familiar Pl Fem	prs.p2.fam.f.pl; vblex.vf2
+Verb2 - VF2 Subj Pers2_Familiar Pl Masc	prs.p2.fam.m.pl; vblex.vf2
+Verb2 - VF2 Subj Pers2_Familiar Sg Fem	prs.p2.fam.f.sg; vblex.vf2
+Verb2 - VF2 Subj Pers2_Familiar Sg Masc	prs.p2.fam.m.sg; vblex.vf2
+Verb2 - VF2 Subj Pers2_Respect Pl Fem	prs.p2.pol.f.pl; vblex.vf2
+Verb2 - VF2 Subj Pers2_Respect Pl Masc	prs.p2.pol.m.pl; vblex.vf2
+Verb2 - VF2 Subj Pers2_Respect Sg Fem	prs.p2.pol.f.sg; vblex.vf2
+Verb2 - VF2 Subj Pers2_Respect Sg Masc	prs.p2.pol.m.sg; vblex.vf2
+Verb2 - VF2 Subj Pers3_Distant Pl Fem	prs.p3.dst.f.pl; vblex.vf2
+Verb2 - VF2 Subj Pers3_Distant Pl Masc	prs.p3.dst.m.pl; vblex.vf2
+Verb2 - VF2 Subj Pers3_Distant Sg Fem	prs.p3.dst.f.sg; vblex.vf2
+Verb2 - VF2 Subj Pers3_Distant Sg Masc	prs.p3.dst.m.sg; vblex.vf2
+Verb2 - VF2 Subj Pers3_Near Pl Fem	prs.p3.prx.f.pl; vblex.vf2
+Verb2 - VF2 Subj Pers3_Near Pl Masc	prs.p3.prx.m.pl; vblex.vf2
+Verb2 - VF2 Subj Pers3_Near Sg Fem	prs.p3.prx.f.sg; vblex.vf2
+Verb2 - VF2 Subj Pers3_Near Sg Masc	prs.p3.prx.m.sg; vblex.vf2
+Verb3 - Inf3	inf3; vblex
+Verb3 - Inf_Fem3	inf.f3; vblex
+Verb3 - Inf_Obl3	inf.obl3; vblex
+Verb3 - Root3	root3; root3
+Verb3 - VCaus2 Imperf Pers1 Pl Fem	impf.p1.f.pl; vblex.vcaus2
+Verb3 - VCaus2 Imperf Pers1 Pl Masc	impf.p1.m.pl; vblex.vcaus2
+Verb3 - VCaus2 Imperf Pers1 Sg Fem	impf.p1.f.sg; vblex.vcaus2
+Verb3 - VCaus2 Imperf Pers1 Sg Masc	impf.p1.m.sg; vblex.vcaus2
+Verb3 - VCaus2 Imperf Pers2_Casual Pl Fem	impf.p2.cas.f.pl; vblex.vcaus2
+Verb3 - VCaus2 Imperf Pers2_Casual Pl Masc	impf.p2.cas.m.pl; vblex.vcaus2
+Verb3 - VCaus2 Imperf Pers2_Casual Sg Fem	impf.p2.cas.f.sg; vblex.vcaus2
+Verb3 - VCaus2 Imperf Pers2_Casual Sg Masc	impf.p2.cas.m.sg; vblex.vcaus2
+Verb3 - VCaus2 Imperf Pers2_Familiar Pl Fem	impf.p2.fam.f.pl; vblex.vcaus2
+Verb3 - VCaus2 Imperf Pers2_Familiar Pl Masc	impf.p2.fam.m.pl; vblex.vcaus2
+Verb3 - VCaus2 Imperf Pers2_Familiar Sg Fem	impf.p2.fam.f.sg; vblex.vcaus2
+Verb3 - VCaus2 Imperf Pers2_Familiar Sg Masc	impf.p2.fam.m.sg; vblex.vcaus2
+Verb3 - VCaus2 Imperf Pers2_Respect Pl Fem	impf.p2.pol.f.pl; vblex.vcaus2
+Verb3 - VCaus2 Imperf Pers2_Respect Pl Masc	impf.p2.pol.m.pl; vblex.vcaus2
+Verb3 - VCaus2 Imperf Pers2_Respect Sg Fem	impf.p2.pol.f.sg; vblex.vcaus2
+Verb3 - VCaus2 Imperf Pers2_Respect Sg Masc	impf.p2.pol.m.sg; vblex.vcaus2
+Verb3 - VCaus2 Imperf Pers3_Distant Pl Fem	impf.p3.dst.f.pl; vblex.vcaus2
+Verb3 - VCaus2 Imperf Pers3_Distant Pl Masc	impf.p3.dst.m.pl; vblex.vcaus2
+Verb3 - VCaus2 Imperf Pers3_Distant Sg Fem	impf.p3.dst.f.sg; vblex.vcaus2
+Verb3 - VCaus2 Imperf Pers3_Distant Sg Masc	impf.p3.dst.m.sg; vblex.vcaus2
+Verb3 - VCaus2 Imperf Pers3_Near Pl Fem	impf.p3.prx.f.pl; vblex.vcaus2
+Verb3 - VCaus2 Imperf Pers3_Near Pl Masc	impf.p3.prx.m.pl; vblex.vcaus2
+Verb3 - VCaus2 Imperf Pers3_Near Sg Fem	impf.p3.prx.f.sg; vblex.vcaus2
+Verb3 - VCaus2 Imperf Pers3_Near Sg Masc	impf.p3.prx.m.sg; vblex.vcaus2
+Verb3 - VCaus2_Inf	inf; vblex.vcaus2
+Verb3 - VCaus2_Inf_Obl	inf.obl; vblex.vcaus2
+Verb3 - VCaus2 Perf Pers1 Pl Fem	perf.p1.f.pl; vblex.vcaus2
+Verb3 - VCaus2 Perf Pers1 Pl Masc	perf.p1.m.pl; vblex.vcaus2
+Verb3 - VCaus2 Perf Pers1 Sg Fem	perf.p1.f.sg; vblex.vcaus2
+Verb3 - VCaus2 Perf Pers1 Sg Masc	perf.p1.m.sg; vblex.vcaus2
+Verb3 - VCaus2 Perf Pers2_Casual Pl Fem	perf.p2.cas.f.pl; vblex.vcaus2
+Verb3 - VCaus2 Perf Pers2_Casual Pl Masc	perf.p2.cas.m.pl; vblex.vcaus2
+Verb3 - VCaus2 Perf Pers2_Casual Sg Fem	perf.p2.cas.f.sg; vblex.vcaus2
+Verb3 - VCaus2 Perf Pers2_Casual Sg Masc	perf.p2.cas.m.sg; vblex.vcaus2
+Verb3 - VCaus2 Perf Pers2_Familiar Pl Fem	perf.p2.fam.f.pl; vblex.vcaus2
+Verb3 - VCaus2 Perf Pers2_Familiar Pl Masc	perf.p2.fam.m.pl; vblex.vcaus2
+Verb3 - VCaus2 Perf Pers2_Familiar Sg Fem	perf.p2.fam.f.sg; vblex.vcaus2
+Verb3 - VCaus2 Perf Pers2_Familiar Sg Masc	perf.p2.fam.m.sg; vblex.vcaus2
+Verb3 - VCaus2 Perf Pers2_Respect Pl Fem	perf.p2.pol.f.pl; vblex.vcaus2
+Verb3 - VCaus2 Perf Pers2_Respect Pl Masc	perf.p2.pol.m.pl; vblex.vcaus2
+Verb3 - VCaus2 Perf Pers2_Respect Sg Fem	perf.p2.pol.f.sg; vblex.vcaus2
+Verb3 - VCaus2 Perf Pers2_Respect Sg Masc	perf.p2.pol.m.sg; vblex.vcaus2
+Verb3 - VCaus2 Perf Pers3_Distant Pl Fem	perf.p3.dst.f.pl; vblex.vcaus2
+Verb3 - VCaus2 Perf Pers3_Distant Pl Masc	perf.p3.dst.m.pl; vblex.vcaus2
+Verb3 - VCaus2 Perf Pers3_Distant Sg Fem	perf.p3.dst.f.sg; vblex.vcaus2
+Verb3 - VCaus2 Perf Pers3_Distant Sg Masc	perf.p3.dst.m.sg; vblex.vcaus2
+Verb3 - VCaus2 Perf Pers3_Near Pl Fem	perf.p3.prx.f.pl; vblex.vcaus2
+Verb3 - VCaus2 Perf Pers3_Near Pl Masc	perf.p3.prx.m.pl; vblex.vcaus2
+Verb3 - VCaus2 Perf Pers3_Near Sg Fem	perf.p3.prx.f.sg; vblex.vcaus2
+Verb3 - VCaus2 Perf Pers3_Near Sg Masc	perf.p3.prx.m.sg; vblex.vcaus2
+Verb3 - VCaus2_Root	root; vblex.vcaus2
+Verb3 - VCaus2 Subj Pers1 Pl Fem	prs.p1.f.pl; vblex.vcaus2
+Verb3 - VCaus2 Subj Pers1 Pl Masc	prs.p1.m.pl; vblex.vcaus2
+Verb3 - VCaus2 Subj Pers1 Sg Fem	prs.p1.f.sg; vblex.vcaus2
+Verb3 - VCaus2 Subj Pers1 Sg Masc	prs.p1.m.sg; vblex.vcaus2
+Verb3 - VCaus2 Subj Pers2_Casual Pl Fem	prs.p2.cas.f.pl; vblex.vcaus2
+Verb3 - VCaus2 Subj Pers2_Casual Pl Masc	prs.p2.cas.m.pl; vblex.vcaus2
+Verb3 - VCaus2 Subj Pers2_Casual Sg Fem	prs.p2.cas.f.sg; vblex.vcaus2
+Verb3 - VCaus2 Subj Pers2_Casual Sg Masc	prs.p2.cas.m.sg; vblex.vcaus2
+Verb3 - VCaus2 Subj Pers2_Familiar Pl Fem	prs.p2.fam.f.pl; vblex.vcaus2
+Verb3 - VCaus2 Subj Pers2_Familiar Pl Masc	prs.p2.fam.m.pl; vblex.vcaus2
+Verb3 - VCaus2 Subj Pers2_Familiar Sg Fem	prs.p2.fam.f.sg; vblex.vcaus2
+Verb3 - VCaus2 Subj Pers2_Familiar Sg Masc	prs.p2.fam.m.sg; vblex.vcaus2
+Verb3 - VCaus2 Subj Pers2_Respect Pl Fem	prs.p2.pol.f.pl; vblex.vcaus2
+Verb3 - VCaus2 Subj Pers2_Respect Pl Masc	prs.p2.pol.m.pl; vblex.vcaus2
+Verb3 - VCaus2 Subj Pers2_Respect Sg Fem	prs.p2.pol.f.sg; vblex.vcaus2
+Verb3 - VCaus2 Subj Pers2_Respect Sg Masc	prs.p2.pol.m.sg; vblex.vcaus2
+Verb3 - VCaus2 Subj Pers3_Distant Pl Fem	prs.p3.dst.f.pl; vblex.vcaus2
+Verb3 - VCaus2 Subj Pers3_Distant Pl Masc	prs.p3.dst.m.pl; vblex.vcaus2
+Verb3 - VCaus2 Subj Pers3_Distant Sg Fem	prs.p3.dst.f.sg; vblex.vcaus2
+Verb3 - VCaus2 Subj Pers3_Distant Sg Masc	prs.p3.dst.m.sg; vblex.vcaus2
+Verb3 - VCaus2 Subj Pers3_Near Pl Fem	prs.p3.prx.f.pl; vblex.vcaus2
+Verb3 - VCaus2 Subj Pers3_Near Pl Masc	prs.p3.prx.m.pl; vblex.vcaus2
+Verb3 - VCaus2 Subj Pers3_Near Sg Fem	prs.p3.prx.f.sg; vblex.vcaus2
+Verb3 - VCaus2 Subj Pers3_Near Sg Masc	prs.p3.prx.m.sg; vblex.vcaus2
+Verb3 - VF3 Imperf Pers1 Pl Fem	impf.p1.f.pl; vblex.vf3
+Verb3 - VF3 Imperf Pers1 Pl Masc	impf.p1.m.pl; vblex.vf3
+Verb3 - VF3 Imperf Pers1 Sg Fem	impf.p1.f.sg; vblex.vf3
+Verb3 - VF3 Imperf Pers1 Sg Masc	impf.p1.m.sg; vblex.vf3
+Verb3 - VF3 Imperf Pers2_Casual Pl Fem	impf.p2.cas.f.pl; vblex.vf3
+Verb3 - VF3 Imperf Pers2_Casual Pl Masc	impf.p2.cas.m.pl; vblex.vf3
+Verb3 - VF3 Imperf Pers2_Casual Sg Fem	impf.p2.cas.f.sg; vblex.vf3
+Verb3 - VF3 Imperf Pers2_Casual Sg Masc	impf.p2.cas.m.sg; vblex.vf3
+Verb3 - VF3 Imperf Pers2_Familiar Pl Fem	impf.p2.fam.f.pl; vblex.vf3
+Verb3 - VF3 Imperf Pers2_Familiar Pl Masc	impf.p2.fam.m.pl; vblex.vf3
+Verb3 - VF3 Imperf Pers2_Familiar Sg Fem	impf.p2.fam.f.sg; vblex.vf3
+Verb3 - VF3 Imperf Pers2_Familiar Sg Masc	impf.p2.fam.m.sg; vblex.vf3
+Verb3 - VF3 Imperf Pers2_Respect Pl Fem	impf.p2.pol.f.pl; vblex.vf3
+Verb3 - VF3 Imperf Pers2_Respect Pl Masc	impf.p2.pol.m.pl; vblex.vf3
+Verb3 - VF3 Imperf Pers2_Respect Sg Fem	impf.p2.pol.f.sg; vblex.vf3
+Verb3 - VF3 Imperf Pers2_Respect Sg Masc	impf.p2.pol.m.sg; vblex.vf3
+Verb3 - VF3 Imperf Pers3_Distant Pl Fem	impf.p3.dst.f.pl; vblex.vf3
+Verb3 - VF3 Imperf Pers3_Distant Pl Masc	impf.p3.dst.m.pl; vblex.vf3
+Verb3 - VF3 Imperf Pers3_Distant Sg Fem	impf.p3.dst.f.sg; vblex.vf3
+Verb3 - VF3 Imperf Pers3_Distant Sg Masc	impf.p3.dst.m.sg; vblex.vf3
+Verb3 - VF3 Imperf Pers3_Near Pl Fem	impf.p3.prx.f.pl; vblex.vf3
+Verb3 - VF3 Imperf Pers3_Near Pl Masc	impf.p3.prx.m.pl; vblex.vf3
+Verb3 - VF3 Imperf Pers3_Near Sg Fem	impf.p3.prx.f.sg; vblex.vf3
+Verb3 - VF3 Imperf Pers3_Near Sg Masc	impf.p3.prx.m.sg; vblex.vf3
+Verb3 - VF3 Perf Pers1 Pl Fem	perf.p1.f.pl; vblex.vf3
+Verb3 - VF3 Perf Pers1 Pl Masc	perf.p1.m.pl; vblex.vf3
+Verb3 - VF3 Perf Pers1 Sg Fem	perf.p1.f.sg; vblex.vf3
+Verb3 - VF3 Perf Pers1 Sg Masc	perf.p1.m.sg; vblex.vf3
+Verb3 - VF3 Perf Pers2_Casual Pl Fem	perf.p2.cas.f.pl; vblex.vf3
+Verb3 - VF3 Perf Pers2_Casual Pl Masc	perf.p2.cas.m.pl; vblex.vf3
+Verb3 - VF3 Perf Pers2_Casual Sg Fem	perf.p2.cas.f.sg; vblex.vf3
+Verb3 - VF3 Perf Pers2_Casual Sg Masc	perf.p2.cas.m.sg; vblex.vf3
+Verb3 - VF3 Perf Pers2_Familiar Pl Fem	perf.p2.fam.f.pl; vblex.vf3
+Verb3 - VF3 Perf Pers2_Familiar Pl Masc	perf.p2.fam.m.pl; vblex.vf3
+Verb3 - VF3 Perf Pers2_Familiar Sg Fem	perf.p2.fam.f.sg; vblex.vf3
+Verb3 - VF3 Perf Pers2_Familiar Sg Masc	perf.p2.fam.m.sg; vblex.vf3
+Verb3 - VF3 Perf Pers2_Respect Pl Fem	perf.p2.pol.f.pl; vblex.vf3
+Verb3 - VF3 Perf Pers2_Respect Pl Masc	perf.p2.pol.m.pl; vblex.vf3
+Verb3 - VF3 Perf Pers2_Respect Sg Fem	perf.p2.pol.f.sg; vblex.vf3
+Verb3 - VF3 Perf Pers2_Respect Sg Masc	perf.p2.pol.m.sg; vblex.vf3
+Verb3 - VF3 Perf Pers3_Distant Pl Fem	perf.p3.dst.f.pl; vblex.vf3
+Verb3 - VF3 Perf Pers3_Distant Pl Masc	perf.p3.dst.m.pl; vblex.vf3
+Verb3 - VF3 Perf Pers3_Distant Sg Fem	perf.p3.dst.f.sg; vblex.vf3
+Verb3 - VF3 Perf Pers3_Distant Sg Masc	perf.p3.dst.m.sg; vblex.vf3
+Verb3 - VF3 Perf Pers3_Near Pl Fem	perf.p3.prx.f.pl; vblex.vf3
+Verb3 - VF3 Perf Pers3_Near Pl Masc	perf.p3.prx.m.pl; vblex.vf3
+Verb3 - VF3 Perf Pers3_Near Sg Fem	perf.p3.prx.f.sg; vblex.vf3
+Verb3 - VF3 Perf Pers3_Near Sg Masc	perf.p3.prx.m.sg; vblex.vf3
+Verb3 - VF3 Subj Pers1 Pl Fem	prs.p1.f.pl; vblex.vf3
+Verb3 - VF3 Subj Pers1 Pl Masc	prs.p1.m.pl; vblex.vf3
+Verb3 - VF3 Subj Pers1 Sg Fem	prs.p1.f.sg; vblex.vf3
+Verb3 - VF3 Subj Pers1 Sg Masc	prs.p1.m.sg; vblex.vf3
+Verb3 - VF3 Subj Pers2_Casual Pl Fem	prs.p2.cas.f.pl; vblex.vf3
+Verb3 - VF3 Subj Pers2_Casual Pl Masc	prs.p2.cas.m.pl; vblex.vf3
+Verb3 - VF3 Subj Pers2_Casual Sg Fem	prs.p2.cas.f.sg; vblex.vf3
+Verb3 - VF3 Subj Pers2_Casual Sg Masc	prs.p2.cas.m.sg; vblex.vf3
+Verb3 - VF3 Subj Pers2_Familiar Pl Fem	prs.p2.fam.f.pl; vblex.vf3
+Verb3 - VF3 Subj Pers2_Familiar Pl Masc	prs.p2.fam.m.pl; vblex.vf3
+Verb3 - VF3 Subj Pers2_Familiar Sg Fem	prs.p2.fam.f.sg; vblex.vf3
+Verb3 - VF3 Subj Pers2_Familiar Sg Masc	prs.p2.fam.m.sg; vblex.vf3
+Verb3 - VF3 Subj Pers2_Respect Pl Fem	prs.p2.pol.f.pl; vblex.vf3
+Verb3 - VF3 Subj Pers2_Respect Pl Masc	prs.p2.pol.m.pl; vblex.vf3
+Verb3 - VF3 Subj Pers2_Respect Sg Fem	prs.p2.pol.f.sg; vblex.vf3
+Verb3 - VF3 Subj Pers2_Respect Sg Masc	prs.p2.pol.m.sg; vblex.vf3
+Verb3 - VF3 Subj Pers3_Distant Pl Fem	prs.p3.dst.f.pl; vblex.vf3
+Verb3 - VF3 Subj Pers3_Distant Pl Masc	prs.p3.dst.m.pl; vblex.vf3
+Verb3 - VF3 Subj Pers3_Distant Sg Fem	prs.p3.dst.f.sg; vblex.vf3
+Verb3 - VF3 Subj Pers3_Distant Sg Masc	prs.p3.dst.m.sg; vblex.vf3
+Verb3 - VF3 Subj Pers3_Near Pl Fem	prs.p3.prx.f.pl; vblex.vf3
+Verb3 - VF3 Subj Pers3_Near Pl Masc	prs.p3.prx.m.pl; vblex.vf3
+Verb3 - VF3 Subj Pers3_Near Sg Fem	prs.p3.prx.f.sg; vblex.vf3
+Verb3 - VF3 Subj Pers3_Near Sg Masc	prs.p3.prx.m.sg; vblex.vf3
+Verb_Aux - VA Future Pers1 Pl Fem	fut.p1.f.pl; vaux
+Verb_Aux - VA Future Pers1 Pl Masc	fut.p1.m.pl; vaux
+Verb_Aux - VA Future Pers1 Sg Fem	fut.p1.f.sg; vaux
+Verb_Aux - VA Future Pers1 Sg Masc	fut.p1.m.sg; vaux
+Verb_Aux - VA Future Pers2_Casual Pl Fem	fut.p2.cas.f.pl; vaux
+Verb_Aux - VA Future Pers2_Casual Pl Masc	fut.p2.cas.m.pl; vaux
+Verb_Aux - VA Future Pers2_Casual Sg Fem	fut.p2.cas.f.sg; vaux
+Verb_Aux - VA Future Pers2_Casual Sg Masc	fut.p2.cas.m.sg; vaux
+Verb_Aux - VA Future Pers2_Familiar Pl Fem	fut.p2.fam.f.pl; vaux
+Verb_Aux - VA Future Pers2_Familiar Pl Masc	fut.p2.fam.m.pl; vaux
+Verb_Aux - VA Future Pers2_Familiar Sg Fem	fut.p2.fam.f.sg; vaux
+Verb_Aux - VA Future Pers2_Familiar Sg Masc	fut.p2.fam.m.sg; vaux
+Verb_Aux - VA Future Pers2_Respect Pl Fem	fut.p2.pol.f.pl; vaux
+Verb_Aux - VA Future Pers2_Respect Pl Masc	fut.p2.pol.m.pl; vaux
+Verb_Aux - VA Future Pers2_Respect Sg Fem	fut.p2.pol.f.sg; vaux
+Verb_Aux - VA Future Pers2_Respect Sg Masc	fut.p2.pol.m.sg; vaux
+Verb_Aux - VA Future Pers3_Distant Pl Fem	fut.p3.dst.f.pl; vaux
+Verb_Aux - VA Future Pers3_Distant Pl Masc	fut.p3.dst.m.pl; vaux
+Verb_Aux - VA Future Pers3_Distant Sg Fem	fut.p3.dst.f.sg; vaux
+Verb_Aux - VA Future Pers3_Distant Sg Masc	fut.p3.dst.m.sg; vaux
+Verb_Aux - VA Future Pers3_Near Pl Fem	fut.p3.prx.f.pl; vaux
+Verb_Aux - VA Future Pers3_Near Pl Masc	fut.p3.prx.m.pl; vaux
+Verb_Aux - VA Future Pers3_Near Sg Fem	fut.p3.prx.f.sg; vaux
+Verb_Aux - VA Future Pers3_Near Sg Masc	fut.p3.prx.m.sg; vaux
+Verb_Aux - VA Imperfective Pers1 Pl Fem	impf.p1.f.pl; vaux
+Verb_Aux - VA Imperfective Pers1 Pl Masc	impf.p1.m.pl; vaux
+Verb_Aux - VA Imperfective Pers1 Sg Fem	impf.p1.f.sg; vaux
+Verb_Aux - VA Imperfective Pers1 Sg Masc	impf.p1.m.sg; vaux
+Verb_Aux - VA Imperfective Pers2_Casual Pl Fem	impf.p2.cas.f.pl; vaux
+Verb_Aux - VA Imperfective Pers2_Casual Pl Masc	impf.p2.cas.m.pl; vaux
+Verb_Aux - VA Imperfective Pers2_Casual Sg Fem	impf.p2.cas.f.sg; vaux
+Verb_Aux - VA Imperfective Pers2_Casual Sg Masc	impf.p2.cas.m.sg; vaux
+Verb_Aux - VA Imperfective Pers2_Familiar Pl Fem	impf.p2.fam.f.pl; vaux
+Verb_Aux - VA Imperfective Pers2_Familiar Pl Masc	impf.p2.fam.m.pl; vaux
+Verb_Aux - VA Imperfective Pers2_Familiar Sg Fem	impf.p2.fam.f.sg; vaux
+Verb_Aux - VA Imperfective Pers2_Familiar Sg Masc	impf.p2.fam.m.sg; vaux
+Verb_Aux - VA Imperfective Pers2_Respect Pl Fem	impf.p2.pol.f.pl; vaux
+Verb_Aux - VA Imperfective Pers2_Respect Pl Masc	impf.p2.pol.m.pl; vaux
+Verb_Aux - VA Imperfective Pers2_Respect Sg Fem	impf.p2.pol.f.sg; vaux
+Verb_Aux - VA Imperfective Pers2_Respect Sg Masc	impf.p2.pol.m.sg; vaux
+Verb_Aux - VA Imperfective Pers3_Distant Pl Fem	impf.p3.dst.f.pl; vaux
+Verb_Aux - VA Imperfective Pers3_Distant Pl Masc	impf.p3.dst.m.pl; vaux
+Verb_Aux - VA Imperfective Pers3_Distant Sg Fem	impf.p3.dst.f.sg; vaux
+Verb_Aux - VA Imperfective Pers3_Distant Sg Masc	impf.p3.dst.m.sg; vaux
+Verb_Aux - VA Imperfective Pers3_Near Pl Fem	impf.p3.prx.f.pl; vaux
+Verb_Aux - VA Imperfective Pers3_Near Pl Masc	impf.p3.prx.m.pl; vaux
+Verb_Aux - VA Imperfective Pers3_Near Sg Fem	impf.p3.prx.f.sg; vaux
+Verb_Aux - VA Imperfective Pers3_Near Sg Masc	impf.p3.prx.m.sg; vaux
+Verb_Aux - VA_Inf	inf; vaux
+Verb_Aux - VA_Inf_Fem	inf.f; vaux
+Verb_Aux - VA_Inf_Obl	inf.obl; vaux
+Verb_Aux - VA Past Pers1 Pl Fem	past.p1.f.pl; vaux
+Verb_Aux - VA Past Pers1 Pl Masc	past.p1.m.pl; vaux
+Verb_Aux - VA Past Pers1 Sg Fem	past.p1.f.sg; vaux
+Verb_Aux - VA Past Pers1 Sg Masc	past.p1.m.sg; vaux
+Verb_Aux - VA Past Pers2_Casual Pl Fem	past.p2.cas.f.pl; vaux
+Verb_Aux - VA Past Pers2_Casual Pl Masc	past.p2.cas.m.pl; vaux
+Verb_Aux - VA Past Pers2_Casual Sg Fem	past.p2.cas.f.sg; vaux
+Verb_Aux - VA Past Pers2_Casual Sg Masc	past.p2.cas.m.sg; vaux
+Verb_Aux - VA Past Pers2_Familiar Pl Fem	past.p2.fam.f.pl; vaux
+Verb_Aux - VA Past Pers2_Familiar Pl Masc	past.p2.fam.m.pl; vaux
+Verb_Aux - VA Past Pers2_Familiar Sg Fem	past.p2.fam.f.sg; vaux
+Verb_Aux - VA Past Pers2_Familiar Sg Masc	past.p2.fam.m.sg; vaux
+Verb_Aux - VA Past Pers2_Respect Pl Fem	past.p2.pol.f.pl; vaux
+Verb_Aux - VA Past Pers2_Respect Pl Masc	past.p2.pol.m.pl; vaux
+Verb_Aux - VA Past Pers2_Respect Sg Fem	past.p2.pol.f.sg; vaux
+Verb_Aux - VA Past Pers2_Respect Sg Masc	past.p2.pol.m.sg; vaux
+Verb_Aux - VA Past Pers3_Distant Pl Fem	past.p3.dst.f.pl; vaux
+Verb_Aux - VA Past Pers3_Distant Pl Masc	past.p3.dst.m.pl; vaux
+Verb_Aux - VA Past Pers3_Distant Sg Fem	past.p3.dst.f.sg; vaux
+Verb_Aux - VA Past Pers3_Distant Sg Masc	past.p3.dst.m.sg; vaux
+Verb_Aux - VA Past Pers3_Near Pl Fem	past.p3.prx.f.pl; vaux
+Verb_Aux - VA Past Pers3_Near Pl Masc	past.p3.prx.m.pl; vaux
+Verb_Aux - VA Past Pers3_Near Sg Fem	past.p3.prx.f.sg; vaux
+Verb_Aux - VA Past Pers3_Near Sg Masc	past.p3.prx.m.sg; vaux
+Verb_Aux - VA Perfective Pers1 Pl Fem	perf.p1.f.pl; vaux
+Verb_Aux - VA Perfective Pers1 Pl Masc	perf.p1.m.pl; vaux
+Verb_Aux - VA Perfective Pers1 Sg Fem	perf.p1.f.sg; vaux
+Verb_Aux - VA Perfective Pers1 Sg Masc	perf.p1.m.sg; vaux
+Verb_Aux - VA Perfective Pers2_Casual Pl Fem	perf.p2.cas.f.pl; vaux
+Verb_Aux - VA Perfective Pers2_Casual Pl Masc	perf.p2.cas.m.pl; vaux
+Verb_Aux - VA Perfective Pers2_Casual Sg Fem	perf.p2.cas.f.sg; vaux
+Verb_Aux - VA Perfective Pers2_Casual Sg Masc	perf.p2.cas.m.sg; vaux
+Verb_Aux - VA Perfective Pers2_Familiar Pl Fem	perf.p2.fam.f.pl; vaux
+Verb_Aux - VA Perfective Pers2_Familiar Pl Masc	perf.p2.fam.m.pl; vaux
+Verb_Aux - VA Perfective Pers2_Familiar Sg Fem	perf.p2.fam.f.sg; vaux
+Verb_Aux - VA Perfective Pers2_Familiar Sg Masc	perf.p2.fam.m.sg; vaux
+Verb_Aux - VA Perfective Pers2_Respect Pl Fem	perf.p2.pol.f.pl; vaux
+Verb_Aux - VA Perfective Pers2_Respect Pl Masc	perf.p2.pol.m.pl; vaux
+Verb_Aux - VA Perfective Pers2_Respect Sg Fem	perf.p2.pol.f.sg; vaux
+Verb_Aux - VA Perfective Pers2_Respect Sg Masc	perf.p2.pol.m.sg; vaux
+Verb_Aux - VA Perfective Pers3_Distant Pl Fem	perf.p3.dst.f.pl; vaux
+Verb_Aux - VA Perfective Pers3_Distant Pl Masc	perf.p3.dst.m.pl; vaux
+Verb_Aux - VA Perfective Pers3_Distant Sg Fem	perf.p3.dst.f.sg; vaux
+Verb_Aux - VA Perfective Pers3_Distant Sg Masc	perf.p3.dst.m.sg; vaux
+Verb_Aux - VA Perfective Pers3_Near Pl Fem	perf.p3.prx.f.pl; vaux
+Verb_Aux - VA Perfective Pers3_Near Pl Masc	perf.p3.prx.m.pl; vaux
+Verb_Aux - VA Perfective Pers3_Near Sg Fem	perf.p3.prx.f.sg; vaux
+Verb_Aux - VA Perfective Pers3_Near Sg Masc	perf.p3.prx.m.sg; vaux
+Verb_Aux - VA Present Pers1 Pl Fem	pres.p1.f.pl; vaux
+Verb_Aux - VA Present Pers1 Pl Masc	pres.p1.m.pl; vaux
+Verb_Aux - VA Present Pers1 Sg Fem	pres.p1.f.sg; vaux
+Verb_Aux - VA Present Pers1 Sg Masc	pres.p1.m.sg; vaux
+Verb_Aux - VA Present Pers2_Casual Pl Fem	pres.p2.cas.f.pl; vaux
+Verb_Aux - VA Present Pers2_Casual Pl Masc	pres.p2.cas.m.pl; vaux
+Verb_Aux - VA Present Pers2_Casual Sg Fem	pres.p2.cas.f.sg; vaux
+Verb_Aux - VA Present Pers2_Casual Sg Masc	pres.p2.cas.m.sg; vaux
+Verb_Aux - VA Present Pers2_Familiar Pl Fem	pres.p2.fam.f.pl; vaux
+Verb_Aux - VA Present Pers2_Familiar Pl Masc	pres.p2.fam.m.pl; vaux
+Verb_Aux - VA Present Pers2_Familiar Sg Fem	pres.p2.fam.f.sg; vaux
+Verb_Aux - VA Present Pers2_Familiar Sg Masc	pres.p2.fam.m.sg; vaux
+Verb_Aux - VA Present Pers2_Respect Pl Fem	pres.p2.pol.f.pl; vaux
+Verb_Aux - VA Present Pers2_Respect Pl Masc	pres.p2.pol.m.pl; vaux
+Verb_Aux - VA Present Pers2_Respect Sg Fem	pres.p2.pol.f.sg; vaux
+Verb_Aux - VA Present Pers2_Respect Sg Masc	pres.p2.pol.m.sg; vaux
+Verb_Aux - VA Present Pers3_Distant Pl Fem	pres.p3.dst.f.pl; vaux
+Verb_Aux - VA Present Pers3_Distant Pl Masc	pres.p3.dst.m.pl; vaux
+Verb_Aux - VA Present Pers3_Distant Sg Fem	pres.p3.dst.f.sg; vaux
+Verb_Aux - VA Present Pers3_Distant Sg Masc	pres.p3.dst.m.sg; vaux
+Verb_Aux - VA Present Pers3_Near Pl Fem	pres.p3.prx.f.pl; vaux
+Verb_Aux - VA Present Pers3_Near Pl Masc	pres.p3.prx.m.pl; vaux
+Verb_Aux - VA Present Pers3_Near Sg Fem	pres.p3.prx.f.sg; vaux
+Verb_Aux - VA Present Pers3_Near Sg Masc	pres.p3.prx.m.sg; vaux
+Verb_Aux - VA_Root	root; vaux
+Verb_Aux - VA Subjunctive Pers1 Pl Fem	prs.p1.f.pl; vaux
+Verb_Aux - VA Subjunctive Pers1 Pl Masc	prs.p1.m.pl; vaux
+Verb_Aux - VA Subjunctive Pers1 Sg Fem	prs.p1.f.sg; vaux
+Verb_Aux - VA Subjunctive Pers1 Sg Masc	prs.p1.m.sg; vaux
+Verb_Aux - VA Subjunctive Pers2_Casual Pl Fem	prs.p2.cas.f.pl; vaux
+Verb_Aux - VA Subjunctive Pers2_Casual Pl Masc	prs.p2.cas.m.pl; vaux
+Verb_Aux - VA Subjunctive Pers2_Casual Sg Fem	prs.p2.cas.f.sg; vaux
+Verb_Aux - VA Subjunctive Pers2_Casual Sg Masc	prs.p2.cas.m.sg; vaux
+Verb_Aux - VA Subjunctive Pers2_Familiar Pl Fem	prs.p2.fam.f.pl; vaux
+Verb_Aux - VA Subjunctive Pers2_Familiar Pl Masc	prs.p2.fam.m.pl; vaux
+Verb_Aux - VA Subjunctive Pers2_Familiar Sg Fem	prs.p2.fam.f.sg; vaux
+Verb_Aux - VA Subjunctive Pers2_Familiar Sg Masc	prs.p2.fam.m.sg; vaux
+Verb_Aux - VA Subjunctive Pers2_Respect Pl Fem	prs.p2.pol.f.pl; vaux
+Verb_Aux - VA Subjunctive Pers2_Respect Pl Masc	prs.p2.pol.m.pl; vaux
+Verb_Aux - VA Subjunctive Pers2_Respect Sg Fem	prs.p2.pol.f.sg; vaux
+Verb_Aux - VA Subjunctive Pers2_Respect Sg Masc	prs.p2.pol.m.sg; vaux
+Verb_Aux - VA Subjunctive Pers3_Distant Pl Fem	prs.p3.dst.f.pl; vaux
+Verb_Aux - VA Subjunctive Pers3_Distant Pl Masc	prs.p3.dst.m.pl; vaux
+Verb_Aux - VA Subjunctive Pers3_Distant Sg Fem	prs.p3.dst.f.sg; vaux
+Verb_Aux - VA Subjunctive Pers3_Distant Sg Masc	prs.p3.dst.m.sg; vaux
+Verb_Aux - VA Subjunctive Pers3_Near Pl Fem	prs.p3.prx.f.pl; vaux
+Verb_Aux - VA Subjunctive Pers3_Near Pl Masc	prs.p3.prx.m.pl; vaux
+Verb_Aux - VA Subjunctive Pers3_Near Sg Fem	prs.p3.prx.f.sg; vaux
+Verb_Aux - VA Subjunctive Pers3_Near Sg Masc	prs.p3.prx.m.sg; vaux
+Verb - Inf	inf; vblex
+Verb - Inf_Fem	inf.f; vblex
+Verb - Inf_Obl	inf.obl; vblex
+Verb - Root	root; root
+Verb - VF Imperf Pers1 Pl Fem	impf.p1.f.pl; vblex.vf
+Verb - VF Imperf Pers1 Pl Masc	impf.p1.m.pl; vblex.vf
+Verb - VF Imperf Pers1 Sg Fem	impf.p1.f.sg; vblex.vf
+Verb - VF Imperf Pers1 Sg Masc	impf.p1.m.sg; vblex.vf
+Verb - VF Imperf Pers2_Casual Pl Fem	impf.p2.cas.f.pl; vblex.vf
+Verb - VF Imperf Pers2_Casual Pl Masc	impf.p2.cas.m.pl; vblex.vf
+Verb - VF Imperf Pers2_Casual Sg Fem	impf.p2.cas.f.sg; vblex.vf
+Verb - VF Imperf Pers2_Casual Sg Masc	impf.p2.cas.m.sg; vblex.vf
+Verb - VF Imperf Pers2_Familiar Pl Fem	impf.p2.fam.f.pl; vblex.vf
+Verb - VF Imperf Pers2_Familiar Pl Masc	impf.p2.fam.m.pl; vblex.vf
+Verb - VF Imperf Pers2_Familiar Sg Fem	impf.p2.fam.f.sg; vblex.vf
+Verb - VF Imperf Pers2_Familiar Sg Masc	impf.p2.fam.m.sg; vblex.vf
+Verb - VF Imperf Pers2_Respect Pl Fem	impf.p2.pol.f.pl; vblex.vf
+Verb - VF Imperf Pers2_Respect Pl Masc	impf.p2.pol.m.pl; vblex.vf
+Verb - VF Imperf Pers2_Respect Sg Fem	impf.p2.pol.f.sg; vblex.vf
+Verb - VF Imperf Pers2_Respect Sg Masc	impf.p2.pol.m.sg; vblex.vf
+Verb - VF Imperf Pers3_Distant Pl Fem	impf.p3.dst.f.pl; vblex.vf
+Verb - VF Imperf Pers3_Distant Pl Masc	impf.p3.dst.m.pl; vblex.vf
+Verb - VF Imperf Pers3_Distant Sg Fem	impf.p3.dst.f.sg; vblex.vf
+Verb - VF Imperf Pers3_Distant Sg Masc	impf.p3.dst.m.sg; vblex.vf
+Verb - VF Imperf Pers3_Near Pl Fem	impf.p3.prx.f.pl; vblex.vf
+Verb - VF Imperf Pers3_Near Pl Masc	impf.p3.prx.m.pl; vblex.vf
+Verb - VF Imperf Pers3_Near Sg Fem	impf.p3.prx.f.sg; vblex.vf
+Verb - VF Imperf Pers3_Near Sg Masc	impf.p3.prx.m.sg; vblex.vf
+Verb - VF Perf Pers1 Pl Fem	perf.p1.f.pl; vblex.vf
+Verb - VF Perf Pers1 Pl Masc	perf.p1.m.pl; vblex.vf
+Verb - VF Perf Pers1 Sg Fem	perf.p1.f.sg; vblex.vf
+Verb - VF Perf Pers1 Sg Masc	perf.p1.m.sg; vblex.vf
+Verb - VF Perf Pers2_Casual Pl Fem	perf.p2.cas.f.pl; vblex.vf
+Verb - VF Perf Pers2_Casual Pl Masc	perf.p2.cas.m.pl; vblex.vf
+Verb - VF Perf Pers2_Casual Sg Fem	perf.p2.cas.f.sg; vblex.vf
+Verb - VF Perf Pers2_Casual Sg Masc	perf.p2.cas.m.sg; vblex.vf
+Verb - VF Perf Pers2_Familiar Pl Fem	perf.p2.fam.f.pl; vblex.vf
+Verb - VF Perf Pers2_Familiar Pl Masc	perf.p2.fam.m.pl; vblex.vf
+Verb - VF Perf Pers2_Familiar Sg Fem	perf.p2.fam.f.sg; vblex.vf
+Verb - VF Perf Pers2_Familiar Sg Masc	perf.p2.fam.m.sg; vblex.vf
+Verb - VF Perf Pers2_Respect Pl Fem	perf.p2.pol.f.pl; vblex.vf
+Verb - VF Perf Pers2_Respect Pl Masc	perf.p2.pol.m.pl; vblex.vf
+Verb - VF Perf Pers2_Respect Sg Fem	perf.p2.pol.f.sg; vblex.vf
+Verb - VF Perf Pers2_Respect Sg Masc	perf.p2.pol.m.sg; vblex.vf
+Verb - VF Perf Pers3_Distant Pl Fem	perf.p3.dst.f.pl; vblex.vf
+Verb - VF Perf Pers3_Distant Pl Masc	perf.p3.dst.m.pl; vblex.vf
+Verb - VF Perf Pers3_Distant Sg Fem	perf.p3.dst.f.sg; vblex.vf
+Verb - VF Perf Pers3_Distant Sg Masc	perf.p3.dst.m.sg; vblex.vf
+Verb - VF Perf Pers3_Near Pl Fem	perf.p3.prx.f.pl; vblex.vf
+Verb - VF Perf Pers3_Near Pl Masc	perf.p3.prx.m.pl; vblex.vf
+Verb - VF Perf Pers3_Near Sg Fem	perf.p3.prx.f.sg; vblex.vf
+Verb - VF Perf Pers3_Near Sg Masc	perf.p3.prx.m.sg; vblex.vf
+Verb - VF Subj Pers1 Pl Fem	prs.p1.f.pl; vblex.vf
+Verb - VF Subj Pers1 Pl Masc	prs.p1.m.pl; vblex.vf
+Verb - VF Subj Pers1 Sg Fem	prs.p1.f.sg; vblex.vf
+Verb - VF Subj Pers1 Sg Masc	prs.p1.m.sg; vblex.vf
+Verb - VF Subj Pers2_Casual Pl Fem	prs.p2.cas.f.pl; vblex.vf
+Verb - VF Subj Pers2_Casual Pl Masc	prs.p2.cas.m.pl; vblex.vf
+Verb - VF Subj Pers2_Casual Sg Fem	prs.p2.cas.f.sg; vblex.vf
+Verb - VF Subj Pers2_Casual Sg Masc	prs.p2.cas.m.sg; vblex.vf
+Verb - VF Subj Pers2_Familiar Pl Fem	prs.p2.fam.f.pl; vblex.vf
+Verb - VF Subj Pers2_Familiar Pl Masc	prs.p2.fam.m.pl; vblex.vf
+Verb - VF Subj Pers2_Familiar Sg Fem	prs.p2.fam.f.sg; vblex.vf
+Verb - VF Subj Pers2_Familiar Sg Masc	prs.p2.fam.m.sg; vblex.vf
+Verb - VF Subj Pers2_Respect Pl Fem	prs.p2.pol.f.pl; vblex.vf
+Verb - VF Subj Pers2_Respect Pl Masc	prs.p2.pol.m.pl; vblex.vf
+Verb - VF Subj Pers2_Respect Sg Fem	prs.p2.pol.f.sg; vblex.vf
+Verb - VF Subj Pers2_Respect Sg Masc	prs.p2.pol.m.sg; vblex.vf
+Verb - VF Subj Pers3_Distant Pl Fem	prs.p3.dst.f.pl; vblex.vf
+Verb - VF Subj Pers3_Distant Pl Masc	prs.p3.dst.m.pl; vblex.vf
+Verb - VF Subj Pers3_Distant Sg Fem	prs.p3.dst.f.sg; vblex.vf
+Verb - VF Subj Pers3_Distant Sg Masc	prs.p3.dst.m.sg; vblex.vf
+Verb - VF Subj Pers3_Near Pl Fem	prs.p3.prx.f.pl; vblex.vf
+Verb - VF Subj Pers3_Near Pl Masc	prs.p3.prx.m.pl; vblex.vf
+Verb - VF Subj Pers3_Near Sg Fem	prs.p3.prx.f.sg; vblex.vf
+Verb - VF Subj Pers3_Near Sg Masc	prs.p3.prx.m.sg; vblex.vf
