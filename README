@@ -1,0 +1,6 @@
+
+This transducer is based on the morphological analyser in grammatical
+framework by Muhamed Humayoun. The original code and documentation
+can be found here:
+
+  http://www.lama.univ-savoie.fr/~humayoun/UrduMorph/
