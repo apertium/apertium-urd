@@ -51,9 +51,7 @@ EXTRA_DIST=$(BASENAME).$(LANG1).dix \
 apertium_urddir=$(prefix)/lib/apertium/$(BASENAME)/
 apertium_urd_srcdir=$(prefix)/share/apertium/$(BASENAME)/
 
-apertium_urd_DATA=$(LANG1).automorf.bin $(LANG1).autogen.bin \
-		    $(LANG1).automorf.att.gz $(LANG1).autogen.att.gz \
-		    $(LANG1).rlx.bin
+apertium_urd_DATA=$(TARGETS_COMMON)
 
 pkgconfigdir = $(libdir)/pkgconfig
 pkgconfig_DATA = $(BASENAME).pc
