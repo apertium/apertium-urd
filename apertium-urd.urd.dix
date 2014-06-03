@@ -49,7 +49,8 @@
     <sdef n="nom"     c="Nominative"/>     
     <sdef n="obl"     c="Oblique"/>        
     <sdef n="pos"     c="Possessive"/> 
-    <sdef n="qnt"     c=""/>            
+    <sdef n="qnt"     c=""/>   
+    <sdef n="ind"     c="Indefinite"/>                 
     <sdef n="pr"      c="Preposition"/>      
     <sdef n="p1"      c="First person"/>     
     <sdef n="p2"      c="Second person"/>     
@@ -100,7 +101,9 @@
        <pardef n="sent">
       <e>       <p><l/><r><s n="sent"/></r></p></e>
        </pardef>
-
+    <pardef n="coma">
+      <e><re>,</re><p><l></l><r><s n="cm"/></r></p></e>
+    </pardef>
     <!-- Adjectives -->
       
 
@@ -712,7 +715,7 @@
       <e>       <p><l>ہونا</l><r>ہونا<s n="vblex"/><s n="iv"/><s n="inf"/><s n="nom"/><s n="m"/></r></p></e>
       <e>       <p><l>ہونی</l><r>ہونا<s n="vblex"/><s n="iv"/><s n="inf"/><s n="nom"/><s n="f"/></r></p></e>
       <e>       <p><l>ہونے</l><r>ہونا<s n="vblex"/><s n="iv"/><s n="inf"/><s n="obl"/></r></p></e>
-      <e>       <p><l>ہوا</l><r>ہونا<s n="vblex"/><s n="iv"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e>       <p><l>ہوؤں</l><r>ہونا<s n="vblex"/><s n="iv"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
       <e>       <p><l>ہوئے</l><r>ہونا<s n="vblex"/><s n="iv"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p></e>
       <e>       <p><l>ہوئے</l><r>ہونا<s n="vblex"/><s n="iv"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p></e>
       <e>       <p><l>بولے</l><r>ہونا<s n="vblex"/><s n="iv"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
@@ -883,29 +886,20 @@
       <e>       <p><l/><r><s n="adv"/></r></p></e>
     </pardef>
 
+    <pardef n="int__adv">
+      <e>       <p><l/><r><s n="adv"/><s n="itg"/></r></p></e>
+    </pardef>
+
 	<pardef n="چونکہ__cnjadv">
       <e><p><l></l><r><s n="cnjadv"/></r></p></e>
     </pardef> 
-    <!-- Determiners -->    <pardef n="सब__prn">
-      <e><p><l></l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p></e>
-      <e><p><l></l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="obl"/></r></p></e>
-      <e><p><l>से</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="ins"/></r></p></e>
-      <e><p><l>को</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dat"/></r></p></e>
-      <e><p><l>के</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="gen"/></r></p></e>
-      <e><p><l>की</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
-      <e><p><l>का</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="m"/><s n="pl"/><s n="gen"/></r></p></e>
-      <e><p><l>ने</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="erg"/></r></p></e>
-      <e><p><l>में</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="loc"/></r></p></e>
-    </pardef>
-    <pardef n="اس__det">
-      <e><p><l>ی</l><r><s n="det"/><s n="pos"/><s n="qnt"/></r></p></e>
-      <e><p><l>ے</l><r><s n="det"/><s n="pos"/><s n="dat"/></r></p></e>
-      <e><p><l></l><r><s n="det"/><s n="pos"/><s n="nom"/></r></p></e>
-      <e><p><l>کے</l><r><s n="det"/><s n="pos"/><s n="mf"/><s n="gen"/></r></p></e>
-      <e><p><l>کا</l><r><s n="det"/><s n="pos"/><s n="m"/><s n="gen"/></r></p></e>
-      <e><p><l>کی</l><r><s n="det"/><s n="pos"/><s n="f"/><s n="gen"/></r></p></e>
-      <e><p><l>نے</l><r><s n="det"/><s n="pos"/><s n="erg"/></r></p></e>
-      <e><p><l>میں</l><r><s n="det"/><s n="pos"/><s n="loc"/></r></p></e>
+    <!-- Determiners -->    
+
+    <pardef n="جیس__det">
+      <e>       <p><l>ا</l><r><s n="det"/><s n="ind"/><s n="sg"/><s n="m"/></r></p></e>
+      <e>       <p><l>ی</l><r><s n="det"/><s n="ind"/><s n="sg"/><s n="f"/></r></p></e>
+      <e>       <p><l>ی</l><r><s n="det"/><s n="ind"/><s n="pl"/><s n="f"/></r></p></e>
+      <e>       <p><l>ے</l><r><s n="det"/><s n="ind"/><s n="pl"/><s n="m"/></r></p></e>
     </pardef>
 
     <!-- Pronoun -->
@@ -914,67 +908,86 @@
       <e><p><l>یں</l><r>یں<s n="prn"/><s n="pers"/><s n="p1"/><s n="nom"/><s n="sg"/></r></p></e>
       <e><p><l>جھ</l><r>یں<s n="prn"/><s n="pers"/><s n="p1"/><s n="obl"/><s n="sg"/></r></p></e>
       <e><p><l>جھ سے</l><r>یں<s n="prn"/><s n="pers"/><s n="p1"/><s n="ins"/><s n="sg"/></r></p></e>	
+      <e r="LR"><p><l>جھسے</l><r>یں<s n="prn"/><s n="pers"/><s n="p1"/><s n="ins"/><s n="sg"/></r></p></e>	
       <e><p><l>جھے</l><r>یں<s n="prn"/><s n="pers"/><s n="p1"/><s n="dat"/><s n="sg"/></r></p></e>
       <e r="LR"><p><l>جھ کو</l><r>یں<s n="prn"/><s n="pers"/><s n="p1"/><s n="dat"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>جھکو</l><r>یں<s n="prn"/><s n="pers"/><s n="p1"/><s n="dat"/><s n="sg"/></r></p></e>
       <e><p><l>یرا</l><r>یں<s n="prn"/><s n="pers"/><s n="p1"/><s n="m"/><s n="gen"/><s n="sg"/></r></p></e>
       <e><p><l>یرے</l><r>یں<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="gen"/><s n="sg"/></r></p></e>	
       <e><p><l>یری</l><r>یں<s n="prn"/><s n="pers"/><s n="p1"/><s n="f"/><s n="gen"/><s n="sg"/></r></p></e>
       <e><p><l>یں نے</l><r>یں<s n="prn"/><s n="pers"/><s n="p1"/><s n="erg"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>یںنے</l><r>یں<s n="prn"/><s n="pers"/><s n="p1"/><s n="erg"/><s n="sg"/></r></p></e>
       <e><p><l>جھ میں</l><r>یں<s n="prn"/><s n="pers"/><s n="p1"/><s n="loc"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>جھمیں</l><r>یں<s n="prn"/><s n="pers"/><s n="p1"/><s n="loc"/><s n="sg"/></r></p></e>
     </pardef>
 
     <pardef n="ہ/م__prn">
       <e><p><l>م</l><r>م<s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/><s n="nom"/></r></p></e>
       <e><p><l>م</l><r>م<s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/><s n="obl"/></r></p></e>
-      <e><p><l>م سے</l><r>م<s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/><s n="ins"/></r></p></e>	
+      <e><p><l>م سے</l><r>م<s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/><s n="ins"/></r></p></e>
+      <e r="LR"><p><l>مسے</l><r>م<s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/><s n="ins"/></r></p></e>		
       <e><p><l>میں</l><r>م<s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/><s n="dat"/></r></p></e>
       <e r="LR"><p><l>م کو</l><r>م<s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/><s n="dat"/></r></p></e>
+      <e r="LR"><p><l>مکو</l><r>م<s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/><s n="dat"/></r></p></e>
       <e><p><l>مارا</l><r>م<s n="prn"/><s n="pers"/><s n="p1"/><s n="m"/><s n="pl"/><s n="gen"/></r></p></e>
       <e><p><l>ماری</l><r>م<s n="prn"/><s n="pers"/><s n="p1"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
       <e><p><l>مارے</l><r>م<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="pl"/><s n="gen"/></r></p></e>
       <e><p><l>م نے</l><r>م<s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/><s n="erg"/></r></p></e>
+      <e r="LR"><p><l>منے</l><r>م<s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/><s n="erg"/></r></p></e>
       <e><p><l>م میں</l><r>م<s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/><s n="loc"/></r></p></e>
     </pardef>
 
     <pardef n="ت/م__prn">
       <e><p><l>تم</l><r>م<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/><s n="fam"/><s n="nom"/></r></p></e>
       <e><p><l>تم</l><r>م<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/><s n="fam"/><s n="obl"/></r></p></e>
-      <e><p><l>م سے</l><r>م<s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/><s n="fam"/><s n="ins"/></r></p></e>	
+      <e><p><l>م سے</l><r>م<s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/><s n="fam"/><s n="ins"/></r></p></e>
+      <e r="LR"><p><l>مسے</l><r>م<s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/><s n="fam"/><s n="ins"/></r></p></e>		
       <e><p><l>مہیں</l><r>م<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/><s n="fam"/><s n="dat"/></r></p></e>
       <e r="LR"><p><l>م کو</l><r>>م<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/><s n="fam"/><s n="dat"/></r></p></e>
+      <e r="LR"><p><l>مکو</l><r>>م<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/><s n="fam"/><s n="dat"/></r></p></e>
       <e><p><l>مہارا</l><r>م<s n="prn"/><s n="pers"/><s n="p2"/><s n="m"/><s n="pl"/><s n="fam"/><s n="gen"/></r></p></e>
       <e><p><l>مہاری</l><r>م<s n="prn"/><s n="pers"/><s n="p2"/><s n="f"/><s n="pl"/><s n="fam"/><s n="gen"/></r></p></e>
       <e><p><l>مہارے</l><r>م<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="pl"/><s n="fam"/><s n="gen"/></r></p></e>
       <e><p><l>م نے</l><r>م<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/><s n="fam"/><s n="erg"/></r></p></e>
-      <e><p><l>م میں</l><r>م<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/><s n="fam"/><s n="loc"/></r></p></e>    
+      <e r="LR"><p><l>منے</l><r>م<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/><s n="fam"/><s n="erg"/></r></p></e>
+      <e><p><l>م میں</l><r>م<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/><s n="fam"/><s n="loc"/></r></p></e> 
+      <e r="LR"><p><l>ممیں</l><r>م<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/><s n="fam"/><s n="loc"/></r></p></e>       
     </pardef> 
 	
-    <pardef n="/تُو‬__prn">
-      <e><p><l>تُو‬</l><r>تُو‬<s n="prn"/><s n="pers"/><s n="p2"/><s n="nom"/><s n="sg"/></r></p></e>
-      <e><p><l>تجھ</l><r>تُو‬<s n="prn"/><s n="pers"/><s n="p2"/><s n="obl"/><s n="sg"/></r></p></e>
-      <e><p><l>تجھ سے</l><r>تُو‬<s n="prn"/><s n="pers"/><s n="p2"/><s n="ins"/><s n="sg"/></r></p></e>
-      <e><p><l>تجھے</l><r>تُو‬<s n="prn"/><s n="pers"/><s n="p2"/><s n="dat"/><s n="sg"/></r></p></e>
-      <e r="LR"><p><l>تجھ کو</l><r>تُو‬<s n="prn"/><s n="pers"/><s n="p2"/><s n="dat"/><s n="sg"/></r></p></e>
-      <e><p><l>تیرا</l><r>تُو‬<s n="prn"/><s n="pers"/><s n="p2"/><s n="m"/><s n="gen"/><s n="sg"/></r></p></e>
-      <e><p><l>تیرے</l><r>تُو‬<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="gen"/><s n="sg"/></r></p></e>	
-      <e><p><l>تیری</l><r>تُو‬<s n="prn"/><s n="pers"/><s n="p2"/><s n="f"/><s n="gen"/><s n="sg"/></r></p></e>
-      <e><p><l>تو نے</l><r>تُو‬<s n="prn"/><s n="pers"/><s n="p2"/><s n="erg"/><s n="sg"/></r></p></e>
-      <e><p><l>تجھ میں</l><r>تُو‬<s n="prn"/><s n="pers"/><s n="p2"/><s n="loc"/><s n="sg"/></r></p></e>
+    <pardef n="/‫تُو‬__prn">
+      <e><p><l>‫تُو‬</l><r>‫تُو‬<s n="prn"/><s n="pers"/><s n="p2"/><s n="nom"/><s n="sg"/></r></p></e>
+      <e><p><l>تجھ</l><r>‫تُو‬<s n="prn"/><s n="pers"/><s n="p2"/><s n="obl"/><s n="sg"/></r></p></e>
+      <e><p><l>تجھ سے</l><r>‫تُو‬<s n="prn"/><s n="pers"/><s n="p2"/><s n="ins"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>تجھسے</l><r>‫تُو‬<s n="prn"/><s n="pers"/><s n="p2"/><s n="ins"/><s n="sg"/></r></p></e>
+      <e><p><l>تجھے</l><r>‫تُو‬<s n="prn"/><s n="pers"/><s n="p2"/><s n="dat"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>تجھ کو</l><r>‫تُو‬<s n="prn"/><s n="pers"/><s n="p2"/><s n="dat"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>تجھکو</l><r>‫تُو‬<s n="prn"/><s n="pers"/><s n="p2"/><s n="dat"/><s n="sg"/></r></p></e>
+      <e><p><l>تیرا</l><r>‫تُو‬<s n="prn"/><s n="pers"/><s n="p2"/><s n="m"/><s n="gen"/><s n="sg"/></r></p></e>
+      <e><p><l>تیرے</l><r>‫تُو‬<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="gen"/><s n="sg"/></r></p></e>	
+      <e><p><l>تیری</l><r>‫تُو‬<s n="prn"/><s n="pers"/><s n="p2"/><s n="f"/><s n="gen"/><s n="sg"/></r></p></e>
+      <e><p><l>تو نے</l><r>‫تُو‬<s n="prn"/><s n="pers"/><s n="p2"/><s n="erg"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>تونے</l><r>‫تُو‬<s n="prn"/><s n="pers"/><s n="p2"/><s n="erg"/><s n="sg"/></r></p></e>
+      <e><p><l>تجھ میں</l><r>‫تُو‬<s n="prn"/><s n="pers"/><s n="p2"/><s n="loc"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>تجھمیں</l><r>‫تُو‬<s n="prn"/><s n="pers"/><s n="p2"/><s n="loc"/><s n="sg"/></r></p></e>
     </pardef> 
 
     <pardef n="آپ__prn">
       <e><p><l></l><r><s n="prn"/><s n="pers"/><s n="p2"/><s n="frm"/><s n="pl"/><s n="nom"/></r></p></e>
       <e><p><l></l><r><s n="prn"/><s n="pers"/><s n="p2"/><s n="frm"/><s n="pl"/><s n="obl"/></r></p></e>
-      <e><p><l> سے</l><r><s n="prn"/><s n="pers"/><s n="p2"/><s n="frm"/><s n="pl"/><s n="ins"/></r></p></e>	
+      <e><p><l> سے</l><r><s n="prn"/><s n="pers"/><s n="p2"/><s n="frm"/><s n="pl"/><s n="ins"/></r></p></e>
+      <e r="LR"><p><l>سے</l><r><s n="prn"/><s n="pers"/><s n="p2"/><s n="frm"/><s n="pl"/><s n="ins"/></r></p></e>		
       <e><p><l> کو</l><r><s n="prn"/><s n="pers"/><s n="p2"/><s n="frm"/><s n="pl"/><s n="dat"/></r></p></e>
+      <e r="LR"><p><l>کو</l><r><s n="prn"/><s n="pers"/><s n="p2"/><s n="frm"/><s n="pl"/><s n="dat"/></r></p></e>
+      <e><p><l> کا</l><r><s n="prn"/><s n="pers"/><s n="p2"/><s n="m"/><s n="frm"/><s n="pl"/><s n="gen"/></r></p></e>
       <e r="LR"><p><l>کا</l><r><s n="prn"/><s n="pers"/><s n="p2"/><s n="m"/><s n="frm"/><s n="pl"/><s n="gen"/></r></p></e>
       <e><p><l> کے</l><r><s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="frm"/><s n="pl"/><s n="gen"/></r></p></e>	
+      <e r="LR"><p><l>کے</l><r><s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="frm"/><s n="pl"/><s n="gen"/></r></p></e>	
       <e><p><l> کی</l><r><s n="prn"/><s n="pers"/><s n="p2"/><s n="f"/><s n="frm"/><s n="pl"/><s n="gen"/></r></p></e>
-      <e><p><l> کا</l><r><s n="prn"/><s n="pers"/><s n="p2"/><s n="m"/><s n="frm"/><s n="pl"/><s n="gen"/></r></p></e>
-      <e><p><l> کے</l><r><s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="frm"/><s n="pl"/><s n="gen"/></r></p></e>	
-      <e><p><l> کی</l><r><s n="prn"/><s n="pers"/><s n="p2"/><s n="f"/><s n="frm"/><s n="pl"/><s n="gen"/></r></p></e>
+      <e r="LR"><p><l>کی</l><r><s n="prn"/><s n="pers"/><s n="p2"/><s n="f"/><s n="frm"/><s n="pl"/><s n="gen"/></r></p></e>
       <e><p><l> نے</l><r><s n="prn"/><s n="pers"/><s n="p2"/><s n="frm"/><s n="pl"/><s n="erg"/></r></p></e>
+      <e r="LR"><p><l>نے</l><r><s n="prn"/><s n="pers"/><s n="p2"/><s n="frm"/><s n="pl"/><s n="erg"/></r></p></e>
       <e><p><l> میں</l><r><s n="prn"/><s n="pers"/><s n="p2"/><s n="frm"/><s n="pl"/><s n="loc"/></r></p></e>
+      <e r="LR"><p><l>میں</l><r><s n="prn"/><s n="pers"/><s n="p2"/><s n="frm"/><s n="pl"/><s n="loc"/></r></p></e>
     </pardef>
 
     <pardef n="ا/پ__prn">
@@ -989,22 +1002,36 @@
 	 <e><p><l>اس</l><r>یہ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="prx"/><s n="obl"/></r></p></e>
 	 <e><p><l>ان</l><r>یہ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="prx"/><s n="obl"/></r></p></e>
 	 <e><p><l>اس سے</l><r>یہ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="prx"/><s n="ins"/></r></p></e>
+	 <e r="LR"><p><l>اسسے</l><r>یہ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="prx"/><s n="ins"/></r></p></e>
 	 <e><p><l>ان سے</l><r>یہ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="prx"/><s n="ins"/></r></p></e>
+	 <e r="LR"><p><l>انسے</l><r>یہ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="prx"/><s n="ins"/></r></p></e>
 	 <e><p><l>اسے</l><r>یہ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="prx"/><s n="dat"/></r></p></e>
 	 <e r="LR"><p><l>اس کو</l><r>یہ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="prx"/><s n="dat"/></r></p></e>
+	 <e r="LR"><p><l>اسکو</l><r>یہ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="prx"/><s n="dat"/></r></p></e>
 	 <e r="LR"><p><l>انے</l><r>یہ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="prx"/><s n="dat"/></r></p></e>
 	 <e><p><l>انھیں</l><r>یہ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="prx"/><s n="dat"/></r></p></e>
 	 <e r="LR"><p><l>ان کو</l><r>یہ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="prx"/><s n="dat"/></r></p></e>
+	 <e r="LR"><p><l>انکو</l><r>یہ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="prx"/><s n="dat"/></r></p></e>
 	 <e><p><l>اس کی</l><r>یہ<s n="prn"/><s n="dem"/><s n="p3"/><s n="f"/><s n="sg"/><s n="prx"/><s n="gen"/></r></p></e>
+	 <e r="LR"><p><l>اسکی</l><r>یہ<s n="prn"/><s n="dem"/><s n="p3"/><s n="f"/><s n="sg"/><s n="prx"/><s n="gen"/></r></p></e>
 	 <e><p><l>اس کے</l><r>یہ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="prx"/><s n="gen"/></r></p></e>
+	 <e r="LR"><p><l>اسکے</l><r>یہ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="prx"/><s n="gen"/></r></p></e>
 	 <e><p><l>اس کا</l><r>یہ<s n="prn"/><s n="dem"/><s n="p3"/><s n="m"/><s n="sg"/><s n="prx"/><s n="gen"/></r></p></e>
+	 <e r="LR"><p><l>اسکا</l><r>یہ<s n="prn"/><s n="dem"/><s n="p3"/><s n="m"/><s n="sg"/><s n="prx"/><s n="gen"/></r></p></e>
 	 <e><p><l>ان کی</l><r>یہ<s n="prn"/><s n="dem"/><s n="p3"/><s n="f"/><s n="pl"/><s n="prx"/><s n="gen"/></r></p></e>
+	 <e r="LR"><p><l>انکی</l><r>یہ<s n="prn"/><s n="dem"/><s n="p3"/><s n="f"/><s n="pl"/><s n="prx"/><s n="gen"/></r></p></e>
 	 <e><p><l>ان کے</l><r>یہ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="prx"/><s n="gen"/></r></p></e>
+	 <e r="LR"><p><l>انکے</l><r>یہ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="prx"/><s n="gen"/></r></p></e>
 	 <e><p><l>ان کا</l><r>یہ<s n="prn"/><s n="dem"/><s n="p3"/><s n="m"/><s n="pl"/><s n="prx"/><s n="gen"/></r></p></e>
+	 <e r="LR"><p><l>انکا</l><r>یہ<s n="prn"/><s n="dem"/><s n="p3"/><s n="m"/><s n="pl"/><s n="prx"/><s n="gen"/></r></p></e>
 	 <e><p><l>اس نے</l><r>یہ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="prx"/><s n="erg"/></r></p></e>
+	 <e r="LR"><p><l>اسنے</l><r>یہ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="prx"/><s n="erg"/></r></p></e>
 	 <e><p><l>انہوں نے</l><r>یہ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="prx"/><s n="erg"/></r></p></e>
+	 <e r="LR"><p><l>انہوںنے</l><r>یہ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="prx"/><s n="erg"/></r></p></e>
 	 <e><p><l>اس میں</l><r>یہ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="prx"/><s n="loc"/></r></p></e>
-	 <e><p><l>ان میں</l><r>یہ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="prx"/><s n="loc"/></r></p></e>	
+	 <e r="LR"><p><l>اسمیں</l><r>یہ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="prx"/><s n="loc"/></r></p></e>
+	 <e><p><l>ان میں</l><r>یہ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="prx"/><s n="loc"/></r></p></e>
+	 <e r="LR"><p><l>انمیں</l><r>یہ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="prx"/><s n="loc"/></r></p></e>		
     </pardef>
 
     <pardef n="/وہ__prn">       
@@ -1013,22 +1040,36 @@
 	 <e><p><l>‫اُس‬</l><r>وہ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="dst"/><s n="obl"/></r></p></e>
 	 <e><p><l>ان</l><r>وہ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dst"/><s n="obl"/></r></p></e>
 	 <e><p><l>اُس سے</l><r>وہ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="dst"/><s n="ins"/></r></p></e>
+	 <e r="LR"><p><l>اُسسے</l><r>وہ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="dst"/><s n="ins"/></r></p></e>
 	 <e><p><l>اُن سے</l><r>وہ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dst"/><s n="ins"/></r></p></e>
+	 <e r="LR"><p><l>اُنسے</l><r>وہ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dst"/><s n="ins"/></r></p></e>
 	 <e><p><l>اُسے</l><r>وہ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="dst"/><s n="dat"/></r></p></e>
 	 <e r="LR"><p><l>اُس کو</l><r>وہ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="dst"/><s n="dat"/></r></p></e>
+	 <e r="LR"><p><l>اُسکو</l><r>وہ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="dst"/><s n="dat"/></r></p></e>
 	 <e r="LR"><p><l>اُنے</l><r>وہ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dst"/><s n="dat"/></r></p></e>
 	 <e><p><l>اُنھیں</l><r>وہ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dst"/><s n="dat"/></r></p></e>
 	 <e r="LR"><p><l>اُن کو</l><r>وہ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dst"/><s n="dat"/></r></p></e>
+	 <e r="LR"><p><l>اُنکو</l><r>وہ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dst"/><s n="dat"/></r></p></e>
 	 <e><p><l>اُس کی</l><r>وہ<s n="prn"/><s n="dem"/><s n="p3"/><s n="f"/><s n="sg"/><s n="dst"/><s n="gen"/></r></p></e>
+	 <e r="LR"><p><l>اُسکی</l><r>وہ<s n="prn"/><s n="dem"/><s n="p3"/><s n="f"/><s n="sg"/><s n="dst"/><s n="gen"/></r></p></e>
 	 <e><p><l>اُس کے</l><r>وہ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="dst"/><s n="gen"/></r></p></e>
+	 <e r="LR"><p><l>اُسکے</l><r>وہ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="dst"/><s n="gen"/></r></p></e>
 	 <e><p><l>اُس کا</l><r>وہ<s n="prn"/><s n="dem"/><s n="p3"/><s n="m"/><s n="sg"/><s n="dst"/><s n="gen"/></r></p></e>
+	 <e r="LR"><p><l>اُسکا</l><r>وہ<s n="prn"/><s n="dem"/><s n="p3"/><s n="m"/><s n="sg"/><s n="dst"/><s n="gen"/></r></p></e>
 	 <e><p><l>اُن کی</l><r>وہ<s n="prn"/><s n="dem"/><s n="p3"/><s n="f"/><s n="pl"/><s n="dst"/><s n="gen"/></r></p></e>
+	 <e r="LR"><p><l>اُنکی</l><r>وہ<s n="prn"/><s n="dem"/><s n="p3"/><s n="f"/><s n="pl"/><s n="dst"/><s n="gen"/></r></p></e>
 	 <e><p><l>اُن کے</l><r>وہ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dst"/><s n="gen"/></r></p></e>
+	 <e r="LR"><p><l>اُنکے</l><r>وہ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dst"/><s n="gen"/></r></p></e>
 	 <e><p><l>اُن کا</l><r>وہ<s n="prn"/><s n="dem"/><s n="p3"/><s n="m"/><s n="pl"/><s n="dst"/><s n="gen"/></r></p></e>
+	 <e r="LR"><p><l>اُنکا</l><r>وہ<s n="prn"/><s n="dem"/><s n="p3"/><s n="m"/><s n="pl"/><s n="dst"/><s n="gen"/></r></p></e>
 	 <e><p><l>اُس نے</l><r>وہ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="dst"/><s n="erg"/></r></p></e>
+	 <e r="LR"><p><l>اُسنے</l><r>وہ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="dst"/><s n="erg"/></r></p></e>
 	 <e><p><l>اُنہوں نے</l><r>وہ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dst"/><s n="erg"/></r></p></e>
+	 <e r="LR"><p><l>اُنہوںنے</l><r>وہ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dst"/><s n="erg"/></r></p></e>
 	 <e><p><l>اُس میں</l><r>وہ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="dst"/><s n="loc"/></r></p></e>
-	 <e><p><l>اُن میں</l><r>وہ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dst"/><s n="loc"/></r></p></e>	
+	 <e r="LR"><p><l>اُسمیں</l><r>وہ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="dst"/><s n="loc"/></r></p></e>
+	 <e><p><l>اُن میں</l><r>وہ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dst"/><s n="loc"/></r></p></e>
+	 <e r="LR"><p><l>اُنمیں</l><r>وہ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dst"/><s n="loc"/></r></p></e>		
     </pardef>
 
     <pardef n="/جو__prn">       
@@ -1037,22 +1078,36 @@
 	 <e><p><l>جس</l><r>جو<s n="prn"/><s n="rel"/><s n="sg"/><s n="obl"/></r></p></e>
 	 <e><p><l>جن</l><r>جو<s n="prn"/><s n="rel"/><s n="pl"/><s n="obl"/></r></p></e>
 	 <e><p><l>جس سے</l><r>جو<s n="prn"/><s n="rel"/><s n="sg"/><s n="ins"/></r></p></e>
+	 <e r="LR"><p><l>جسسے</l><r>جو<s n="prn"/><s n="rel"/><s n="sg"/><s n="ins"/></r></p></e>
 	 <e><p><l>جن سے</l><r>جو<s n="prn"/><s n="rel"/><s n="pl"/><s n="ins"/></r></p></e>
+	 <e r="LR"><p><l>جنسے</l><r>جو<s n="prn"/><s n="rel"/><s n="pl"/><s n="ins"/></r></p></e>
 	 <e><p><l>جسے</l><r>جو<s n="prn"/><s n="rel"/><s n="sg"/><s n="dat"/></r></p></e>
 	 <e r="LR"><p><l>جس کو</l><r>جو<s n="prn"/><s n="rel"/><s n="sg"/><s n="dat"/></r></p></e>
+	 <e r="LR"><p><l>جسکو</l><r>جو<s n="prn"/><s n="rel"/><s n="sg"/><s n="dat"/></r></p></e>
 	 <e r="LR"><p><l>جنے</l><r>جو<s n="prn"/><s n="rel"/><s n="pl"/><s n="dat"/></r></p></e>
 	 <e><p><l>جنہیں</l><r>جو<s n="prn"/><s n="rel"/><s n="pl"/><s n="dat"/></r></p></e>
 	 <e r="LR"><p><l>جن کو</l><r>جو<s n="prn"/><s n="rel"/><s n="pl"/><s n="dat"/></r></p></e>
+	 <e r="LR"><p><l>جنکو</l><r>جو<s n="prn"/><s n="rel"/><s n="pl"/><s n="dat"/></r></p></e>
 	 <e><p><l>جس کی</l><r>جو<s n="prn"/><s n="rel"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
+	 <e r="LR"><p><l>جسکی</l><r>جو<s n="prn"/><s n="rel"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
 	 <e><p><l>جس کے</l><r>جو<s n="prn"/><s n="rel"/><s n="mf"/><s n="sg"/><s n="gen"/></r></p></e>
+	 <e r="LR"><p><l>جسکے</l><r>جو<s n="prn"/><s n="rel"/><s n="mf"/><s n="sg"/><s n="gen"/></r></p></e>
 	 <e><p><l>جس کا</l><r>جو<s n="prn"/><s n="rel"/><s n="m"/><s n="sg"/><s n="gen"/></r></p></e>
+	 <e r="LR"><p><l>جسکا</l><r>جو<s n="prn"/><s n="rel"/><s n="m"/><s n="sg"/><s n="gen"/></r></p></e>
 	 <e><p><l>جن کی</l><r>جو<s n="prn"/><s n="rel"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+	 <e r="LR"><p><l>جنکی</l><r>جو<s n="prn"/><s n="rel"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
 	 <e><p><l>جن کے</l><r>جو<s n="prn"/><s n="rel"/><s n="mf"/><s n="pl"/><s n="gen"/></r></p></e>
+	 <e r="LR"><p><l>جنکے</l><r>جو<s n="prn"/><s n="rel"/><s n="mf"/><s n="pl"/><s n="gen"/></r></p></e>
 	 <e><p><l>جن کا</l><r>جو<s n="prn"/><s n="rel"/><s n="m"/><s n="pl"/><s n="gen"/></r></p></e>
+	 <e r="LR"><p><l>جنکا</l><r>جو<s n="prn"/><s n="rel"/><s n="m"/><s n="pl"/><s n="gen"/></r></p></e>
 	 <e><p><l>جس نے</l><r>جو<s n="prn"/><s n="rel"/><s n="sg"/><s n="erg"/></r></p></e>
+	 <e r="LR"><p><l>جسنے</l><r>جو<s n="prn"/><s n="rel"/><s n="sg"/><s n="erg"/></r></p></e>
 	 <e><p><l>جنہوں نے</l><r>جو<s n="prn"/><s n="rel"/><s n="pl"/><s n="erg"/></r></p></e>
+	 <e r="LR"><p><l>جنہوںنے</l><r>جو<s n="prn"/><s n="rel"/><s n="pl"/><s n="erg"/></r></p></e>
 	 <e><p><l>جس میں</l><r>جو<s n="prn"/><s n="rel"/><s n="sg"/><s n="loc"/></r></p></e>
-	 <e><p><l>جن میں</l><r>جو<s n="prn"/><s n="rel"/><s n="pl"/><s n="loc"/></r></p></e>	
+	 <e r="LR"><p><l>جسمیں</l><r>جو<s n="prn"/><s n="rel"/><s n="sg"/><s n="loc"/></r></p></e>
+	 <e><p><l>جن میں</l><r>جو<s n="prn"/><s n="rel"/><s n="pl"/><s n="loc"/></r></p></e>
+	 <e r="LR"><p><l>جنمیں</l><r>جو<s n="prn"/><s n="rel"/><s n="pl"/><s n="loc"/></r></p></e>		
     </pardef>
 
     <pardef n="/کیا__prn">       
@@ -1063,34 +1118,56 @@
 	 <e><p><l>کس</l><r>کیا<s n="prn"/><s n="itg"/><s n="sg"/><s n="obl"/></r></p></e>
 	 <e><p><l>کن</l><r>کیا<s n="prn"/><s n="itg"/><s n="pl"/><s n="obl"/></r></p></e>
 	 <e><p><l>کس سے</l><r>کیا<s n="prn"/><s n="itg"/><s n="sg"/><s n="ins"/></r></p></e>
+	 <e r="LR"><p><l>کسسے</l><r>کیا<s n="prn"/><s n="itg"/><s n="sg"/><s n="ins"/></r></p></e>
 	 <e><p><l>کن سے</l><r>کیا<s n="prn"/><s n="itg"/><s n="pl"/><s n="ins"/></r></p></e>
+	 <e r="LR"><p><l>کنسے</l><r>کیا<s n="prn"/><s n="itg"/><s n="pl"/><s n="ins"/></r></p></e>
 	 <e><p><l>کسے</l><r>کیا<s n="prn"/><s n="itg"/><s n="sg"/><s n="dat"/></r></p></e>
 	 <e r="LR"><p><l>کس کو</l><r>کیا<s n="prn"/><s n="itg"/><s n="sg"/><s n="dat"/></r></p></e>
+	 <e r="LR"><p><l>کسکو</l><r>کیا<s n="prn"/><s n="itg"/><s n="sg"/><s n="dat"/></r></p></e>
 	 <e r="LR"><p><l>کنے</l><r>کیا<s n="prn"/><s n="itg"/><s n="pl"/><s n="dat"/></r></p></e>
 	 <e><p><l>کن ہیں</l><r>کیا<s n="prn"/><s n="itg"/><s n="pl"/><s n="dat"/></r></p></e>
+	 <e><p><l>کنہیں</l><r>کیا<s n="prn"/><s n="itg"/><s n="pl"/><s n="dat"/></r></p></e>
 	 <e r="LR"><p><l>کن کو</l><r>کیا<s n="prn"/><s n="itg"/><s n="pl"/><s n="dat"/></r></p></e>
+	 <e r="LR"><p><l>کنکو</l><r>کیا<s n="prn"/><s n="itg"/><s n="pl"/><s n="dat"/></r></p></e>
 	 <e><p><l>کس کی</l><r>کیا<s n="prn"/><s n="itg"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
+	 <e r="LR"><p><l>کسکی</l><r>کیا<s n="prn"/><s n="itg"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
 	 <e><p><l>کس کے</l><r>کیا<s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/><s n="gen"/></r></p></e>
+	 <e r="LR"><p><l>کسکے</l><r>کیا<s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/><s n="gen"/></r></p></e>
 	 <e><p><l>کس کا</l><r>کیا<s n="prn"/><s n="itg"/><s n="m"/><s n="sg"/><s n="gen"/></r></p></e>
+	 <e r="LR"><p><l>کسکا</l><r>کیا<s n="prn"/><s n="itg"/><s n="m"/><s n="sg"/><s n="gen"/></r></p></e>
 	 <e><p><l>کن کی</l><r>کیا<s n="prn"/><s n="itg"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+	 <e r="LR"><p><l>کنکی</l><r>کیا<s n="prn"/><s n="itg"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
 	 <e><p><l>کن کے</l><r>کیا<s n="prn"/><s n="itg"/><s n="mf"/><s n="pl"/><s n="gen"/></r></p></e>
+	 <e r="LR"><p><l>کنکے</l><r>کیا<s n="prn"/><s n="itg"/><s n="mf"/><s n="pl"/><s n="gen"/></r></p></e>
 	 <e><p><l>کن کا</l><r>کیا<s n="prn"/><s n="itg"/><s n="m"/><s n="pl"/><s n="gen"/></r></p></e>
+	 <e r="LR"><p><l>کنکا</l><r>کیا<s n="prn"/><s n="itg"/><s n="m"/><s n="pl"/><s n="gen"/></r></p></e>
 	 <e><p><l>کس نے</l><r>کیا<s n="prn"/><s n="itg"/><s n="sg"/><s n="erg"/></r></p></e>
+	 <e r="LR"><p><l>کسنے</l><r>کیا<s n="prn"/><s n="itg"/><s n="sg"/><s n="erg"/></r></p></e>
 	 <e><p><l>کنہوں نے</l><r>کیا<s n="prn"/><s n="itg"/><s n="pl"/><s n="erg"/></r></p></e>
+	 <e r="LR"><p><l>کنہوںنے</l><r>کیا<s n="prn"/><s n="itg"/><s n="pl"/><s n="erg"/></r></p></e>
 	 <e><p><l>کس میں</l><r>کیا<s n="prn"/><s n="itg"/><s n="sg"/><s n="loc"/></r></p></e>
-	 <e><p><l>کن میں</l><r>کیا<s n="prn"/><s n="itg"/><s n="pl"/><s n="loc"/></r></p></e>	
+	 <e r="LR"><p><l>کسمیں</l><r>کیا<s n="prn"/><s n="itg"/><s n="sg"/><s n="loc"/></r></p></e>
+	 <e><p><l>کن میں</l><r>کیا<s n="prn"/><s n="itg"/><s n="pl"/><s n="loc"/></r></p></e>
+	 <e r="LR"><p><l>کنمیں</l><r>کیا<s n="prn"/><s n="itg"/><s n="pl"/><s n="loc"/></r></p></e>		
     </pardef>
 
     <pardef n="سب__prn">
       <e><p><l></l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p></e>
       <e><p><l></l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="obl"/></r></p></e>
-      <e><p><l>سے</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="ins"/></r></p></e>
-      <e><p><l>کو</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dat"/></r></p></e>
-      <e><p><l>کے</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="gen"/></r></p></e>
-      <e><p><l>کی</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
-      <e><p><l>کا</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="m"/><s n="pl"/><s n="gen"/></r></p></e>
-      <e><p><l>نے</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="erg"/></r></p></e>
-      <e><p><l>میں</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="loc"/></r></p></e>
+      <e r="LR"><p><l>سے</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="ins"/></r></p></e>
+      <e><p><l> سے</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="ins"/></r></p></e>
+      <e r="LR"><p><l>کو</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dat"/></r></p></e>
+      <e><p><l> کو</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dat"/></r></p></e>
+      <e r="LR"><p><l>کے</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="gen"/></r></p></e>
+      <e><p><l> کے</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="gen"/></r></p></e>
+      <e r="LR"><p><l>کی</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+      <e><p><l> کی</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+      <e r="LR"><p><l>کا</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="m"/><s n="pl"/><s n="gen"/></r></p></e>
+      <e><p><l> کا</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="m"/><s n="pl"/><s n="gen"/></r></p></e>
+      <e r="LR"><p><l>نے</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="erg"/></r></p></e>
+      <e><p><l> نے</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="erg"/></r></p></e>
+      <e r="LR"><p><l>میں</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="loc"/></r></p></e>
+      <e><p><l> میں</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="loc"/></r></p></e>
     </pardef>
 
     <!-- Proper nouns -->
@@ -1841,6 +1918,7 @@
     <!-- Conjunctions -->
 
     <e lm="اور"><i>اور</i><par n="اور__cnjcoo"/></e>
+    <e lm="و"><i>و</i><par n="اور__cnjcoo"/></e>
     <e lm="ہم"><i>ہم</i><par n="اور__cnjcoo"/></e>
     <e lm="لیکن"><i>لیکن</i><par n="اور__cnjcoo"/></e>
 
@@ -2261,7 +2339,6 @@
     <e lm="مینار"><i>مینار</i><par n="جج__n"/></e>
     <e lm="ختن"><i>ختن</i><par n="جج__n"/></e>
     <e lm="پرت"><i>پرت</i><par n="خط__n"/></e>
-    <e lm="کیسا"><i>کیس</i><par n="کو/ا__n"/></e>
     <e lm="حساب"><i>حساب</i><par n="جج__n"/></e>
     <e lm="سوکن"><i>سوکن</i><par n="ت__n"/></e>
     <e lm="پہاڑہ"><i>پہاڑ</i><par n="خط/ہ__n"/></e>
@@ -2523,7 +2600,6 @@
     <e lm="شرح"><i>شرح</i><par n="ت__n"/></e>
     <e lm="کاٹن"><i>کاٹن</i><par n="خط__n"/></e>
     <e lm="آذان"><i>آذان</i><par n="ضرورت__n"/></e>
-    <e lm="رہائشی"><i>رہائشی</i><par n="جج__n"/></e>
     <e lm="جھوٹ"><i>جھوٹ</i><par n="جج__n"/></e>
     <e lm="بنگلہ"><i>بنگل</i><par n="خط/ہ__n"/></e>
     <e lm="نیند"><i>نیند</i><par n="ت__n"/></e>
@@ -2638,8 +2714,6 @@
     <e lm="تصور"><i>تصور</i><par n="جج__n"/></e>
     <e lm="سندھی"><i>سندھی</i><par n="جج__n"/></e>
     <e lm="ڈلا"><i>ڈل</i><par n="کو/ا__n"/></e>
-    <e lm="جیسا"><i>جیس</i><par n="کو/ا__n"/></e>
-    <e lm="کیسا"><i>کیس</i><par n="کو/ا__n"/></e>
     <e lm="ایسا"><i>ایس</i><par n="کو/ا__n"/></e>
     <e lm="ساحل"><i>ساحل</i><par n="جج__n"/></e>
     <e lm="خوانچہ"><i>خوانچ</i><par n="خط/ہ__n"/></e>
@@ -3843,7 +3917,6 @@
     <e lm="امپائر"><i>امپائر</i><par n="جج__n"/></e>
     <e lm="فوارہ"><i>فوار</i><par n="خط/ہ__n"/></e>
     <e lm="ہنڈا"><i>ہنڈ</i><par n="کو/ا__n"/></e>
-    <e lm="تیزی"><i>تیزی</i><par n="گدی__n"/></e>
     <e lm="کش"><i>کش</i><par n="جج__n"/></e>
     <e lm="اندھیر"><i>اندھیر</i><par n="جج__n"/></e>
     <e lm="پالت"><i>پالت</i><par n="ت__n"/></e>
@@ -5122,7 +5195,7 @@
     <e lm="میں"><i>م</i><par n="م/یں__prn"/></e>
     <e lm="ہم"><i>ہ</i><par n="ہ/م__prn"/></e>
     <e lm="تم"><i>ت</i><par n="ت/م__prn"/></e>
-    <e lm="تُو"><i></i><par n="/تُو‬__prn"/></e>
+    <e lm="‫تُو‬"><i></i><par n="/‫تُو‬__prn"/></e>
     <e lm="آپ"><i>آپ</i><par n="آپ__prn"/></e>   
     <e lm="اپ"><i>ا</i><par n="ا/پ__prn"/></e>	
     <e lm="یہ"><i></i><par n="/یہ__prn"/></e>
@@ -5130,13 +5203,34 @@
     <e lm="جو"><i></i><par n="/جو__prn"/></e>
     <e lm="کیا"><i></i><par n="/کیا__prn"/></e>
     <e lm="سب"><i>سب</i><par n="سب__prn"/></e> 
+    <e lm="خود"><i>خود</i><par n="سب__prn"/></e> 
 
     <!-- Determiners -->
-    <e lm="اس"><i>اس</i><par n="اس__det"/></e>
-    <e lm="ان"><i>ان</i><par n="اس__det"/></e>
+    <e lm="جیس"><i>جیس</i><par n="جیس__det"/></e>
+    <e lm="کیس"><i>کیس</i><par n="جیس__det"/></e>
+    <e lm="ایس"><i>ایس</i><par n="جیس__det"/></e>
+    <e lm="ویس"><i>ویس</i><par n="جیس__det"/></e>
 
     <!-- Adverbs -->
 
+    <e lm="کیوں"><i>کیوں</i><par n="int__adv"/></e>
+    <e lm="کب"><i>کب</i><par n="غلط__adv"/></e>
+    <e lm="کبھی"><i>کبھی</i><par n="غلط__adv"/></e>
+    <e lm="جب"><i>جب</i><par n="غلط__adv"/></e>
+    <e lm="جبھی"><i>جبھی</i><par n="غلط__adv"/></e>
+    <e lm="اب"><i>اب</i><par n="غلط__adv"/></e>
+    <e lm="ابھی"><i>ابھی</i><par n="غلط__adv"/></e>
+    <e lm="تب"><i>تب</i><par n="غلط__adv"/></e>
+    <e lm="تبھی"><i>تبھی</i><par n="غلط__adv"/></e>
+    <e lm="کوئی"><i>کوئی</i><par n="غلط__adv"/></e>
+    <e lm="کہاں"><i>کہاں</i><par n="غلط__adv"/></e>
+    <e lm="جہاں"><i>جہاں</i><par n="غلط__adv"/></e>
+    <e lm="یہاں"><i>یہاں</i><par n="غلط__adv"/></e>
+    <e lm="وہاں"><i>وہاں</i><par n="غلط__adv"/></e>
+    <e lm="کدھر"><i>کدھر</i><par n="غلط__adv"/></e>
+    <e lm="جدھر"><i>جدھر</i><par n="غلط__adv"/></e>
+    <e lm="ادھر"><i>ادھر</i><par n="غلط__adv"/></e>
+    <e lm="اُدھر"><i>اُدھر</i><par n="غلط__adv"/></e>
     <e lm="واقع"><i>واقع</i><par n="غلط__adv"/></e>
     <e lm="بعد"><i>بعد</i><par n="غلط__adv"/></e>
     <e lm="اندر"><i>اندر</i><par n="غلط__adv"/></e>
@@ -5149,7 +5243,6 @@
     <e lm="تیزی"><i>تیزی</i><par n="غلط__adv"/></e>
     <e lm="جھٹ"><i>جھٹ</i><par n="غلط__adv"/></e>
     <e lm="بٹر"><i>بٹر</i><par n="غلط__adv"/></e>
-    <e lm="کہاں"><i>کہاں</i><par n="غلط__adv"/></e>
     <e lm="کم"><i>کم</i><par n="غلط__adv"/></e>
     <e lm="آج"><i>آج</i><par n="غلط__adv"/></e>
     <e lm="بہت"><i>بہت</i><par n="غلط__adv"/></e>
@@ -5178,8 +5271,6 @@
     <e lm="پھر"><i>پھر</i><par n="چونکہ__cnjadv"/></e>
     <e lm="کہیں"><i>کہیں</i><par n="چونکہ__cnjadv"/></e>
     <e lm="احتیاط"><i>احتیاط</i><par n="غلط__adv"/></e>
-    <e lm="کوئی"><i>کوئی</i><par n="غلط__adv"/></e>
-    <e lm="وہاں"><i>وہاں</i><par n="غلط__adv"/></e>
 
 
     <!-- Verbs -->
@@ -5834,7 +5925,6 @@
 	<e lm="پڑ"><i>پڑ</i><par n="چل__vblex_iv"/></e>
 	<e lm="دبا"><i>دبا</i><par n="بتا__vblex_tv"/></e>
 	<e lm="گڑھ"><i>گڑھ</i><par n="بول__vblex_tv"/></e>
-	<e lm="کھا"><i>کھا</i><par n="آ__vblex_iv"/></e>
 	<e lm="سکوڑ"><i>سکوڑ</i><par n="بول__vblex_tv"/></e>
 	<e lm="بندھ"><i>بندھ</i><par n="بول__vblex_tv"/></e>
 	<e lm="سکڑ"><i>سکڑ</i><par n="چل__vblex_iv"/></e>
@@ -6062,7 +6152,6 @@
 	<e lm="داغ"><i>داغ</i><par n="بول__vblex_tv"/></e>
 	<e lm="چھوڑ"><i>چھوڑ</i><par n="بول__vblex_tv"/></e>
 	<e lm="دھنس"><i>دھنس</i><par n="بول__vblex_tv"/></e>
-	<e lm="سے"><i>س</i><par n="د/ے__vblex_tv"/></e>
 	<e lm="ڈھلک"><i>ڈھلک</i><par n="بول__vblex_tv"/></e>
 	<e lm="سونگھ"><i>سونگھ</i><par n="بول__vblex_tv"/></e>
 	<e lm="مہک"><i>مہک</i><par n="بول__vblex_tv"/></e>
@@ -6141,17 +6230,37 @@
 
     <!-- Adjectives -->
 
-
+    <e lm="کتنا"><i>کتن</i><par n="سچ /ا__adj"/></e>
+    <e lm="جتنا"><i>جتن</i><par n="سچ /ا__adj"/></e>
+    <e lm="اتنا"><i>اتن</i><par n="سچ /ا__adj"/></e>
+    <e lm="اُتنا"><i>اُتن</i><par n="سچ /ا__adj"/></e>
+    <e lm="رہائشی"><i>رہائشی</i><par n="گرم__adj"/></e>
+    <e lm="مجھی"><i>مجھی</i><par n="گرم__adj"/></e>
+    <e lm="تم ہی"><i>تم ہی</i><par n="گرم__adj"/></e>
+    <e lm="تجھی"><i>تجھی</i><par n="گرم__adj"/></e>
+    <e lm="وہی"><i>وہی</i><par n="گرم__adj"/></e>
+    <e lm="یہی"><i>یہی</i><par n="گرم__adj"/></e>
+    <e lm="اسی"><i>اسی</i><par n="گرم__adj"/></e>
+    <e lm="انہی"><i>انہی</i><par n="گرم__adj"/></e>
+    <e lm="اُس‬ی"><i>اُس‬ی</i><par n="گرم__adj"/></e>
+    <e lm="اُن‬ہی"><i>اُن‬ہی</i><par n="گرم__adj"/></e>
+    <e lm="کسی"><i>کسی</i><par n="گرم__adj"/></e>
+    <e lm="کن ہی"><i>کن ہی</i><par n="گرم__adj"/></e>
+    <e lm="کنہی"><i>کنہی</i><par n="گرم__adj"/></e>
+    <e lm="جن ہی"><i>یہی</i><par n="گرم__adj"/></e>
+    <e lm="جنہی"><i>یہی</i><par n="گرم__adj"/></e>
+    <e lm="سبھی"><i>سبھی</i><par n="گرم__adj"/></e>
     <e lm="مشتمل"><i>مشتمل</i><par n="گزشتہ__adj"/></e>
     <e lm="نامی"><i>نامی</i><par n="گرم__adj"/></e>
     <e lm="جوابی"><i>جوابی</i><par n="گرم__adj"/></e>
     <e lm="دولتی"><i>دولتی</i><par n="گرم__adj"/></e>
     <e lm="اگلا"><i>اگل</i><par n="سچ /ا__adj"/></e>
+    <e lm="سا"><i>س</i><par n="سچ /ا__adj"/></e>
     <e lm="پچھلا"><i>پچھل</i><par n="سچ /ا__adj"/></e>
     <e lm="بعض"><i>بعض</i><par n="گزشتہ__adj"/></e>
     <e lm="سب"><i>سب</i><par n="گزشتہ__adj"/></e>
     <e lm="پورا"><i>پور</i><par n="سچ /ا__adj"/></e>
-    <e lm="نہ"><i>نہ</i><par n="گزشتہ__adj"/></e>
+    <e lm="نہ"><i>نہ</i><par n="گرم__adj"/></e>
     <e lm="صاف"><i>صاف</i><par n="گزشتہ__adj"/></e>
     <e lm="پرائی"><i>پرائی</i><par n="گزشتہ__adj"/></e>
     <e lm="زیادہ"><i>زیادہ</i><par n="گزشتہ__adj"/></e>
@@ -6184,7 +6293,7 @@
     <e lm="؟"><i>؟</i><par n="sent"/></e>
     <e lm="."><i>.</i><par n="sent"/></e>
     <e lm="!"><i>!</i><par n="sent"/></e>
-    <e lm="،"><i>،</i><par n="sent"/></e>
+    <e lm="،"><i>،</i><par n="coma"/></e>
 
 
     <!-- Prepositions -->
