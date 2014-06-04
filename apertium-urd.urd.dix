@@ -1010,6 +1010,7 @@
 	 <e r="LR"><p><l>اسکو</l><r>یہ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="prx"/><s n="dat"/></r></p></e>
 	 <e r="LR"><p><l>انے</l><r>یہ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="prx"/><s n="dat"/></r></p></e>
 	 <e><p><l>انھیں</l><r>یہ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="prx"/><s n="dat"/></r></p></e>
+	 <e r="LR"><p><l>انہیں</l><r>یہ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="prx"/><s n="dat"/></r></p></e>
 	 <e r="LR"><p><l>ان کو</l><r>یہ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="prx"/><s n="dat"/></r></p></e>
 	 <e r="LR"><p><l>انکو</l><r>یہ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="prx"/><s n="dat"/></r></p></e>
 	 <e><p><l>اس کی</l><r>یہ<s n="prn"/><s n="dem"/><s n="p3"/><s n="f"/><s n="sg"/><s n="prx"/><s n="gen"/></r></p></e>
@@ -1048,6 +1049,7 @@
 	 <e r="LR"><p><l>اُسکو</l><r>وہ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="dst"/><s n="dat"/></r></p></e>
 	 <e r="LR"><p><l>اُنے</l><r>وہ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dst"/><s n="dat"/></r></p></e>
 	 <e><p><l>اُنھیں</l><r>وہ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dst"/><s n="dat"/></r></p></e>
+	 <e r="LR"><p><l>اُنہیں</l><r>وہ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dst"/><s n="dat"/></r></p></e>
 	 <e r="LR"><p><l>اُن کو</l><r>وہ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dst"/><s n="dat"/></r></p></e>
 	 <e r="LR"><p><l>اُنکو</l><r>وہ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dst"/><s n="dat"/></r></p></e>
 	 <e><p><l>اُس کی</l><r>وہ<s n="prn"/><s n="dem"/><s n="p3"/><s n="f"/><s n="sg"/><s n="dst"/><s n="gen"/></r></p></e>
@@ -1690,20 +1692,6 @@
       <e>       <p><l>یں</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
       <e>       <p><l>یں</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
     </pardef>
-    <pardef n="حکومت__n">
-      <e>       <p><l/><r><s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
-      <e>       <p><l/><r><s n="n"/><s n="f"/><s n="sg"/><s n="obl"/></r></p></e>
-      <e>       <p><l/><r><s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-      <e>       <p><l/><r><s n="n"/><s n="m"/><s n="sg"/><s n="obl"/></r></p></e>
-      <e>       <p><l/><r><s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
-      <e>       <p><l/><r><s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
-      <e>       <p><l/><r><s n="n"/><s n="f"/><s n="sg"/><s n="obl"/></r></p></e>
-      <e>       <p><l>وں</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="obl"/></r></p></e>
-      <e>       <p><l>وں</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="obl"/></r></p></e>
-      <e>       <p><l>وں</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="obl"/></r></p></e>
-      <e>       <p><l>یں</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
-      <e>       <p><l>یں</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
-    </pardef>
     <pardef n="کل/ا__n">
       <e>       <p><l>ے</l><r>ا<s n="n"/><s n="m"/><s n="sg"/><s n="obl"/></r></p></e>
       <e>       <p><l>ے</l><r>ا<s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
@@ -1920,8 +1908,8 @@
     <e lm="اور"><i>اور</i><par n="اور__cnjcoo"/></e>
     <e lm="و"><i>و</i><par n="اور__cnjcoo"/></e>
     <e lm="ہم"><i>ہم</i><par n="اور__cnjcoo"/></e>
+    <e lm="مگر"><i>مگر</i><par n="اور__cnjcoo"/></e>
     <e lm="لیکن"><i>لیکن</i><par n="اور__cnjcoo"/></e>
-
     <e lm="پر"><i>پر</i><par n="پر__cnjsub"/></e>
     <e lm="اگر"><i>اگر</i><par n="پر__cnjsub"/></e>
     <e lm="اگرچہ"><i>اگرچہ</i><par n="پر__cnjsub"/></e>
@@ -1932,6 +1920,8 @@
 
     <!-- Postpositions -->
 
+    <e lm="علاوہ"><i>علاوہ</i><par n="پر__post"/></e>
+    <e lm="مطابق"><i>مطابق</i><par n="پر__post"/></e>
     <e lm="بنا"><i>بنا</i><par n="پر__post"/></e>
     <e lm="بِنا"><i>بِنا</i><par n="پر__post"/></e>
     <e lm="لئے"><i>لئے</i><par n="پر__post"/></e>
@@ -1942,6 +1932,7 @@
     <e lm="کو"><i>کو</i><par n="پر__post"/></e>
     <e lm="کا"><i></i><par n="/کا__post"/></e>
     <e lm="نے"><i>نے</i><par n="پر__post"/></e>
+    <e lm="لیے"><i>لیے</i><par n="پر__post"/></e>
     <e lm="لیے"><i>لیے</i><par n="پر__post"/></e>
 
     <!-- Numerals -->
@@ -1957,6 +1948,16 @@
 
     <!-- Nouns -->
 
+    <e lm="پیدا"><i>پیدا</i><par n="آب__n"/></e>
+    <e lm="علیہ"><i>علیہ</i><par n="آب__n"/></e>
+    <e lm="قائم"><i>قائم</i><par n="آب__n"/></e>
+    <e lm="اسلام"><i>اسلام</i><par n="آب__n"/></e>
+    <e lm="ء"><i>ء</i><par n="قدر__n"/></e>
+    <e lm="شروع"><i>شروع</i><par n="قدر__n"/></e>
+    <e lm="اردو"><i>اردو</i><par n="قدر__n"/></e>
+    <e lm="کمیون"><i>کمیون</i><par n="جج__n"/></e>
+    <e lm="استعمال"><i>استعمال</i><par n="جج__n"/></e>
+    <e lm="حضرت"><i>حضرت</i><par n="آب__n"/></e>
     <e lm="سینٹ"><i>سینٹ</i><par n="آب__n"/></e>
     <e lm="کیلومیٹر"><i>کیلومیٹر</i><par n="آب__n"/></e>
     <e lm="طور"><i>طور</i><par n="آب__n"/></e>
@@ -3155,7 +3156,7 @@
     <e lm="ٹکیا"><i>ٹکی</i><par n="کنی/ا__n"/></e>
     <e lm="دائرہ"><i>دائر</i><par n="خط/ہ__n"/></e>
     <e lm="کتابچہ"><i>کتابچ</i><par n="خط/ہ__n"/></e>
-    <e lm="حکومت"><i>حکومت</i><par n="حکومت__n"/></e>
+    <e lm="حکومت"><i>حکومت</i><par n="ت__n"/></e>
     <e lm="جتلاؤ"><i>جتلاؤ</i><par n="آب__n"/></e>
     <e lm="جاواں"><i>جاو</i><par n="ہو/اں__n"/></e>
     <e lm="حصہ"><i>حص</i><par n="خط/ہ__n"/></e>
@@ -3838,7 +3839,6 @@
     <e lm="وظیفہ"><i>وظیف</i><par n="خط/ہ__n"/></e>
     <e lm="گدگدی"><i>گدگدی</i><par n="گدی__n"/></e>
     <e lm="سرحد"><i>سرحد</i><par n="ت__n"/></e>
-    <e lm="پہلا"><i>پہل</i><par n="کو/ا__n"/></e>
     <e lm="نالی"><i>نالی</i><par n="گدی__n"/></e>
     <e lm="آرزو"><i>آرزو</i><par n="بازو__n"/></e>
     <e lm="مار"><i>مار</i><par n="ت__n"/></e>
@@ -4230,7 +4230,7 @@
     <e lm="ٹوپی"><i>ٹوپی</i><par n="گدی__n"/></e>
     <e lm="مُرغی"><i>مُرغی</i><par n="گدی__n"/></e>
     <e lm="حَیا"><i>حَیا</i><par n="رِیا__n"/></e>
-    <e lm="ریاست"><i>ریاست</i><par n="خط__n"/></e>
+    <e lm="ریاست"><i>ریاست</i><par n="ت__n"/></e>
     <e lm="تھیلی"><i>تھیلی</i><par n="گدی__n"/></e>
     <e lm="خاصہ"><i>خاص</i><par n="خط/ہ__n"/></e>
     <e lm="فلیٹ"><i>فلیٹ</i><par n="خط__n"/></e>
@@ -5153,7 +5153,6 @@
     <e lm="اڈہ"><i>اڈ</i><par n="خط/ہ__n"/></e>
     <e lm="انگریز"><i>انگریز</i><par n="جج__n"/></e>
     <e lm="بھلی"><i>بھلی</i><par n="جج__n"/></e>
-    <e lm="تمام"><i>تمام</i><par n="آب__n"/></e>
     <e lm="انڈہ"><i>انڈ</i><par n="خط/ہ__n"/></e>
     <e lm="رنگینی"><i>رنگینی</i><par n="گدی__n"/></e>
     <e lm="کمرا"><i>کمر</i><par n="کو/ا__n"/></e>
@@ -5185,6 +5184,8 @@
 
     <!-- Proper nouns -->
 
+    <e lm="علی"><i>علی</i><par n="عامل__np"/></e>
+    <e lm="محمد"><i>محمد</i><par n="عامل__np"/></e>
     <e lm="جیمز"><i>جیمز</i><par n="عامل__np"/></e>
     <e lm="اللہ"><i>اللہ</i><par n="عامل__np"/></e>
     <e lm="مریم"><i>مریم</i><par n="مریم__np"/></e>
@@ -5213,7 +5214,10 @@
 
     <!-- Adverbs -->
 
+    <e lm="یعنی"><i>یعنی</i><par n="غلط__adv"/></e>
+    <e lm="صرف"><i>صرف</i><par n="غلط__adv"/></e>
     <e lm="کیوں"><i>کیوں</i><par n="int__adv"/></e>
+    <e lm="یوں"><i>یوں</i><par n="غلط__adv"/></e>
     <e lm="کب"><i>کب</i><par n="غلط__adv"/></e>
     <e lm="کبھی"><i>کبھی</i><par n="غلط__adv"/></e>
     <e lm="جب"><i>جب</i><par n="غلط__adv"/></e>
@@ -5271,6 +5275,7 @@
     <e lm="پھر"><i>پھر</i><par n="چونکہ__cnjadv"/></e>
     <e lm="کہیں"><i>کہیں</i><par n="چونکہ__cnjadv"/></e>
     <e lm="احتیاط"><i>احتیاط</i><par n="غلط__adv"/></e>
+    <e lm="جبکہ"><i>جبکہ</i><par n="چونکہ__cnjadv"/></e>
 
 
     <!-- Verbs -->
@@ -5519,7 +5524,8 @@
 	<e lm="ہنس"><i>ہنس</i><par n="چل__vblex_iv"/></e>
 	<e lm="چھپ"><i>چھپ</i><par n="چل__vblex_iv"/></e>		
 	<e lm="چل"><i>چل</i><par n="چل__vblex_iv"/></e>	
-	<e lm="ہونا"><i></i><par n="/ہونا__vblex_iv"/></e>	
+	<e lm="ہونا"><i></i><par n="/ہونا__vblex_iv"/></e>
+	<e lm="ہونا"><i></i><par n="/ہونا__vblex_iv"/></e>		
 	<e lm="رہ"><i>رہ</i><par n="رہ__vaux_iv"/></e>
 	<e lm="سک"><i>سک</i><par n="رہ__vaux_iv"/></e>
 	<e lm="چق"><i>چق</i><par n="رہ__vaux_iv"/></e>
@@ -6230,10 +6236,21 @@
 
     <!-- Adjectives -->
 
+    <e lm="تمام"><i>تمام</i><par n="گرم__adj"/></e>
+    <e lm="پہلا"><i>پہل</i><par n="سچ /ا__adj"/></e>
     <e lm="کتنا"><i>کتن</i><par n="سچ /ا__adj"/></e>
     <e lm="جتنا"><i>جتن</i><par n="سچ /ا__adj"/></e>
     <e lm="اتنا"><i>اتن</i><par n="سچ /ا__adj"/></e>
     <e lm="اُتنا"><i>اُتن</i><par n="سچ /ا__adj"/></e>
+    <e lm="بے"><i>بے</i><par n="گرم__adj"/></e>
+    <e lm="مختلف"><i>مختلف</i><par n="گرم__adj"/></e>
+    <e lm="مشہور"><i>مشہور</i><par n="گرم__adj"/></e>
+    <e lm="عام"><i>عام</i><par n="گرم__adj"/></e>
+    <e lm="موجود"><i>موجود</i><par n="گرم__adj"/></e>
+    <e lm="متحدہ"><i>متحدہ</i><par n="گرم__adj"/></e>
+    <e lm="اہم"><i>اہم</i><par n="گرم__adj"/></e>
+    <e lm="حاصل"><i>حاصل</i><par n="گرم__adj"/></e>
+    <e lm="شامل"><i>شامل</i><par n="گرم__adj"/></e>
     <e lm="رہائشی"><i>رہائشی</i><par n="گرم__adj"/></e>
     <e lm="مجھی"><i>مجھی</i><par n="گرم__adj"/></e>
     <e lm="تم ہی"><i>تم ہی</i><par n="گرم__adj"/></e>
