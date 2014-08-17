@@ -105,7 +105,7 @@
       <e>       <p><l/><r><s n="sent"/></r></p></e>
        </pardef>
     <pardef n="coma">
-      <e><re>,</re><p><l></l><r><s n="cm"/></r></p></e>
+      <e><p><l></l><r><s n="cm"/></r></p></e>
     </pardef>
     <!-- Adjectives -->
       
@@ -186,12 +186,13 @@
      <e>       <p><l>رتا</l><r>ر<s n="vblex"/><s n="tv"/><s n="impf"/><s n="m"/><s n="sg"/></r></p></e>
      <e>       <p><l>رتے</l><r>ر<s n="vblex"/><s n="tv"/><s n="impf"/><s n="m"/><s n="pl"/></r></p></e>
      <e>       <p><l>رتی</l><r>ر<s n="vblex"/><s n="tv"/><s n="impf"/><s n="f"/><s n="sg"/></r></p></e>
+     <e r="LR">       <p><l>رتیں</l><r>ر<s n="vblex"/><s n="tv"/><s n="impf"/><s n="f"/><s n="pl"/></r></p></e>
      <e>       <p><l>رتی</l><r>ر<s n="vblex"/><s n="tv"/><s n="impf"/><s n="f"/><s n="pl"/></r></p></e>
      <e>       <p><l>رکے</l><r>ر<s n="vblex"/><s n="tv"/><s n="gna"/></r></p></e>
      <e>       <p><l>یا</l><r>ر<s n="vblex"/><s n="tv"/><s n="perf"/><s n="m"/><s n="sg"/></r></p></e>
      <e r="LR">       <p><l>ردیا</l><r>ر<s n="vblex"/><s n="tv"/><s n="perf"/><s n="m"/><s n="sg"/></r></p></e>
      <e>       <p><l>یے</l><r>ر<s n="vblex"/><s n="tv"/><s n="perf"/><s n="m"/><s n="pl"/></r></p></e>
-     <e>       <p><l>ئے</l><r>ر<s n="vblex"/><s n="tv"/><s n="perf"/><s n="m"/><s n="pl"/></r></p></e>
+     <e r="LR">       <p><l>ئے</l><r>ر<s n="vblex"/><s n="tv"/><s n="perf"/><s n="m"/><s n="pl"/></r></p></e>
      <e r="LR">       <p><l>یئے</l><r>ر<s n="vblex"/><s n="tv"/><s n="perf"/><s n="m"/><s n="pl"/></r></p></e>
      <e r="LR">       <p><l>یے</l><r>ر<s n="vblex"/><s n="tv"/><s n="perf"/><s n="m"/><s n="pl"/></r></p></e>
      <e>       <p><l>ی</l><r>ر<s n="vblex"/><s n="tv"/><s n="perf"/><s n="f"/><s n="sg"/></r></p></e>
@@ -228,7 +229,7 @@
       <e>       <p><l>ے</l><r><s n="vblex"/><s n="tv"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
       <e>       <p><l>یں</l><r><s n="vblex"/><s n="tv"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
       <e>       <p><l>یے</l><r><s n="vblex"/><s n="tv"/><s n="imp"/><s n="p2"/><s n="frm"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ئے</l><r><s n="vblex"/><s n="tv"/><s n="imp"/><s n="p2"/><s n="frm"/><s n="pl"/></r></p></e>
+      <e r="LR">       <p><l>ئے</l><r><s n="vblex"/><s n="tv"/><s n="imp"/><s n="p2"/><s n="frm"/><s n="pl"/></r></p></e>
       <e>       <p><l></l><r><s n="vblex"/><s n="tv"/><s n="stem"/></r></p></e>
       <e>       <p><l>و</l><r><s n="vblex"/><s n="tv"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
       <e>       <p><l>تا</l><r><s n="vblex"/><s n="tv"/><s n="impf"/><s n="m"/><s n="sg"/></r></p></e>
@@ -236,7 +237,7 @@
       <e>       <p><l>تی</l><r><s n="vblex"/><s n="tv"/><s n="impf"/><s n="f"/><s n="sg"/></r></p></e>
       <e>       <p><l>تی</l><r><s n="vblex"/><s n="tv"/><s n="impf"/><s n="f"/><s n="pl"/></r></p></e>
       <e>       <p><l>کر</l><r><s n="vblex"/><s n="tv"/><s n="gna"/></r></p></e>
-      <e>       <p><l>کے</l><r><s n="vblex"/><s n="tv"/><s n="gna"/></r></p></e>
+      <e r="LR">       <p><l>کے</l><r><s n="vblex"/><s n="tv"/><s n="gna"/></r></p></e>
       <e r="LR">       <p><l>ہ</l><r><s n="vblex"/><s n="tv"/><s n="perf"/><s n="m"/><s n="sg"/></r></p></e>
       <e>       <p><l>ا</l><r><s n="vblex"/><s n="tv"/><s n="perf"/><s n="m"/><s n="sg"/></r></p></e>
       <e>       <p><l>ے</l><r><s n="vblex"/><s n="tv"/><s n="perf"/><s n="m"/><s n="pl"/></r></p></e>
@@ -247,25 +248,25 @@
 	<pardef n="بتا__vblex_tv">
       <e>       <p><l>ؤنگا</l><r><s n="vblex"/><s n="tv"/><s n="fut"/><s n="p1"/><s n="m"/><s n="sg"/></r></p></e>
       <e>       <p><l>یینگے</l><r><s n="vblex"/><s n="tv"/><s n="fut"/><s n="p1"/><s n="m"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ئینگے</l><r><s n="vblex"/><s n="tv"/><s n="fut"/><s n="p1"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="LR">       <p><l>ئینگے</l><r><s n="vblex"/><s n="tv"/><s n="fut"/><s n="p1"/><s n="m"/><s n="pl"/></r></p></e>
       <e>       <p><l>ؤنگی</l><r><s n="vblex"/><s n="tv"/><s n="fut"/><s n="p1"/><s n="f"/><s n="sg"/></r></p></e>
       <e>       <p><l>یینگی</l><r><s n="vblex"/><s n="tv"/><s n="fut"/><s n="p1"/><s n="f"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ئینگی</l><r><s n="vblex"/><s n="tv"/><s n="fut"/><s n="p1"/><s n="f"/><s n="pl"/></r></p></e>
+      <e r="LR">       <p><l>ئینگی</l><r><s n="vblex"/><s n="tv"/><s n="fut"/><s n="p1"/><s n="f"/><s n="pl"/></r></p></e>
       <e>       <p><l>ییگا</l><r><s n="vblex"/><s n="tv"/><s n="fut"/><s n="p2"/><s n="m"/><s n="sg"/></r></p></e>
-      <e>       <p><l>ئیگا</l><r><s n="vblex"/><s n="tv"/><s n="fut"/><s n="p2"/><s n="m"/><s n="sg"/></r></p></e>
-      <e>       <p><l>ییگا</l><r><s n="vblex"/><s n="tv"/><s n="fut"/><s n="p2"/><s n="m"/><s n="sg"/></r></p></e>
+      <e r="LR">       <p><l>ئیگا</l><r><s n="vblex"/><s n="tv"/><s n="fut"/><s n="p2"/><s n="m"/><s n="sg"/></r></p></e>
+      <e r="LR">       <p><l>ییگا</l><r><s n="vblex"/><s n="tv"/><s n="fut"/><s n="p2"/><s n="m"/><s n="sg"/></r></p></e>
       <e>       <p><l>ؤگے</l><r><s n="vblex"/><s n="tv"/><s n="fut"/><s n="p2"/><s n="m"/><s n="pl"/></r></p></e>
       <e>       <p><l>ییگی</l><r><s n="vblex"/><s n="tv"/><s n="fut"/><s n="p2"/><s n="f"/><s n="sg"/></r></p></e>
-      <e>       <p><l>ئیگی</l><r><s n="vblex"/><s n="tv"/><s n="fut"/><s n="p2"/><s n="f"/><s n="sg"/></r></p></e>
+      <e r="LR">       <p><l>ئیگی</l><r><s n="vblex"/><s n="tv"/><s n="fut"/><s n="p2"/><s n="f"/><s n="sg"/></r></p></e>
       <e>       <p><l>ؤگی</l><r><s n="vblex"/><s n="tv"/><s n="fut"/><s n="p2"/><s n="f"/><s n="pl"/></r></p></e>
       <e>       <p><l>ییگا</l><r><s n="vblex"/><s n="tv"/><s n="fut"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
-      <e>       <p><l>ئیگا</l><r><s n="vblex"/><s n="tv"/><s n="fut"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+      <e r="LR">       <p><l>ئیگا</l><r><s n="vblex"/><s n="tv"/><s n="fut"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
       <e>       <p><l>یینگے</l><r><s n="vblex"/><s n="tv"/><s n="fut"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ئینگے</l><r><s n="vblex"/><s n="tv"/><s n="fut"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="LR">       <p><l>ئینگے</l><r><s n="vblex"/><s n="tv"/><s n="fut"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
       <e>       <p><l>ییگی</l><r><s n="vblex"/><s n="tv"/><s n="fut"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
-      <e>       <p><l>ئیگی</l><r><s n="vblex"/><s n="tv"/><s n="fut"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+      <e r="LR">       <p><l>ئیگی</l><r><s n="vblex"/><s n="tv"/><s n="fut"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
       <e>       <p><l>یینگی</l><r><s n="vblex"/><s n="tv"/><s n="fut"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ئینگی</l><r><s n="vblex"/><s n="tv"/><s n="fut"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
+      <e r="LR">       <p><l>ئینگی</l><r><s n="vblex"/><s n="tv"/><s n="fut"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
       <e>       <p><l>نیوالا</l><r><s n="vblex"/><s n="tv"/><s n="agnt"/><s n="m"/><s n="sg"/></r></p></e>
       <e>       <p><l>نیوالے</l><r><s n="vblex"/><s n="tv"/><s n="agnt"/><s n="m"/><s n="pl"/></r></p></e>
       <e>       <p><l>نیوالی</l><r><s n="vblex"/><s n="tv"/><s n="agnt"/><s n="f"/><s n="sg"/></r></p></e>
@@ -275,15 +276,12 @@
       <e>       <p><l>نے</l><r><s n="vblex"/><s n="tv"/><s n="inf"/><s n="obl"/></r></p></e>
       <e>       <p><l>ؤں</l><r><s n="vblex"/><s n="tv"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
       <e>       <p><l>ییں</l><r><s n="vblex"/><s n="tv"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ئیں</l><r><s n="vblex"/><s n="tv"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ئے</l><r><s n="vblex"/><s n="tv"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e r="LR">       <p><l>ئیں</l><r><s n="vblex"/><s n="tv"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p></e>
       <e>       <p><l>ئے</l><r><s n="vblex"/><s n="tv"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
       <e>       <p><l>ؤ</l><r><s n="vblex"/><s n="tv"/><s n="prs"/><s n="p2"/><s n="pl"/></r></p></e>
       <e>       <p><l>ئے</l><r><s n="vblex"/><s n="tv"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e>       <p><l>ئے</l><r><s n="vblex"/><s n="tv"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
       <e>       <p><l>ییں</l><r><s n="vblex"/><s n="tv"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ئیں</l><r><s n="vblex"/><s n="tv"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ئیے</l><r><s n="vblex"/><s n="tv"/><s n="imp"/><s n="p2"/><s n="frm"/><s n="pl"/></r></p></e>
+      <e r="LR">       <p><l>ئیں</l><r><s n="vblex"/><s n="tv"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
       <e>       <p><l>ئیے</l><r><s n="vblex"/><s n="tv"/><s n="imp"/><s n="p2"/><s n="frm"/><s n="pl"/></r></p></e>
       <e>       <p><l></l><r><s n="vblex"/><s n="tv"/><s n="stem"/></r></p></e>
       <e>       <p><l>ؤ</l><r><s n="vblex"/><s n="tv"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
@@ -292,14 +290,13 @@
       <e>       <p><l>تی</l><r><s n="vblex"/><s n="tv"/><s n="impf"/><s n="f"/><s n="sg"/></r></p></e>
       <e>       <p><l>تیں</l><r><s n="vblex"/><s n="tv"/><s n="impf"/><s n="f"/><s n="pl"/></r></p></e>
       <e>       <p><l>کر</l><r><s n="vblex"/><s n="tv"/><s n="gna"/></r></p></e>
-      <e>       <p><l>کے</l><r><s n="vblex"/><s n="tv"/><s n="gna"/></r></p></e>
+      <e r="LR">       <p><l>کے</l><r><s n="vblex"/><s n="tv"/><s n="gna"/></r></p></e>
       <e>       <p><l>یا</l><r><s n="vblex"/><s n="tv"/><s n="perf"/><s n="m"/><s n="sg"/></r></p></e>
       <e>       <p><l>ئے</l><r><s n="vblex"/><s n="tv"/><s n="perf"/><s n="m"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ئے</l><r><s n="vblex"/><s n="tv"/><s n="perf"/><s n="m"/><s n="pl"/></r></p></e>
       <e>       <p><l>یی</l><r><s n="vblex"/><s n="tv"/><s n="perf"/><s n="f"/><s n="sg"/></r></p></e>
-      <e>       <p><l>ئی</l><r><s n="vblex"/><s n="tv"/><s n="perf"/><s n="f"/><s n="sg"/></r></p></e>
+      <e r="LR">       <p><l>ئی</l><r><s n="vblex"/><s n="tv"/><s n="perf"/><s n="f"/><s n="sg"/></r></p></e>
       <e>       <p><l>ییں</l><r><s n="vblex"/><s n="tv"/><s n="perf"/><s n="f"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ئیں</l><r><s n="vblex"/><s n="tv"/><s n="perf"/><s n="f"/><s n="pl"/></r></p></e>
+      <e r="LR">       <p><l>ئیں</l><r><s n="vblex"/><s n="tv"/><s n="perf"/><s n="f"/><s n="pl"/></r></p></e>
 	 </pardef>
 
 	<pardef n="چل__vblex_iv">
@@ -329,7 +326,6 @@
       <e>       <p><l>ے</l><r><s n="vblex"/><s n="iv"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
       <e>       <p><l>یں</l><r><s n="vblex"/><s n="iv"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
       <e>       <p><l>یے</l><r><s n="vblex"/><s n="iv"/><s n="imp"/><s n="p2"/><s n="frm"/><s n="pl"/></r></p></e>
-      <e>       <p><l>یے</l><r><s n="vblex"/><s n="iv"/><s n="imp"/><s n="p2"/><s n="frm"/><s n="pl"/></r></p></e>
       <e>       <p><l></l><r><s n="vblex"/><s n="iv"/><s n="stem"/></r></p></e>
       <e>       <p><l>و</l><r><s n="vblex"/><s n="iv"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
       <e>       <p><l>و</l><r><s n="vblex"/><s n="iv"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
@@ -338,7 +334,7 @@
       <e>       <p><l>تی</l><r><s n="vblex"/><s n="iv"/><s n="impf"/><s n="f"/><s n="sg"/></r></p></e>
       <e>       <p><l>تی</l><r><s n="vblex"/><s n="iv"/><s n="impf"/><s n="f"/><s n="pl"/></r></p></e>
       <e>       <p><l>کر</l><r><s n="vblex"/><s n="iv"/><s n="gna"/></r></p></e>
-      <e>       <p><l>کے</l><r><s n="vblex"/><s n="iv"/><s n="gna"/></r></p></e>
+      <e r="LR">       <p><l>کے</l><r><s n="vblex"/><s n="iv"/><s n="gna"/></r></p></e>
       <e>       <p><l>ا</l><r><s n="vblex"/><s n="iv"/><s n="perf"/><s n="m"/><s n="sg"/></r></p></e>
       <e>       <p><l>ے</l><r><s n="vblex"/><s n="iv"/><s n="perf"/><s n="m"/><s n="pl"/></r></p></e>
       <e>       <p><l>ی</l><r><s n="vblex"/><s n="iv"/><s n="perf"/><s n="f"/><s n="sg"/></r></p></e>
@@ -372,7 +368,6 @@
       <e>       <p><l>ے</l><r><s n="vaux"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
       <e>       <p><l>یں</l><r><s n="vaux"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
       <e>       <p><l>یے</l><r><s n="vaux"/><s n="imp"/><s n="p2"/><s n="frm"/><s n="pl"/></r></p></e>
-      <e>       <p><l>یے</l><r><s n="vaux"/><s n="imp"/><s n="p2"/><s n="frm"/><s n="pl"/></r></p></e>
       <e>       <p><l></l><r><s n="vaux"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
       <e>       <p><l>و</l><r><s n="vaux"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
       <e>       <p><l>تا</l><r><s n="vaux"/><s n="impf"/><s n="m"/><s n="sg"/></r></p></e>
@@ -380,7 +375,7 @@
       <e>       <p><l>تی</l><r><s n="vaux"/><s n="impf"/><s n="f"/><s n="sg"/></r></p></e>
       <e>       <p><l>تی</l><r><s n="vaux"/><s n="impf"/><s n="f"/><s n="pl"/></r></p></e>
       <e>       <p><l>کر</l><r><s n="vaux"/><s n="gna"/></r></p></e>
-      <e>       <p><l>کے</l><r><s n="vaux"/><s n="gna"/></r></p></e>
+      <e r="LR">       <p><l>کے</l><r><s n="vaux"/><s n="gna"/></r></p></e>
       <e>       <p><l>ا</l><r><s n="vaux"/><s n="perf"/><s n="m"/><s n="sg"/></r></p></e>
       <e>       <p><l>ے</l><r><s n="vaux"/><s n="perf"/><s n="m"/><s n="pl"/></r></p></e>
       <e>       <p><l>ی</l><r><s n="vaux"/><s n="perf"/><s n="f"/><s n="sg"/></r></p></e>
@@ -390,24 +385,24 @@
 	<pardef n="پ/ی__vblex_tv">
       <e>       <p><l>یونگا</l><r>ی<s n="vblex"/><s n="tv"/><s n="fut"/><s n="p1"/><s n="m"/><s n="sg"/></r></p></e>
       <e>       <p><l>یینگے</l><r>ی<s n="vblex"/><s n="tv"/><s n="fut"/><s n="p1"/><s n="m"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ئینگے</l><r>ی<s n="vblex"/><s n="tv"/><s n="fut"/><s n="p1"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="LR">       <p><l>ئینگے</l><r>ی<s n="vblex"/><s n="tv"/><s n="fut"/><s n="p1"/><s n="m"/><s n="pl"/></r></p></e>
       <e>       <p><l>یونگی</l><r>ی<s n="vblex"/><s n="tv"/><s n="fut"/><s n="p1"/><s n="f"/><s n="sg"/></r></p></e>
       <e>       <p><l>یینگی</l><r>ی<s n="vblex"/><s n="tv"/><s n="fut"/><s n="p1"/><s n="f"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ئینگی</l><r>ی<s n="vblex"/><s n="tv"/><s n="fut"/><s n="p1"/><s n="f"/><s n="pl"/></r></p></e>
+      <e r="LR">       <p><l>ئینگی</l><r>ی<s n="vblex"/><s n="tv"/><s n="fut"/><s n="p1"/><s n="f"/><s n="pl"/></r></p></e>
       <e>       <p><l>ییگا</l><r>ی<s n="vblex"/><s n="tv"/><s n="fut"/><s n="p2"/><s n="m"/><s n="sg"/></r></p></e>
       <e>       <p><l>ئیگا</l><r>ی<s n="vblex"/><s n="tv"/><s n="fut"/><s n="p2"/><s n="m"/><s n="sg"/></r></p></e>
       <e>       <p><l>یوگے</l><r>ی<s n="vblex"/><s n="tv"/><s n="fut"/><s n="p2"/><s n="m"/><s n="pl"/></r></p></e>
       <e>       <p><l>ییگی</l><r>ی<s n="vblex"/><s n="tv"/><s n="fut"/><s n="p2"/><s n="f"/><s n="sg"/></r></p></e>
-      <e>       <p><l>ئیگی</l><r>ی<s n="vblex"/><s n="tv"/><s n="fut"/><s n="p2"/><s n="f"/><s n="sg"/></r></p></e>
+      <e r="LR">       <p><l>ئیگی</l><r>ی<s n="vblex"/><s n="tv"/><s n="fut"/><s n="p2"/><s n="f"/><s n="sg"/></r></p></e>
       <e>       <p><l>یوگی</l><r>ی<s n="vblex"/><s n="tv"/><s n="fut"/><s n="p2"/><s n="f"/><s n="pl"/></r></p></e>
       <e>       <p><l>ییگا</l><r>ی<s n="vblex"/><s n="tv"/><s n="fut"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
       <e>       <p><l>ئیگا</l><r>ی<s n="vblex"/><s n="tv"/><s n="fut"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
       <e>       <p><l>یینگے</l><r>ی<s n="vblex"/><s n="tv"/><s n="fut"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ئینگے</l><r>ی<s n="vblex"/><s n="tv"/><s n="fut"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="LR">       <p><l>ئینگے</l><r>ی<s n="vblex"/><s n="tv"/><s n="fut"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
       <e>       <p><l>ییگی</l><r>ی<s n="vblex"/><s n="tv"/><s n="fut"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
-      <e>       <p><l>ئیگی</l><r>ی<s n="vblex"/><s n="tv"/><s n="fut"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+      <e r="LR">       <p><l>ئیگی</l><r>ی<s n="vblex"/><s n="tv"/><s n="fut"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
       <e>       <p><l>یینگی</l><r>ی<s n="vblex"/><s n="tv"/><s n="fut"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ئینگی</l><r>ی<s n="vblex"/><s n="tv"/><s n="fut"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
+      <e r="LR">       <p><l>ئینگی</l><r>ی<s n="vblex"/><s n="tv"/><s n="fut"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
       <e>       <p><l>ینیوالا</l><r>ی<s n="vblex"/><s n="tv"/><s n="agnt"/><s n="m"/><s n="sg"/></r></p></e>
       <e>       <p><l>ینیوالے</l><r>ی<s n="vblex"/><s n="tv"/><s n="agnt"/><s n="m"/><s n="pl"/></r></p></e>
       <e>       <p><l>ینیوالی</l><r>ی<s n="vblex"/><s n="tv"/><s n="agnt"/><s n="f"/><s n="sg"/></r></p></e>
@@ -417,17 +412,14 @@
       <e>       <p><l>ینے</l><r>ی<s n="vblex"/><s n="tv"/><s n="inf"/><s n="obl"/></r></p></e>
       <e>       <p><l>یوں</l><r>ی<s n="vblex"/><s n="tv"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
       <e>       <p><l>ئیں</l><r>ی<s n="vblex"/><s n="tv"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ئیں</l><r>ی<s n="vblex"/><s n="tv"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p></e>
       <e>       <p><l>یے</l><r>ی<s n="vblex"/><s n="tv"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e>       <p><l>ئے</l><r>ی<s n="vblex"/><s n="tv"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e>       <p><l>ئیں</l><r>ی<s n="vblex"/><s n="tv"/><s n="prs"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e r="LR">       <p><l>ئے</l><r>ی<s n="vblex"/><s n="tv"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
       <e>       <p><l>ئیں</l><r>ی<s n="vblex"/><s n="tv"/><s n="prs"/><s n="p2"/><s n="pl"/></r></p></e>
       <e>       <p><l>یے</l><r>ی<s n="vblex"/><s n="tv"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e>       <p><l>ئے</l><r>ی<s n="vblex"/><s n="tv"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e>       <p><l>ئیں</l><r>ی<s n="vblex"/><s n="tv"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e r="LR">       <p><l>ئے</l><r>ی<s n="vblex"/><s n="tv"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
       <e>       <p><l>ئیں</l><r>ی<s n="vblex"/><s n="tv"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
       <e>       <p><l>یجیے</l><r>ی<s n="vblex"/><s n="tv"/><s n="imp"/><s n="p2"/><s n="frm"/><s n="pl"/></r></p></e>
-      <e>       <p><l>یجئے</l><r>ی<s n="vblex"/><s n="tv"/><s n="imp"/><s n="p2"/><s n="frm"/><s n="pl"/></r></p></e>
+      <e r="LR">       <p><l>یجئے</l><r>ی<s n="vblex"/><s n="tv"/><s n="imp"/><s n="p2"/><s n="frm"/><s n="pl"/></r></p></e>
       <e>       <p><l>ی</l><r>ی<s n="vblex"/><s n="tv"/><s n="stem"/></r></p></e>
       <e>       <p><l>یو</l><r>ی<s n="vblex"/><s n="tv"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
       <e>       <p><l>یتا</l><r>ی<s n="vblex"/><s n="tv"/><s n="impf"/><s n="m"/><s n="sg"/></r></p></e>
@@ -435,10 +427,10 @@
       <e>       <p><l>یتی</l><r>ی<s n="vblex"/><s n="tv"/><s n="impf"/><s n="f"/><s n="sg"/></r></p></e>
       <e>       <p><l>یتیں</l><r>ی<s n="vblex"/><s n="tv"/><s n="impf"/><s n="f"/><s n="pl"/></r></p></e>
       <e>       <p><l>یکر</l><r>ی<s n="vblex"/><s n="tv"/><s n="gna"/></r></p></e>
-      <e>       <p><l>یکے</l><r>ی<s n="vblex"/><s n="tv"/><s n="gna"/></r></p></e>
+      <e r="LR">       <p><l>یکے</l><r>ی<s n="vblex"/><s n="tv"/><s n="gna"/></r></p></e>
       <e>       <p><l>یا</l><r>ی<s n="vblex"/><s n="tv"/><s n="perf"/><s n="m"/><s n="sg"/></r></p></e>
-      <e r="LR">       <p><l>یے</l><r>ی<s n="vblex"/><s n="tv"/><s n="perf"/><s n="m"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ئے</l><r>ی<s n="vblex"/><s n="tv"/><s n="perf"/><s n="m"/><s n="pl"/></r></p></e>
+      <e>       <p><l>یے</l><r>ی<s n="vblex"/><s n="tv"/><s n="perf"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="LR">       <p><l>ئے</l><r>ی<s n="vblex"/><s n="tv"/><s n="perf"/><s n="m"/><s n="pl"/></r></p></e>
       <e>       <p><l>ی</l><r>ی<s n="vblex"/><s n="tv"/><s n="perf"/><s n="f"/><s n="sg"/></r></p></e>
       <e>       <p><l>ی</l><r>ی<s n="vblex"/><s n="tv"/><s n="perf"/><s n="f"/><s n="pl"/></r></p></e>
 	 </pardef>
@@ -446,24 +438,24 @@
 	<pardef n="ج/ی__vblex_iv">
       <e>       <p><l>یونگا</l><r>ی<s n="vblex"/><s n="iv"/><s n="fut"/><s n="p1"/><s n="m"/><s n="sg"/></r></p></e>
       <e>       <p><l>یینگے</l><r>ی<s n="vblex"/><s n="iv"/><s n="fut"/><s n="p1"/><s n="m"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ئینگے</l><r>ی<s n="vblex"/><s n="iv"/><s n="fut"/><s n="p1"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="LR">       <p><l>ئینگے</l><r>ی<s n="vblex"/><s n="iv"/><s n="fut"/><s n="p1"/><s n="m"/><s n="pl"/></r></p></e>
       <e>       <p><l>یونگی</l><r>ی<s n="vblex"/><s n="iv"/><s n="fut"/><s n="p1"/><s n="f"/><s n="sg"/></r></p></e>
       <e>       <p><l>یینگی</l><r>ی<s n="vblex"/><s n="iv"/><s n="fut"/><s n="p1"/><s n="f"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ئینگی</l><r>ی<s n="vblex"/><s n="iv"/><s n="fut"/><s n="p1"/><s n="f"/><s n="pl"/></r></p></e>
+      <e r="LR">       <p><l>ئینگی</l><r>ی<s n="vblex"/><s n="iv"/><s n="fut"/><s n="p1"/><s n="f"/><s n="pl"/></r></p></e>
       <e>       <p><l>ییگا</l><r>ی<s n="vblex"/><s n="iv"/><s n="fut"/><s n="p2"/><s n="m"/><s n="sg"/></r></p></e>
-      <e>       <p><l>ئیگا</l><r>ی<s n="vblex"/><s n="iv"/><s n="fut"/><s n="p2"/><s n="m"/><s n="sg"/></r></p></e>
+      <e r="LR">       <p><l>ئیگا</l><r>ی<s n="vblex"/><s n="iv"/><s n="fut"/><s n="p2"/><s n="m"/><s n="sg"/></r></p></e>
       <e>       <p><l>یوگے</l><r>ی<s n="vblex"/><s n="iv"/><s n="fut"/><s n="p2"/><s n="m"/><s n="pl"/></r></p></e>
       <e>       <p><l>ییگی</l><r>ی<s n="vblex"/><s n="iv"/><s n="fut"/><s n="p2"/><s n="f"/><s n="sg"/></r></p></e>
-      <e>       <p><l>ئیگی</l><r>ی<s n="vblex"/><s n="iv"/><s n="fut"/><s n="p2"/><s n="f"/><s n="sg"/></r></p></e>
+      <e r="LR">       <p><l>ئیگی</l><r>ی<s n="vblex"/><s n="iv"/><s n="fut"/><s n="p2"/><s n="f"/><s n="sg"/></r></p></e>
       <e>       <p><l>یوگی</l><r>ی<s n="vblex"/><s n="iv"/><s n="fut"/><s n="p2"/><s n="f"/><s n="pl"/></r></p></e>
       <e>       <p><l>ییگا</l><r>ی<s n="vblex"/><s n="iv"/><s n="fut"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
-      <e>       <p><l>ئیگا</l><r>ی<s n="vblex"/><s n="iv"/><s n="fut"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+      <e r="LR">       <p><l>ئیگا</l><r>ی<s n="vblex"/><s n="iv"/><s n="fut"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
       <e>       <p><l>یینگے</l><r>ی<s n="vblex"/><s n="iv"/><s n="fut"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ئینگے</l><r>ی<s n="vblex"/><s n="iv"/><s n="fut"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="LR">       <p><l>ئینگے</l><r>ی<s n="vblex"/><s n="iv"/><s n="fut"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
       <e>       <p><l>ییگی</l><r>ی<s n="vblex"/><s n="iv"/><s n="fut"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
-      <e>       <p><l>ئیگی</l><r>ی<s n="vblex"/><s n="iv"/><s n="fut"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+      <e r="LR">       <p><l>ئیگی</l><r>ی<s n="vblex"/><s n="iv"/><s n="fut"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
       <e>       <p><l>یینگی</l><r>ی<s n="vblex"/><s n="iv"/><s n="fut"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ئینگی</l><r>ی<s n="vblex"/><s n="iv"/><s n="fut"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
+      <e r="LR">       <p><l>ئینگی</l><r>ی<s n="vblex"/><s n="iv"/><s n="fut"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
       <e>       <p><l>ینیوالا</l><r>ی<s n="vblex"/><s n="iv"/><s n="agnt"/><s n="m"/><s n="sg"/></r></p></e>
       <e>       <p><l>ینیوالے</l><r>ی<s n="vblex"/><s n="iv"/><s n="agnt"/><s n="m"/><s n="pl"/></r></p></e>
       <e>       <p><l>ینیوالی</l><r>ی<s n="vblex"/><s n="iv"/><s n="agnt"/><s n="f"/><s n="sg"/></r></p></e>
@@ -473,17 +465,14 @@
       <e>       <p><l>ینے</l><r>ی<s n="vblex"/><s n="iv"/><s n="inf"/><s n="obl"/></r></p></e>
       <e>       <p><l>یوں</l><r>ی<s n="vblex"/><s n="iv"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
       <e>       <p><l>ئیں</l><r>ی<s n="vblex"/><s n="iv"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ئیں</l><r>ی<s n="vblex"/><s n="iv"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p></e>
       <e>       <p><l>یے</l><r>ی<s n="vblex"/><s n="iv"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e>       <p><l>ئے</l><r>ی<s n="vblex"/><s n="iv"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e>       <p><l>ئیں</l><r>ی<s n="vblex"/><s n="iv"/><s n="prs"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e r="LR">       <p><l>ئے</l><r>ی<s n="vblex"/><s n="iv"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
       <e>       <p><l>ئیں</l><r>ی<s n="vblex"/><s n="iv"/><s n="prs"/><s n="p2"/><s n="pl"/></r></p></e>
       <e>       <p><l>یے</l><r>ی<s n="vblex"/><s n="iv"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e>       <p><l>ئے</l><r>ی<s n="vblex"/><s n="iv"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e>       <p><l>ئیں</l><r>ی<s n="vblex"/><s n="iv"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e r="LR">       <p><l>ئے</l><r>ی<s n="vblex"/><s n="iv"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
       <e>       <p><l>ئیں</l><r>ی<s n="vblex"/><s n="iv"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
       <e>       <p><l>یجیے</l><r>ی<s n="vblex"/><s n="iv"/><s n="imp"/><s n="p2"/><s n="frm"/><s n="pl"/></r></p></e>
-      <e>       <p><l>یجئے</l><r>ی<s n="vblex"/><s n="iv"/><s n="imp"/><s n="p2"/><s n="frm"/><s n="pl"/></r></p></e>
+      <e r="LR">       <p><l>یجئے</l><r>ی<s n="vblex"/><s n="iv"/><s n="imp"/><s n="p2"/><s n="frm"/><s n="pl"/></r></p></e>
       <e>       <p><l>ی</l><r>ی<s n="vblex"/><s n="iv"/><s n="stem"/></r></p></e>
       <e>       <p><l>یو</l><r>ی<s n="vblex"/><s n="iv"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
       <e>       <p><l>یتا</l><r>ی<s n="vblex"/><s n="iv"/><s n="impf"/><s n="m"/><s n="sg"/></r></p></e>
@@ -491,10 +480,10 @@
       <e>       <p><l>یتی</l><r>ی<s n="vblex"/><s n="iv"/><s n="impf"/><s n="f"/><s n="sg"/></r></p></e>
       <e>       <p><l>یتیں</l><r>ی<s n="vblex"/><s n="iv"/><s n="impf"/><s n="f"/><s n="pl"/></r></p></e>
       <e>       <p><l>یکر</l><r>ی<s n="vblex"/><s n="iv"/><s n="gna"/></r></p></e>
-      <e>       <p><l>یکے</l><r>ی<s n="vblex"/><s n="iv"/><s n="gna"/></r></p></e>
+      <e r="LR">       <p><l>یکے</l><r>ی<s n="vblex"/><s n="iv"/><s n="gna"/></r></p></e>
       <e>       <p><l>یا</l><r>ی<s n="vblex"/><s n="iv"/><s n="perf"/><s n="m"/><s n="sg"/></r></p></e>
       <e>       <p><l>یے</l><r>ی<s n="vblex"/><s n="iv"/><s n="perf"/><s n="m"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ئے</l><r>ی<s n="vblex"/><s n="iv"/><s n="perf"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="LR">       <p><l>ئے</l><r>ی<s n="vblex"/><s n="iv"/><s n="perf"/><s n="m"/><s n="pl"/></r></p></e>
 	 </pardef>
 
 
@@ -532,7 +521,7 @@
       <e>       <p><l>یتی</l><r>ے<s n="vblex"/><s n="tv"/><s n="impf"/><s n="f"/><s n="sg"/></r></p></e>
       <e>       <p><l>یتی</l><r>ے<s n="vblex"/><s n="tv"/><s n="impf"/><s n="f"/><s n="pl"/></r></p></e>
       <e>       <p><l>یکر</l><r>ے<s n="vblex"/><s n="tv"/><s n="gna"/></r></p></e>
-      <e>       <p><l>یکے</l><r>ے<s n="vblex"/><s n="tv"/><s n="gna"/></r></p></e>
+      <e r="LR">       <p><l>یکے</l><r>ے<s n="vblex"/><s n="tv"/><s n="gna"/></r></p></e>
       <e>       <p><l>یا</l><r>ے<s n="vblex"/><s n="tv"/><s n="perf"/><s n="m"/><s n="sg"/></r></p></e>
       <e>       <p><l>یے</l><r>ے<s n="vblex"/><s n="tv"/><s n="perf"/><s n="m"/><s n="pl"/></r></p></e>
       <e r="LR">       <p><l>یئے</l><r>ے<s n="vblex"/><s n="tv"/><s n="perf"/><s n="m"/><s n="pl"/></r></p></e>
@@ -544,24 +533,18 @@
 	<pardef n="آ__vblex_iv">
       <e>       <p><l>ؤنگا</l><r><s n="vblex"/><s n="iv"/><s n="fut"/><s n="p1"/><s n="m"/><s n="sg"/></r></p></e>
       <e>       <p><l>ئینگے</l><r><s n="vblex"/><s n="iv"/><s n="fut"/><s n="p1"/><s n="m"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ئینگے</l><r><s n="vblex"/><s n="iv"/><s n="fut"/><s n="p1"/><s n="m"/><s n="pl"/></r></p></e>
       <e>       <p><l>ؤنگی</l><r><s n="vblex"/><s n="iv"/><s n="fut"/><s n="p1"/><s n="f"/><s n="sg"/></r></p></e>
       <e>       <p><l>یینگی</l><r><s n="vblex"/><s n="iv"/><s n="fut"/><s n="p1"/><s n="f"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ئینگی</l><r><s n="vblex"/><s n="iv"/><s n="fut"/><s n="p1"/><s n="f"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ئیگا</l><r><s n="vblex"/><s n="iv"/><s n="fut"/><s n="p2"/><s n="m"/><s n="sg"/></r></p></e>
+      <e r="LR">       <p><l>ئینگی</l><r><s n="vblex"/><s n="iv"/><s n="fut"/><s n="p1"/><s n="f"/><s n="pl"/></r></p></e>
       <e>       <p><l>ئیگا</l><r><s n="vblex"/><s n="iv"/><s n="fut"/><s n="p2"/><s n="m"/><s n="sg"/></r></p></e>
       <e>       <p><l>ؤگے</l><r><s n="vblex"/><s n="iv"/><s n="fut"/><s n="p2"/><s n="m"/><s n="pl"/></r></p></e>
       <e>       <p><l>ئیگی</l><r><s n="vblex"/><s n="iv"/><s n="fut"/><s n="p2"/><s n="f"/><s n="sg"/></r></p></e>
-      <e>       <p><l>ئیگی</l><r><s n="vblex"/><s n="iv"/><s n="fut"/><s n="p2"/><s n="f"/><s n="sg"/></r></p></e>
       <e>       <p><l>ؤگی</l><r><s n="vblex"/><s n="iv"/><s n="fut"/><s n="p2"/><s n="f"/><s n="pl"/></r></p></e>
       <e>       <p><l>ئیگا</l><r><s n="vblex"/><s n="iv"/><s n="fut"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
-      <e>       <p><l>ئیگا</l><r><s n="vblex"/><s n="iv"/><s n="fut"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
       <e>       <p><l>ئینگے</l><r><s n="vblex"/><s n="iv"/><s n="fut"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ئینگے</l><r><s n="vblex"/><s n="iv"/><s n="fut"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ئیگی</l><r><s n="vblex"/><s n="iv"/><s n="fut"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
       <e>       <p><l>ئیگی</l><r><s n="vblex"/><s n="iv"/><s n="fut"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
       <e>       <p><l>یینگی</l><r><s n="vblex"/><s n="iv"/><s n="fut"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ئینگی</l><r><s n="vblex"/><s n="iv"/><s n="fut"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
+      <e r="LR">       <p><l>ئینگی</l><r><s n="vblex"/><s n="iv"/><s n="fut"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
       <e>       <p><l>نیوالا</l><r><s n="vblex"/><s n="iv"/><s n="agnt"/><s n="m"/><s n="sg"/></r></p></e>
       <e>       <p><l>نیوالے</l><r><s n="vblex"/><s n="iv"/><s n="agnt"/><s n="m"/><s n="pl"/></r></p></e>
       <e>       <p><l>نیوالی</l><r><s n="vblex"/><s n="iv"/><s n="agnt"/><s n="f"/><s n="sg"/></r></p></e>
@@ -571,15 +554,12 @@
       <e>       <p><l>نے</l><r><s n="vblex"/><s n="iv"/><s n="inf"/><s n="obl"/></r></p></e>
       <e>       <p><l>ؤں</l><r><s n="vblex"/><s n="iv"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
       <e>       <p><l>ییں</l><r><s n="vblex"/><s n="iv"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ئیں</l><r><s n="vblex"/><s n="iv"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ئے</l><r><s n="vblex"/><s n="iv"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e r="LR">       <p><l>ئیں</l><r><s n="vblex"/><s n="iv"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p></e>
       <e>       <p><l>ئے</l><r><s n="vblex"/><s n="iv"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
       <e>       <p><l>ؤ</l><r><s n="vblex"/><s n="iv"/><s n="prs"/><s n="p2"/><s n="pl"/></r></p></e>
       <e>       <p><l>ئے</l><r><s n="vblex"/><s n="iv"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e>       <p><l>ئے</l><r><s n="vblex"/><s n="iv"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
       <e>       <p><l>ییں</l><r><s n="vblex"/><s n="iv"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ئیں</l><r><s n="vblex"/><s n="iv"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ئیے</l><r><s n="vblex"/><s n="iv"/><s n="imp"/><s n="p2"/><s n="frm"/><s n="pl"/></r></p></e>
+      < r="LR"e>       <p><l>ئیں</l><r><s n="vblex"/><s n="iv"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
       <e>       <p><l>ئیے</l><r><s n="vblex"/><s n="iv"/><s n="imp"/><s n="p2"/><s n="frm"/><s n="pl"/></r></p></e>
       <e>       <p><l/><r><s n="vblex"/><s n="iv"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
       <e>       <p><l>ؤ</l><r><s n="vblex"/><s n="iv"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
@@ -591,10 +571,7 @@
       <e>       <p><l>کے</l><r><s n="vblex"/><s n="iv"/><s n="gna"/></r></p></e>
       <e>       <p><l>یا</l><r><s n="vblex"/><s n="iv"/><s n="perf"/><s n="m"/><s n="sg"/></r></p></e>
       <e>       <p><l>ئے</l><r><s n="vblex"/><s n="iv"/><s n="perf"/><s n="m"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ئے</l><r><s n="vblex"/><s n="iv"/><s n="perf"/><s n="m"/><s n="pl"/></r></p></e>
       <e>       <p><l>ئی</l><r><s n="vblex"/><s n="iv"/><s n="perf"/><s n="f"/><s n="sg"/></r></p></e>
-      <e>       <p><l>ئی</l><r><s n="vblex"/><s n="iv"/><s n="perf"/><s n="f"/><s n="sg"/></r></p></e>
-      <e>       <p><l>ئیں</l><r><s n="vblex"/><s n="iv"/><s n="perf"/><s n="f"/><s n="pl"/></r></p></e>
       <e>       <p><l>ئیں</l><r><s n="vblex"/><s n="iv"/><s n="perf"/><s n="f"/><s n="pl"/></r></p></e>
 
 	 </pardef>
@@ -602,22 +579,22 @@
 	 <pardef n="سو__vblex_iv">
       <e>       <p><l>ؤنگا</l><r><s n="vblex"/><s n="iv"/><s n="fut"/><s n="p1"/><s n="m"/><s n="sg"/></r></p></e>
       <e>       <p><l>یینگے</l><r><s n="vblex"/><s n="iv"/><s n="fut"/><s n="p1"/><s n="m"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ئینگے</l><r><s n="vblex"/><s n="iv"/><s n="fut"/><s n="p1"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="LR">       <p><l>ئینگے</l><r><s n="vblex"/><s n="iv"/><s n="fut"/><s n="p1"/><s n="m"/><s n="pl"/></r></p></e>
       <e>       <p><l>ؤنگی</l><r><s n="vblex"/><s n="iv"/><s n="fut"/><s n="p1"/><s n="f"/><s n="sg"/></r></p></e>
       <e>       <p><l>یینگی</l><r><s n="vblex"/><s n="iv"/><s n="fut"/><s n="p1"/><s n="f"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ئینگی</l><r><s n="vblex"/><s n="iv"/><s n="fut"/><s n="p1"/><s n="f"/><s n="pl"/></r></p></e>
+      <e r="LR">       <p><l>ئینگی</l><r><s n="vblex"/><s n="iv"/><s n="fut"/><s n="p1"/><s n="f"/><s n="pl"/></r></p></e>
       <e>       <p><l>ییگا</l><r><s n="vblex"/><s n="iv"/><s n="fut"/><s n="p2"/><s n="m"/><s n="sg"/></r></p></e>
-      <e>       <p><l>ئیگا</l><r><s n="vblex"/><s n="iv"/><s n="fut"/><s n="p2"/><s n="m"/><s n="sg"/></r></p></e>
+      <e r="LR">       <p><l>ئیگا</l><r><s n="vblex"/><s n="iv"/><s n="fut"/><s n="p2"/><s n="m"/><s n="sg"/></r></p></e>
       <e>       <p><l>ییگی</l><r><s n="vblex"/><s n="iv"/><s n="fut"/><s n="p2"/><s n="f"/><s n="sg"/></r></p></e>
-      <e>       <p><l>ئیگی</l><r><s n="vblex"/><s n="iv"/><s n="fut"/><s n="p2"/><s n="f"/><s n="sg"/></r></p></e>
+      <e r="LR">       <p><l>ئیگی</l><r><s n="vblex"/><s n="iv"/><s n="fut"/><s n="p2"/><s n="f"/><s n="sg"/></r></p></e>
       <e>       <p><l>ییگا</l><r><s n="vblex"/><s n="iv"/><s n="fut"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
-      <e>       <p><l>ئیگا</l><r><s n="vblex"/><s n="iv"/><s n="fut"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+      <e r="LR">       <p><l>ئیگا</l><r><s n="vblex"/><s n="iv"/><s n="fut"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
       <e>       <p><l>یینگے</l><r><s n="vblex"/><s n="iv"/><s n="fut"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ئینگے</l><r><s n="vblex"/><s n="iv"/><s n="fut"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="LR">       <p><l>ئینگے</l><r><s n="vblex"/><s n="iv"/><s n="fut"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
       <e>       <p><l>ییگی</l><r><s n="vblex"/><s n="iv"/><s n="fut"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
-      <e>       <p><l>ئیگی</l><r><s n="vblex"/><s n="iv"/><s n="fut"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+      <e r="LR">       <p><l>ئیگی</l><r><s n="vblex"/><s n="iv"/><s n="fut"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
       <e>       <p><l>یینگی</l><r><s n="vblex"/><s n="iv"/><s n="fut"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ئینگی</l><r><s n="vblex"/><s n="iv"/><s n="fut"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
+      <e r="LR">       <p><l>ئینگی</l><r><s n="vblex"/><s n="iv"/><s n="fut"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
       <e>       <p><l>نیوالا</l><r><s n="vblex"/><s n="iv"/><s n="agnt"/><s n="m"/><s n="sg"/></r></p></e>
       <e>       <p><l>نیوالے</l><r><s n="vblex"/><s n="iv"/><s n="agnt"/><s n="m"/><s n="pl"/></r></p></e>
       <e>       <p><l>نیوالی</l><r><s n="vblex"/><s n="iv"/><s n="agnt"/><s n="f"/><s n="sg"/></r></p></e>
@@ -627,14 +604,11 @@
       <e>       <p><l>نے</l><r><s n="vblex"/><s n="iv"/><s n="inf"/><s n="obl"/></r></p></e>
       <e>       <p><l>ؤں</l><r><s n="vblex"/><s n="iv"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
       <e>       <p><l>ییں</l><r><s n="vblex"/><s n="iv"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ئیں</l><r><s n="vblex"/><s n="iv"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e r="LR">       <p><l>ئیں</l><r><s n="vblex"/><s n="iv"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p></e>
       <e>       <p><l>ئے</l><r><s n="vblex"/><s n="iv"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e>       <p><l>ئے</l><r><s n="vblex"/><s n="iv"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e>       <p><l>ئے</l><r><s n="vblex"/><s n="iv"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
       <e>       <p><l>ئے</l><r><s n="vblex"/><s n="iv"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
       <e>       <p><l>ییں</l><r><s n="vblex"/><s n="iv"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ئیں</l><r><s n="vblex"/><s n="iv"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ئیے</l><r><s n="vblex"/><s n="iv"/><s n="imp"/><s n="p2"/><s n="frm"/><s n="pl"/></r></p></e>
+      <e r="LR">       <p><l>ئیں</l><r><s n="vblex"/><s n="iv"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
       <e>       <p><l>ئیے</l><r><s n="vblex"/><s n="iv"/><s n="imp"/><s n="p2"/><s n="frm"/><s n="pl"/></r></p></e>
       <e>       <p><l/><r><s n="vblex"/><s n="iv"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
       <e>       <p><l/><r><s n="vblex"/><s n="iv"/><s n="stem"/></r></p></e>
@@ -643,35 +617,32 @@
       <e>       <p><l>تی</l><r><s n="vblex"/><s n="iv"/><s n="impf"/><s n="f"/><s n="sg"/></r></p></e>
       <e>       <p><l>تیں</l><r><s n="vblex"/><s n="iv"/><s n="impf"/><s n="f"/><s n="pl"/></r></p></e>
       <e>       <p><l>کر</l><r><s n="vblex"/><s n="iv"/><s n="gna"/></r></p></e>
-      <e>       <p><l>کے</l><r><s n="vblex"/><s n="iv"/><s n="gna"/></r></p></e>
+      <e r="LR">       <p><l>کے</l><r><s n="vblex"/><s n="iv"/><s n="gna"/></r></p></e>
       <e>       <p><l>یا</l><r><s n="vblex"/><s n="iv"/><s n="perf"/><s n="m"/><s n="sg"/></r></p></e>
       <e>       <p><l>ئے</l><r><s n="vblex"/><s n="iv"/><s n="perf"/><s n="m"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ئے</l><r><s n="vblex"/><s n="iv"/><s n="perf"/><s n="m"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ئے</l><r><s n="vblex"/><s n="iv"/><s n="perf"/><s n="m"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ئی</l><r><s n="vblex"/><s n="iv"/><s n="perf"/><s n="f"/><s n="sg"/></r></p></e>
       <e>       <p><l>ئی</l><r><s n="vblex"/><s n="iv"/><s n="perf"/><s n="f"/><s n="sg"/></r></p></e>
       <e>       <p><l>ییں</l><r><s n="vblex"/><s n="iv"/><s n="perf"/><s n="f"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ئیں</l><r><s n="vblex"/><s n="iv"/><s n="perf"/><s n="f"/><s n="pl"/></r></p></e>
+      <e r="LR">       <p><l>ئیں</l><r><s n="vblex"/><s n="iv"/><s n="perf"/><s n="f"/><s n="pl"/></r></p></e>
 	</pardef>
 	 <pardef n="چھو__vblex_tv">
       <e>       <p><l>ؤنگا</l><r><s n="vblex"/><s n="tv"/><s n="fut"/><s n="p1"/><s n="m"/><s n="sg"/></r></p></e>
       <e>       <p><l>یینگے</l><r><s n="vblex"/><s n="tv"/><s n="fut"/><s n="p1"/><s n="m"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ئینگے</l><r><s n="vblex"/><s n="tv"/><s n="fut"/><s n="p1"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="LR">       <p><l>ئینگے</l><r><s n="vblex"/><s n="tv"/><s n="fut"/><s n="p1"/><s n="m"/><s n="pl"/></r></p></e>
       <e>       <p><l>ؤنگی</l><r><s n="vblex"/><s n="tv"/><s n="fut"/><s n="p1"/><s n="f"/><s n="sg"/></r></p></e>
       <e>       <p><l>یینگی</l><r><s n="vblex"/><s n="tv"/><s n="fut"/><s n="p1"/><s n="f"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ئینگی</l><r><s n="vblex"/><s n="tv"/><s n="fut"/><s n="p1"/><s n="f"/><s n="pl"/></r></p></e>
+      <e r="LR">       <p><l>ئینگی</l><r><s n="vblex"/><s n="tv"/><s n="fut"/><s n="p1"/><s n="f"/><s n="pl"/></r></p></e>
       <e>       <p><l>ییگا</l><r><s n="vblex"/><s n="tv"/><s n="fut"/><s n="p2"/><s n="m"/><s n="sg"/></r></p></e>
-      <e>       <p><l>ئیگا</l><r><s n="vblex"/><s n="tv"/><s n="fut"/><s n="p2"/><s n="m"/><s n="sg"/></r></p></e>
+      <e r="LR">       <p><l>ئیگا</l><r><s n="vblex"/><s n="tv"/><s n="fut"/><s n="p2"/><s n="m"/><s n="sg"/></r></p></e>
       <e>       <p><l>ییگی</l><r><s n="vblex"/><s n="tv"/><s n="fut"/><s n="p2"/><s n="f"/><s n="sg"/></r></p></e>
-      <e>       <p><l>ئیگی</l><r><s n="vblex"/><s n="tv"/><s n="fut"/><s n="p2"/><s n="f"/><s n="sg"/></r></p></e>
+      <e r="LR">       <p><l>ئیگی</l><r><s n="vblex"/><s n="tv"/><s n="fut"/><s n="p2"/><s n="f"/><s n="sg"/></r></p></e>
       <e>       <p><l>ییگا</l><r><s n="vblex"/><s n="tv"/><s n="fut"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
-      <e>       <p><l>ئیگا</l><r><s n="vblex"/><s n="tv"/><s n="fut"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+      <e r="LR">       <p><l>ئیگا</l><r><s n="vblex"/><s n="tv"/><s n="fut"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
       <e>       <p><l>یینگے</l><r><s n="vblex"/><s n="tv"/><s n="fut"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ئینگے</l><r><s n="vblex"/><s n="tv"/><s n="fut"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="LR">       <p><l>ئینگے</l><r><s n="vblex"/><s n="tv"/><s n="fut"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
       <e>       <p><l>ییگی</l><r><s n="vblex"/><s n="tv"/><s n="fut"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
-      <e>       <p><l>ئیگی</l><r><s n="vblex"/><s n="tv"/><s n="fut"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+      <e r="LR">       <p><l>ئیگی</l><r><s n="vblex"/><s n="tv"/><s n="fut"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
       <e>       <p><l>یینگی</l><r><s n="vblex"/><s n="tv"/><s n="fut"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ئینگی</l><r><s n="vblex"/><s n="tv"/><s n="fut"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
+      <e r="LR">       <p><l>ئینگی</l><r><s n="vblex"/><s n="tv"/><s n="fut"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
       <e>       <p><l>نیوالا</l><r><s n="vblex"/><s n="tv"/><s n="agnt"/><s n="m"/><s n="sg"/></r></p></e>
       <e>       <p><l>نیوالے</l><r><s n="vblex"/><s n="tv"/><s n="agnt"/><s n="m"/><s n="pl"/></r></p></e>
       <e>       <p><l>نیوالی</l><r><s n="vblex"/><s n="tv"/><s n="agnt"/><s n="f"/><s n="sg"/></r></p></e>
@@ -683,12 +654,9 @@
       <e>       <p><l>ییں</l><r><s n="vblex"/><s n="tv"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p></e>
       <e>       <p><l>ئیں</l><r><s n="vblex"/><s n="tv"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p></e>
       <e>       <p><l>ئے</l><r><s n="vblex"/><s n="tv"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e>       <p><l>ئے</l><r><s n="vblex"/><s n="tv"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e>       <p><l>ئے</l><r><s n="vblex"/><s n="tv"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
       <e>       <p><l>ئے</l><r><s n="vblex"/><s n="tv"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
       <e>       <p><l>ییں</l><r><s n="vblex"/><s n="tv"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ئیں</l><r><s n="vblex"/><s n="tv"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ئیے</l><r><s n="vblex"/><s n="tv"/><s n="imp"/><s n="p2"/><s n="frm"/><s n="pl"/></r></p></e>
+      <e r="LR">       <p><l>ئیں</l><r><s n="vblex"/><s n="tv"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
       <e>       <p><l>ئیے</l><r><s n="vblex"/><s n="tv"/><s n="imp"/><s n="p2"/><s n="frm"/><s n="pl"/></r></p></e>
       <e>       <p><l/><r><s n="vblex"/><s n="tv"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
       <e>       <p><l/><r><s n="vblex"/><s n="tv"/><s n="stem"/></r></p></e>
@@ -700,12 +668,9 @@
       <e>       <p><l>کے</l><r><s n="vblex"/><s n="tv"/><s n="gna"/></r></p></e>
       <e>       <p><l>یا</l><r><s n="vblex"/><s n="tv"/><s n="perf"/><s n="m"/><s n="sg"/></r></p></e>
       <e>       <p><l>ئے</l><r><s n="vblex"/><s n="tv"/><s n="perf"/><s n="m"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ئے</l><r><s n="vblex"/><s n="tv"/><s n="perf"/><s n="m"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ئے</l><r><s n="vblex"/><s n="tv"/><s n="perf"/><s n="m"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ئی</l><r><s n="vblex"/><s n="tv"/><s n="perf"/><s n="f"/><s n="sg"/></r></p></e>
       <e>       <p><l>ئی</l><r><s n="vblex"/><s n="tv"/><s n="perf"/><s n="f"/><s n="sg"/></r></p></e>
       <e>       <p><l>ییں</l><r><s n="vblex"/><s n="tv"/><s n="perf"/><s n="f"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ئیں</l><r><s n="vblex"/><s n="tv"/><s n="perf"/><s n="f"/><s n="pl"/></r></p></e>
+      <e r="LR">       <p><l>ئیں</l><r><s n="vblex"/><s n="tv"/><s n="perf"/><s n="f"/><s n="pl"/></r></p></e>
 	</pardef>
 
 
@@ -731,14 +696,11 @@
       <e>       <p><l>ہونے</l><r>ہونا<s n="vblex"/><s n="iv"/><s n="inf"/><s n="obl"/></r></p></e>
       <e>       <p><l>ہوؤں</l><r>ہونا<s n="vblex"/><s n="iv"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
       <e>       <p><l>ہوئے</l><r>ہونا<s n="vblex"/><s n="iv"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ہوئے</l><r>ہونا<s n="vblex"/><s n="iv"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p></e>
       <e>       <p><l>بولے</l><r>ہونا<s n="vblex"/><s n="iv"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
       <e>       <p><l>ہو</l><r>ہونا<s n="vblex"/><s n="iv"/><s n="prs"/><s n="p2"/><s n="pl"/></r></p></e>
       <e>       <p><l>ہوئے</l><r>ہونا<s n="vblex"/><s n="iv"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
       <e>       <p><l>ہوئے</l><r>ہونا<s n="vblex"/><s n="iv"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
       <e>       <p><l>ہوئے</l><r>ہونا<s n="vblex"/><s n="iv"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ہوئے</l><r>ہونا<s n="vblex"/><s n="iv"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ہوئے</l><r>ہونا<s n="vblex"/><s n="iv"/><s n="imp"/><s n="p2"/><s n="frm"/><s n="pl"/></r></p></e>
       <e>       <p><l>ہوئے</l><r>ہونا<s n="vblex"/><s n="iv"/><s n="imp"/><s n="p2"/><s n="frm"/><s n="pl"/></r></p></e>
       <e>       <p><l>ہو</l><r>ہونا<s n="vblex"/><s n="iv"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
       <e>       <p><l>ہو</l><r>ہونا<s n="vblex"/><s n="iv"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
@@ -747,14 +709,13 @@
       <e>       <p><l>ہوتی</l><r>ہونا<s n="vblex"/><s n="iv"/><s n="impf"/><s n="f"/><s n="sg"/></r></p></e>
       <e>       <p><l>ہوتی</l><r>ہونا<s n="vblex"/><s n="iv"/><s n="impf"/><s n="f"/><s n="pl"/></r></p></e>
       <e>       <p><l>ہوکر</l><r>ہونا<s n="vblex"/><s n="iv"/><s n="gna"/></r></p></e>
-      <e>       <p><l>ہوکے</l><r>ہونا<s n="vblex"/><s n="iv"/><s n="gna"/></r></p></e>
+      <e r="LR">       <p><l>ہوکے</l><r>ہونا<s n="vblex"/><s n="iv"/><s n="gna"/></r></p></e>
       <e>       <p><l>ہوا</l><r>ہونا<s n="vblex"/><s n="iv"/><s n="perf"/><s n="m"/><s n="sg"/></r></p></e>
       <e>       <p><l>ہوئے</l><r>ہونا<s n="vblex"/><s n="iv"/><s n="perf"/><s n="m"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ہوئے</l><r>ہونا<s n="vblex"/><s n="iv"/><s n="perf"/><s n="m"/><s n="pl"/></r></p></e>
       <e>       <p><l>حیی</l><r>ہونا<s n="vblex"/><s n="iv"/><s n="perf"/><s n="f"/><s n="sg"/></r></p></e>
-      <e>       <p><l>ہوئی</l><r>ہونا<s n="vblex"/><s n="iv"/><s n="perf"/><s n="f"/><s n="sg"/></r></p></e>
+      <e r="LR">       <p><l>ہوئی</l><r>ہونا<s n="vblex"/><s n="iv"/><s n="perf"/><s n="f"/><s n="sg"/></r></p></e>
       <e>       <p><l>ہییں</l><r>ہونا<s n="vblex"/><s n="iv"/><s n="perf"/><s n="f"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ہوئیں</l><r>ہونا<s n="vblex"/><s n="iv"/><s n="perf"/><s n="f"/><s n="pl"/></r></p></e>
+      <e r="LR">       <p><l>ہوئیں</l><r>ہونا<s n="vblex"/><s n="iv"/><s n="perf"/><s n="f"/><s n="pl"/></r></p></e>
 	</pardef>
 
 	<pardef n="/ہو__vbser">
@@ -778,7 +739,6 @@
       <e>       <p><l>ہونی</l><r>ہو<s n="vbser"/><s n="inf"/><s n="nom"/><s n="f"/></r></p></e>
       <e>       <p><l>ہونے</l><r>ہو<s n="vbser"/><s n="inf"/><s n="obl"/></r></p></e>
       <e>       <p><l>ہوں</l><r>ہو<s n="vbser"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e>       <p><l>ہوں</l><r>ہو<s n="vbser"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
       <e>       <p><l>ہیں</l><r>ہو<s n="vbser"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
       <e r="LR">       <p><l>ھیں</l><r>ہو<s n="vbser"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
       <e>       <p><l>ہو</l><r>ہو<s n="vbser"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
@@ -799,7 +759,7 @@
       <e>       <p><l>ہوتی</l><r>ہو<s n="vbser"/><s n="impf"/><s n="f"/><s n="sg"/></r></p></e>
       <e>       <p><l>ہوتی</l><r>ہو<s n="vbser"/><s n="impf"/><s n="f"/><s n="pl"/></r></p></e>
       <e>       <p><l>ہوکر</l><r>ہو<s n="vbser"/><s n="gna"/></r></p></e>
-      <e>       <p><l>ہوکے</l><r>ہو<s n="vbser"/><s n="gna"/></r></p></e>
+      <e r="LR">       <p><l>ہوکے</l><r>ہو<s n="vbser"/><s n="gna"/></r></p></e>
       <e>       <p><l>تھا</l><r>ہو<s n="vbser"/><s n="impf"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
       <e>       <p><l>تھے</l><r>ہو<s n="vbser"/><s n="impf"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
       <e>       <p><l>تھی</l><r>ہو<s n="vbser"/><s n="impf"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
@@ -808,24 +768,18 @@
 
     <pardef n="جا__vblex_iv">
       <e>       <p><l>جاؤنگا</l><r>جا<s n="vblex"/><s n="iv"/><s n="fut"/><s n="p1"/><s n="m"/><s n="sg"/></r></p></e>
-      <e>       <p><l>جائیں گے</l><r>جا<s n="vblex"/><s n="iv"/><s n="fut"/><s n="p1"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="LR">       <p><l>جائیں گے</l><r>جا<s n="vblex"/><s n="iv"/><s n="fut"/><s n="p1"/><s n="m"/><s n="pl"/></r></p></e>
       <e>       <p><l>جا ئینگے</l><r>جا<s n="vblex"/><s n="iv"/><s n="fut"/><s n="p1"/><s n="m"/><s n="pl"/></r></p></e>
       <e>       <p><l>جاؤنگی</l><r>جا<s n="vblex"/><s n="iv"/><s n="fut"/><s n="p1"/><s n="f"/><s n="sg"/></r></p></e>
       <e>       <p><l>جائینگی</l><r>جا<s n="vblex"/><s n="iv"/><s n="fut"/><s n="p1"/><s n="f"/><s n="pl"/></r></p></e>
-      <e>       <p><l>جائینگی</l><r>جا<s n="vblex"/><s n="iv"/><s n="fut"/><s n="p1"/><s n="f"/><s n="pl"/></r></p></e>
-      <e>       <p><l>جائیگا</l><r>جا<s n="vblex"/><s n="iv"/><s n="fut"/><s n="p2"/><s n="m"/><s n="sg"/></r></p></e>
       <e>       <p><l>جائیگا</l><r>جا<s n="vblex"/><s n="iv"/><s n="fut"/><s n="p2"/><s n="m"/><s n="sg"/></r></p></e>
       <e>       <p><l>جاؤ گے</l><r>جا<s n="vblex"/><s n="iv"/><s n="fut"/><s n="p2"/><s n="m"/><s n="pl"/></r></p></e>
       <e>       <p><l>جائیگی</l><r>جا<s n="vblex"/><s n="iv"/><s n="fut"/><s n="p2"/><s n="f"/><s n="sg"/></r></p></e>
-      <e>       <p><l>جائیگی</l><r>جا<s n="vblex"/><s n="iv"/><s n="fut"/><s n="p2"/><s n="f"/><s n="sg"/></r></p></e>
       <e>       <p><l>جاؤگی</l><r>جا<s n="vblex"/><s n="iv"/><s n="fut"/><s n="p2"/><s n="f"/><s n="pl"/></r></p></e>
-      <e>       <p><l>جائیگا</l><r>جا<s n="vblex"/><s n="iv"/><s n="fut"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
       <e>       <p><l>جائیگا</l><r>جا<s n="vblex"/><s n="iv"/><s n="fut"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
       <e>       <p><l>جائیں گے</l><r>جا<s n="vblex"/><s n="iv"/><s n="fut"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
       <e>       <p><l>جا ئینگے</l><r>جا<s n="vblex"/><s n="iv"/><s n="fut"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
       <e>       <p><l>جائیگی</l><r>جا<s n="vblex"/><s n="iv"/><s n="fut"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
-      <e>       <p><l>جائیگی</l><r>جا<s n="vblex"/><s n="iv"/><s n="fut"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
-      <e>       <p><l>جائینگی</l><r>جا<s n="vblex"/><s n="iv"/><s n="fut"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
       <e>       <p><l>جائینگی</l><r>جا<s n="vblex"/><s n="iv"/><s n="fut"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
       <e>       <p><l>جانیوالا</l><r>جا<s n="vblex"/><s n="iv"/><s n="agnt"/><s n="m"/><s n="sg"/></r></p></e>
       <e>       <p><l>جانیوالے</l><r>جا<s n="vblex"/><s n="iv"/><s n="agnt"/><s n="m"/><s n="pl"/></r></p></e>
@@ -836,15 +790,10 @@
       <e>       <p><l>جانے</l><r>جا<s n="vblex"/><s n="iv"/><s n="inf"/><s n="obl"/></r></p></e>
       <e>       <p><l>جاؤں</l><r>جا<s n="vblex"/><s n="iv"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
       <e>       <p><l>جائیں</l><r>جا<s n="vblex"/><s n="iv"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e>       <p><l>جائیں</l><r>جا<s n="vblex"/><s n="iv"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p></e>
       <e>       <p><l>جاؤ</l><r>جا<s n="vblex"/><s n="iv"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
       <e>       <p><l>جائیں</l><r>جا<s n="vblex"/><s n="iv"/><s n="prs"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e>       <p><l>جائیں</l><r>جا<s n="vblex"/><s n="iv"/><s n="prs"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e>       <p><l>جائے</l><r>جا<s n="vblex"/><s n="iv"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
       <e>       <p><l>جائے</l><r>جا<s n="vblex"/><s n="iv"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
       <e>       <p><l>جائیں</l><r>جا<s n="vblex"/><s n="iv"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
-      <e>       <p><l>جائیں</l><r>جا<s n="vblex"/><s n="iv"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
-      <e>       <p><l>جائیے</l><r>جا<s n="vblex"/><s n="iv"/><s n="imp"/><s n="p2"/><s n="frm"/><s n="pl"/></r></p></e>
       <e>       <p><l>جائیے</l><r>جا<s n="vblex"/><s n="iv"/><s n="imp"/><s n="p2"/><s n="frm"/><s n="pl"/></r></p></e>
       <e>       <p><l>جا</l><r>جا<s n="vblex"/><s n="iv"/><s n="stem"/></r></p></e>
       <e>       <p><l>جاؤ</l><r>جا<s n="vblex"/><s n="iv"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
@@ -854,14 +803,12 @@
       <e>       <p><l>جاتی</l><r>جا<s n="vblex"/><s n="iv"/><s n="impf"/><s n="f"/><s n="sg"/></r></p></e>
       <e>       <p><l>جاتیں</l><r>جا<s n="vblex"/><s n="iv"/><s n="impf"/><s n="f"/><s n="pl"/></r></p></e>
       <e>       <p><l>جاکر</l><r>جا<s n="vblex"/><s n="iv"/><s n="gna"/></r></p></e>
-      <e>       <p><l>جاکے</l><r>جا<s n="vblex"/><s n="iv"/><s n="gna"/></r></p></e>
+      <e r="LR">       <p><l>جاکے</l><r>جا<s n="vblex"/><s n="iv"/><s n="gna"/></r></p></e>
       <e>       <p><l>گیا</l><r>جا<s n="vblex"/><s n="iv"/><s n="perf"/><s n="m"/><s n="sg"/></r></p></e>
       <e r="LR"><p><l>گيا</l><r>جا<s n="vblex"/><s n="iv"/><s n="perf"/><s n="m"/><s n="sg"/></r></p></e>
       <e>       <p><l>گئے</l><r>جا<s n="vblex"/><s n="iv"/><s n="perf"/><s n="m"/><s n="pl"/></r></p></e>
-      <e>       <p><l>گئے</l><r>جا<s n="vblex"/><s n="iv"/><s n="perf"/><s n="m"/><s n="pl"/></r></p></e>
       <e>       <p><l>گئی</l><r>جا<s n="vblex"/><s n="iv"/><s n="perf"/><s n="f"/><s n="sg"/></r></p></e>
       <e r="LR">       <p><l>گئ</l><r>جا<s n="vblex"/><s n="iv"/><s n="perf"/><s n="f"/><s n="sg"/></r></p></e>
-      <e>       <p><l>گئیں</l><r>جا<s n="vblex"/><s n="iv"/><s n="perf"/><s n="f"/><s n="pl"/></r></p></e>
       <e>       <p><l>گئیں</l><r>جا<s n="vblex"/><s n="iv"/><s n="perf"/><s n="f"/><s n="pl"/></r></p></e>
 	</pardef>
     <!-- Postpositions -->
@@ -871,9 +818,10 @@
     </pardef>
 
     <pardef n="/کا__post">
-       <e><p><l>کا</l><r>کا<s n="post"/><s n="m"/><s n="gen"/></r></p></e>
-       <e><p><l>کے</l><r>کا<s n="post"/><s n="mf"/><s n="gen"/></r></p></e>
-       <e><p><l>کی</l><r>کا<s n="post"/><s n="f"/><s n="gen"/></r></p></e>
+       <e><p><l>کا</l><r>کا<s n="post"/><s n="m"/><s n="sg"/><s n="gen"/></r></p></e>
+       <e><p><l>کے</l><r>کا<s n="post"/><s n="m"/><s n="pl"/><s n="gen"/></r></p></e>
+       <e><p><l>کی</l><r>کا<s n="post"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
+       <e><p><l>کی</l><r>کا<s n="post"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
     </pardef>
 
     <!-- Conjunctions -->
@@ -890,6 +838,10 @@
 
     <pardef n="آٹھ__num">
       <e><p><l></l><r><s n="num"/></r></p></e>
+      <e r="LR"><p><l>اں</l><r><s n="num"/><s n="ord"/><s n ="m"/></r></p></e>
+      <e r="LR"><p><l>یں</l><r><s n="num"/><s n="ord"/><s n ="f"/></r></p></e>
+      <e r="LR"><p><l>یں</l><r><s n="num"/><s n="ord"/><s n ="mf"/></r></p></e>
+      <e r="LR"><p><l>ں</l><r><s n="num"/><s n="m"/><s n="pl"/><s n="obl"/></r></p></e>
       <e><p><l>واں</l><r><s n="num"/><s n="ord"/><s n ="m"/></r></p></e>
       <e><p><l>ویں</l><r><s n="num"/><s n="ord"/><s n ="f"/></r></p></e>
       <e><p><l>ویں</l><r><s n="num"/><s n="ord"/><s n ="mf"/></r></p></e>
@@ -1039,10 +991,11 @@
 
     </pardef>
 
-    <pardef n="ا/پ__prn">
-      <e><p><l>پنی</l><r>پ<s n="prn"/><s n="pers"/><s n="p1"/><s n="f"/><s n="pos"/><s n="sg"/></r></p></e>
-      <e><p><l>پنا</l><r>پ<s n="prn"/><s n="pers"/><s n="p1"/><s n="m"/><s n="pos"/><s n="sg"/></r></p></e>
-      <e><p><l>پنے</l><r>پ<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="pos"/><s n="sg"/></r></p></e>
+    <pardef n="/اپ__prn">
+      <e r="LR"><p><l>اپنى</l><r>اپ<s n="prn"/><s n="pers"/><s n="p1"/><s n="f"/><s n="pos"/><s n="sg"/></r></p></e>
+      <e><p><l>اپنی</l><r>اپ<s n="prn"/><s n="pers"/><s n="p1"/><s n="f"/><s n="pos"/><s n="sg"/></r></p></e>
+      <e><p><l>اپنا</l><r>اپ<s n="prn"/><s n="pers"/><s n="p1"/><s n="m"/><s n="pos"/><s n="sg"/></r></p></e>
+      <e><p><l>اپنے</l><r>اپ<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="pos"/><s n="sg"/></r></p></e>
     </pardef>
 
     <pardef n="/یہ__prn">       
@@ -1371,6 +1324,7 @@
     <pardef n="خط/ہ__n_m">
       <e>       <p><l>ے</l><r>ہ<s n="n"/><s n="m"/><s n="sg"/><s n="obl"/></r></p></e>
       <e>       <p><l>ے</l><r>ہ<s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e r="LR">       <p><l>ۂ</l><r>ہ<s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
       <e>       <p><l>ہ</l><r>ہ<s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
       <e>       <p><l>وں</l><r>ہ<s n="n"/><s n="m"/><s n="pl"/><s n="obl"/></r></p></e>
       <e r="LR"><p><l>ات</l><r>ہ<s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
@@ -1394,8 +1348,6 @@
       <e>       <p><l/><r><s n="n"/><s n="f"/><s n="sg"/><s n="obl"/></r></p></e>
       <e>       <p><l>وں</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="obl"/></r></p></e>
       <e>       <p><l>وں</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="obl"/></r></p></e>
-      <e>       <p><l>وں</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="obl"/></r></p></e>
-      <e>       <p><l>یں</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
       <e>       <p><l>یں</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
     </pardef>
     <pardef n="جج__n_m">
@@ -1429,7 +1381,7 @@
       <e>       <p><l/><r><s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
       <e>       <p><l/><r><s n="n"/><s n="m"/><s n="sg"/><s n="obl"/></r></p></e>
       <e>       <p><l>ان</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
-      <e>       <p><l/><r><s n="n"/><s n="m"/><s n="pl"/><s n="obl"/></r></p></e>
+      <e r="LR">       <p><l/><r><s n="n"/><s n="m"/><s n="pl"/><s n="obl"/></r></p></e>
       <e>       <p><l>وں</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="obl"/></r></p></e>
     </pardef>
     <pardef n="قدر__n_f">
@@ -1466,12 +1418,8 @@
       <e>       <p><l/><r><s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
       <e>       <p><l/><r><s n="n"/><s n="m"/><s n="sg"/><s n="obl"/></r></p></e>
       <e>       <p><l/><r><s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
-      <e>       <p><l/><r><s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
-      <e>       <p><l/><r><s n="n"/><s n="f"/><s n="sg"/><s n="obl"/></r></p></e>
       <e>       <p><l>وں</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="obl"/></r></p></e>
       <e>       <p><l>وں</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="obl"/></r></p></e>
-      <e>       <p><l>وں</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="obl"/></r></p></e>
-      <e>       <p><l>یں</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
       <e>       <p><l>یں</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
     </pardef>
     <pardef n="اخبار__n">
@@ -1491,7 +1439,7 @@
       <e>       <p><l/><r><s n="n"/><s n="m"/><s n="sg"/><s n="obl"/></r></p></e>
       <e>       <p><l/><r><s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
       <e>       <p><l>وں</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="obl"/></r></p></e>
-      <e>       <p><l>ؤں</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="obl"/></r></p></e>
+      <e r="LR">       <p><l>ؤں</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="obl"/></r></p></e>
     </pardef>
     <pardef n="کنی/ا__n">
       <e>       <p><l>ا</l><r>ا<s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
@@ -1505,12 +1453,9 @@
       <e>       <p><l/><r><s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
       <e>       <p><l/><r><s n="n"/><s n="m"/><s n="sg"/><s n="obl"/></r></p></e>
       <e>       <p><l/><r><s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
-      <e>       <p><l/><r><s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
       <e>       <p><l/><r><s n="n"/><s n="f"/><s n="sg"/><s n="obl"/></r></p></e>
       <e>       <p><l>وں</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="obl"/></r></p></e>
       <e>       <p><l>وں</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="obl"/></r></p></e>
-      <e>       <p><l>وں</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="obl"/></r></p></e>
-      <e>       <p><l>یں</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
       <e>       <p><l>یں</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
     </pardef>
     <pardef n="/آخر__n">
@@ -1532,7 +1477,6 @@
       <e>       <p><l/><r><s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
       <e>       <p><l/><r><s n="n"/><s n="m"/><s n="sg"/><s n="obl"/></r></p></e>
       <e>       <p><l/><r><s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
-      <e>       <p><l/><r><s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
       <e>       <p><l/><r><s n="n"/><s n="f"/><s n="sg"/><s n="obl"/></r></p></e>
       <e>       <p><l>وں</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="obl"/></r></p></e>
       <e>       <p><l>وں</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="obl"/></r></p></e>
@@ -1563,9 +1507,7 @@
       <e>       <p><l>ے</l><r>ہ<s n="n"/><s n="m"/><s n="sg"/><s n="obl"/></r></p></e>
       <e>       <p><l>ے</l><r>ہ<s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
       <e>       <p><l>ہ</l><r>ہ<s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-      <e>       <p><l>ہ</l><r>ہ<s n="n"/><s n="m"/><s n="sg"/><s n="obl"/></r></p></e>
-      <e>       <p><l>ہ</l><r>ہ<s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
-      <e>       <p><l>ہ</l><r>ہ<s n="n"/><s n="m"/><s n="pl"/><s n="obl"/></r></p></e>
+      <e r="LR">       <p><l>ہ</l><r>ہ<s n="n"/><s n="m"/><s n="pl"/><s n="obl"/></r></p></e>
       <e>       <p><l>ہ</l><r>ہ<s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
       <e>       <p><l>وں</l><r>ہ<s n="n"/><s n="m"/><s n="pl"/><s n="obl"/></r></p></e>
     </pardef>
@@ -1576,11 +1518,8 @@
       <e>       <p><l/><r><s n="n"/><s n="f"/><s n="sg"/><s n="obl"/></r></p></e>
       <e>       <p><l/><r><s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
       <e>       <p><l/><r><s n="n"/><s n="f"/><s n="sg"/><s n="obl"/></r></p></e>
-      <e>       <p><l>اں</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e r="LR">       <p><l>اں</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
       <e>       <p><l>وں</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="obl"/></r></p></e>
-      <e>       <p><l>وں</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="obl"/></r></p></e>
-      <e>       <p><l>وں</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="obl"/></r></p></e>
-      <e>       <p><l>یں</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
       <e>       <p><l>یں</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
     </pardef>
     <pardef n="حرکت__n">
@@ -1593,8 +1532,6 @@
       <e>       <p><l/><r><s n="n"/><s n="f"/><s n="sg"/><s n="obl"/></r></p></e>
       <e>       <p><l>وں</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="obl"/></r></p></e>
       <e>       <p><l>وں</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="obl"/></r></p></e>
-      <e>       <p><l>وں</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="obl"/></r></p></e>
-      <e>       <p><l>یں</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
       <e>       <p><l>یں</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
     </pardef>
     <pardef n="رعنائی__n">
@@ -1603,7 +1540,6 @@
       <e>       <p><l/><r><s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
       <e>       <p><l/><r><s n="n"/><s n="f"/><s n="sg"/><s n="obl"/></r></p></e>
       <e>       <p><l>اں</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
-      <e>       <p><l>وں</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="obl"/></r></p></e>
       <e>       <p><l>وں</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="obl"/></r></p></e>
       <e>       <p><l>یں</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
     </pardef>
@@ -1617,9 +1553,8 @@
       <e>       <p><l/><r><s n="n"/><s n="f"/><s n="sg"/><s n="obl"/></r></p></e>
       <e>       <p><l>وں</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="obl"/></r></p></e>
       <e>       <p><l>وں</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="obl"/></r></p></e>
-      <e>       <p><l>وں</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="obl"/></r></p></e>
       <e>       <p><l>یں</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
-      <e>       <p><l>یں</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e r="LR">       <p><l>یں</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
     </pardef>
     <pardef n="حیوان__n">
       <e>       <p><l/><r><s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
@@ -1628,8 +1563,6 @@
       <e>       <p><l/><r><s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
       <e>       <p><l/><r><s n="n"/><s n="m"/><s n="sg"/><s n="obl"/></r></p></e>
       <e>       <p><l>ات</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
-      <e>       <p><l>ات</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="obl"/></r></p></e>
-      <e>       <p><l>وں</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="obl"/></r></p></e>
       <e>       <p><l>وں</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="obl"/></r></p></e>
     </pardef>
     <pardef n="کرتوت__n">
@@ -1642,8 +1575,6 @@
       <e>       <p><l/><r><s n="n"/><s n="f"/><s n="sg"/><s n="obl"/></r></p></e>
       <e>       <p><l>وں</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="obl"/></r></p></e>
       <e>       <p><l>وں</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="obl"/></r></p></e>
-      <e>       <p><l>وں</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="obl"/></r></p></e>
-      <e>       <p><l>یں</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
       <e>       <p><l>یں</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
     </pardef>
     <pardef n="مصلحت__n">
@@ -1656,8 +1587,6 @@
       <e>       <p><l/><r><s n="n"/><s n="f"/><s n="sg"/><s n="obl"/></r></p></e>
       <e>       <p><l>وں</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="obl"/></r></p></e>
       <e>       <p><l>وں</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="obl"/></r></p></e>
-      <e>       <p><l>وں</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="obl"/></r></p></e>
-      <e>       <p><l>یں</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
       <e>       <p><l>یں</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
     </pardef>
     <pardef n="/آخِر__n">
@@ -1681,7 +1610,7 @@
       <e>       <p><l/><r><s n="n"/><s n="f"/><s n="sg"/><s n="obl"/></r></p></e>
       <e>       <p><l/><r><s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
       <e>       <p><l/><r><s n="n"/><s n="f"/><s n="sg"/><s n="obl"/></r></p></e>
-      <e>       <p><l>اں</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e r="LR">       <p><l>اں</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
       <e>       <p><l>وں</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="obl"/></r></p></e>
       <e>       <p><l>وں</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="obl"/></r></p></e>
       <e>       <p><l>وں</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="obl"/></r></p></e>
@@ -1698,8 +1627,6 @@
       <e>       <p><l/><r><s n="n"/><s n="f"/><s n="sg"/><s n="obl"/></r></p></e>
       <e>       <p><l>وں</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="obl"/></r></p></e>
       <e>       <p><l>وں</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="obl"/></r></p></e>
-      <e>       <p><l>وں</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="obl"/></r></p></e>
-      <e>       <p><l>یں</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
       <e>       <p><l>یں</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
     </pardef>
     <pardef n="آفت__n">
@@ -1712,8 +1639,6 @@
       <e>       <p><l/><r><s n="n"/><s n="f"/><s n="sg"/><s n="obl"/></r></p></e>
       <e>       <p><l>وں</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="obl"/></r></p></e>
       <e>       <p><l>وں</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="obl"/></r></p></e>
-      <e>       <p><l>وں</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="obl"/></r></p></e>
-      <e>       <p><l>یں</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
       <e>       <p><l>یں</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
     </pardef>
     <pardef n="حیرت__n">
@@ -1845,7 +1770,7 @@
       <e>       <p><l>ا</l><r>ا<s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
       <e>       <p><l>ا</l><r>ا<s n="n"/><s n="f"/><s n="sg"/><s n="obl"/></r></p></e>
       <e>       <p><l>ا</l><r>ا<s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-      <e>       <p><l>اؤں</l><r>ا<s n="n"/><s n="f"/><s n="pl"/><s n="obl"/></r></p></e>
+      <e r="LR">       <p><l>اؤں</l><r>ا<s n="n"/><s n="f"/><s n="pl"/><s n="obl"/></r></p></e>
       <e>       <p><l>ائیں</l><r>ا<s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
       <e>       <p><l>وں</l><r>ا<s n="n"/><s n="m"/><s n="pl"/><s n="obl"/></r></p></e>
     </pardef>
@@ -1931,7 +1856,6 @@
       <e>       <p><l/><r><s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
       <e>       <p><l/><r><s n="n"/><s n="m"/><s n="sg"/><s n="obl"/></r></p></e>
       <e>       <p><l>ات</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
-      <e>       <p><l>ات</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="obl"/></r></p></e>
       <e>       <p><l>وں</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="obl"/></r></p></e>
     </pardef>
     <pardef n="اثر__n">
@@ -1959,9 +1883,7 @@
       <e>       <p><l/><r><s n="n"/><s n="m"/><s n="sg"/><s n="obl"/></r></p></e>
       <e>       <p><l/><r><s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
       <e>       <p><l/><r><s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-      <e>       <p><l/><r><s n="n"/><s n="m"/><s n="sg"/><s n="obl"/></r></p></e>
       <e>       <p><l/><r><s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
-      <e>       <p><l/><r><s n="n"/><s n="m"/><s n="pl"/><s n="obl"/></r></p></e>
       <e>       <p><l>وں</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="obl"/></r></p></e>
     </pardef>
     <pardef n="راہدار/ی__n">
@@ -1986,7 +1908,6 @@
       <e>       <p><l/><r><s n="n"/><s n="f"/><s n="sg"/><s n="obl"/></r></p></e>
       <e>       <p><l>وں</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="obl"/></r></p></e>
       <e>       <p><l>وں</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="obl"/></r></p></e>
-      <e>       <p><l>وں</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="obl"/></r></p></e>
       <e>       <p><l>یں</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
       <e>       <p><l>یں</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
     </pardef>
@@ -2000,7 +1921,6 @@
       <e>       <p><l/><r><s n="n"/><s n="f"/><s n="sg"/><s n="obl"/></r></p></e>
       <e>       <p><l>وں</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="obl"/></r></p></e>
       <e>       <p><l>وں</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="obl"/></r></p></e>
-      <e>       <p><l>وں</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="obl"/></r></p></e>
       <e>       <p><l>یں</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
       <e>       <p><l>یں</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
     </pardef>
@@ -2014,8 +1934,6 @@
       <e>       <p><l/><r><s n="n"/><s n="f"/><s n="sg"/><s n="obl"/></r></p></e>
       <e>       <p><l>وں</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="obl"/></r></p></e>
       <e>       <p><l>وں</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="obl"/></r></p></e>
-      <e>       <p><l>وں</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="obl"/></r></p></e>
-      <e>       <p><l>یں</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
       <e>       <p><l>یں</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
     </pardef>
 
@@ -2089,6 +2007,8 @@
     <e lm="صفر"><i>صفر</i><par n="دو__num"/></e>
     <e lm="یک"><i>یک</i><par n="دو__num"/></e>
     <e lm="ايک"><i>ايک</i><par n="دو__num"/></e>
+    <e lm="واں"><i>واں</i><par n="یکم__ord"/></e>
+    <e lm="ویں"><i>ویں</i><par n="یکم__ord"/></e>
     <e lm="یکم"><i>یکم</i><par n="یکم__ord"/></e>
     <e lm="دوئم"><i>دوئم</i><par n="یکم__ord"/></e>
     <e lm="ایک"><i>ایک</i><par n="دو__num"/></e>
@@ -2224,8 +2144,24 @@
 
 
     <!-- Nouns -->
+    <e lm="ضبط"><i>ضبط</i><par n="آب__n_m"/></e>
+    <e lm="ذمہ داری"><i>ذمہ<b/>داری</i><par n="کلی__n_f"/></e>
+    <e lm="منصوبہ دان"><i>منصوبہ<b/>دان</i><par n="جج__n_m"/></e>
+    <e lm="ایوان صدر"><i>ایوان<b/>صدر</i><par n="آب__n_m"/></e>
+    <e lm="آبادى"><i>آبادى</i><par n="کلی__n_f"/></e>
+    <e lm="مردم شمارى"><i>مردم<b/>شمارى</i><par n="کلی__n_f"/></e>
+    <e lm="زور باز"><i>زور<b/>باز</i><par n="جج__n_m"/></e>
+    <e lm="خیریہ"><i>خیریہ</i><par n="آب__n_m"/></e>
+    <e lm="سلاطین"><i>سلاطین</i><par n="ممالک__n_m"/></e>
+    <e lm="اطاعت"><i>اطاعت</i><par n="قدر__n_f"/></e>
+    <e lm="پیدل"><i>پیدل</i><par n="آب__n_m"/></e>
+    <e lm="دار و مدار"><i>دار و مدار</i><par n="آب__n_m"/></e>
+    <e lm="اسلحہ"><i>اسلح</i><par n="خط/ہ__n_m"/></e>
+    <e lm="باجگذار"><i>باجگذار</i><par n="جج__n_m"/></e>
+    <e lm="آبنائے"><i>آبنائے</i><par n="آب__n_m"/></e>
     <e lm="چوک"><i>چوک</i><par n="جج__n_m"/></e>
     <e lm="وقت"><i>وقت</i><par n="آب__n_m"/></e>
+    <e lm="فتوحات"><i>فتوحات</i><par n="کتب__n_f"/></e>
     <e lm="علامات"><i>علامات</i><par n="کتب__n_f"/></e>
     <e lm="کاٹن"><i>کاٹن</i><par n="آب__n_m"/></e>
     <e lm="احتیاط"><i>احتیاط</i><par n="آب__n_m"/></e>
@@ -2253,12 +2189,16 @@
     <e lm="انٹرنیٹ"><i>انٹرنیٹ</i><par n="آب__n_m"/></e>
     <e lm="وفاق"><i>وفاق</i><par n="جج__n_m"/></e>
     <e lm="بناء"><i>بناء</i><par n="آب__n_m"/></e>
+    <e lm="سیاست دان"><i>سیاست دان</i><par n="جج__n_m"/></e>
+    <e lm="سفارت کار"><i>سفارت<b/>کار</i><par n="جج__n_m"/></e>
     <e lm="گلوکار"><i>گلوکار</i><par n="جج__n_m"/></e>
     <e lm="جاں"><i>جاں</i><par n="آب__n_m"/></e>
     <e lm="ڈائریکٹر"><i>ڈائریکٹر</i><par n="جج__n_m"/></e>
     <e lm="معاون"><i>معاون</i><par n="آب__n_m"/></e>
     <e lm="افسر"><i>افسر</i><par n="جج__n_m"/></e>
     <e lm="نکات"><i>نکات</i><par n="ممالک__n_m"/></e>
+    <e lm="دھاک"><i>دھاک</i><par n="قدر__n_f"/></e> 
+    <e lm="آگ"><i>آگ</i><par n="قدر__n_f"/></e>
     <e lm="میزبانی"><i>میزبانی</i><par n="قدر__n_f"/></e> 
     <e lm="نشاندہی"><i>نشاندہی</i><par n="قدر__n_f"/></e>
     <e lm="ہاؤس"><i>ہاؤس</i><par n="آب__n_m"/></e>
@@ -3651,7 +3591,6 @@
     <e lm="اشتہاد"><i>اشتہاد</i><par n="اخبار__n"/></e>
     <e lm="اشقاق"><i>اشقاق</i><par n="اخبار__n"/></e>
     <e lm="اصلاح"><i>اصلاح</i><par n="اخبار__n"/></e>
-    <e lm="اطاعت"><i>اطاعت</i><par n="اخبار__n"/></e>
     <e lm="اطلاع"><i>اطلاع</i><par n="اخبار__n"/></e>
     <e lm="اعتابر"><i>اعتابر</i><par n="اخبار__n"/></e>
     <e lm="اعتبار"><i>اعتبار</i><par n="اخبار__n"/></e>
@@ -3861,7 +3800,6 @@
     <e lm="فروع"><i>فروع</i><par n="اخبار__n"/></e>
     <e lm="فساخ"><i>فساخ</i><par n="اخبار__n"/></e>
     <e lm="فساد"><i>فساد</i><par n="اخبار__n"/></e>
-    <e lm="قابض"><i>قابض</i><par n="اخبار__n"/></e>
     <e lm="قاتل"><i>قاتل</i><par n="اخبار__n"/></e>
     <e lm="قرب"><i>قرب</i><par n="اخبار__n"/></e>
     <e lm="قضی"><i>قضی</i><par n="اخبار__n"/></e>
@@ -6903,7 +6841,6 @@
     <e lm="آسودگان"><i>آسودگان</i><par n="آب__n_m"/></e>
     <e lm="مرثیہ"><i>مرثیہ</i><par n="آب__n_m"/></e>
     <e lm="توتلا"><i>توتلا</i><par n="آب__n_m"/></e>
-    <e lm="نیزہ"><i>نیزہ</i><par n="آب__n_m"/></e>
     <e lm="چغا"><i>چغا</i><par n="آب__n_m"/></e>
     <e lm="اشقیا"><i>اشقیا</i><par n="آب__n_m"/></e>
     <e lm="ریکسین"><i>ریکسین</i><par n="آب__n_m"/></e>
@@ -7363,7 +7300,6 @@
     <e lm="گوٹا"><i>گوٹا</i><par n="آب__n_m"/></e>
     <e lm="پاور"><i>پاور</i><par n="آب__n_m"/></e>
     <e lm="کماہ"><i>کماہ</i><par n="آب__n_m"/></e>
-    <e lm="پہرہ"><i>پہرہ</i><par n="آب__n_m"/></e>
     <e lm="اپیکا"><i>اپیکا</i><par n="آب__n_m"/></e>
     <e lm="سعی"><i>سعی</i><par n="آب__n_m"/></e>
     <e lm="سیوا"><i>سیوا</i><par n="آب__n_m"/></e>
@@ -8186,7 +8122,6 @@
     <e lm="طفولیت"><i>طفولیت</i><par n="آب__n_m"/></e>
     <e lm="رکشے"><i>رکشے</i><par n="آب__n_m"/></e>
     <e lm="دھنومرا"><i>دھنومرا</i><par n="آب__n_m"/></e>
-    <e lm="دستہ"><i>دستہ</i><par n="آب__n_m"/></e>
     <e lm="پولو"><i>پولو</i><par n="آب__n_m"/></e>
     <e lm="تمنی"><i>تمنی</i><par n="آب__n_m"/></e>
     <e lm="چھیچھڑا"><i>چھیچھڑا</i><par n="آب__n_m"/></e>
@@ -8286,7 +8221,6 @@
     <e lm="اسکرپٹ"><i>اسکرپٹ</i><par n="آب__n_m"/></e>
     <e lm="آرہ"><i>آرہ</i><par n="آب__n_m"/></e>
     <e lm="دراعہ"><i>دراعہ</i><par n="آب__n_m"/></e>
-    <e lm="آغاز"><i>آغاز</i><par n="آب__n_m"/></e>
     <e lm="کیتھیڈرل"><i>کیتھیڈرل</i><par n="آب__n_m"/></e>
     <e lm="بہائم"><i>بہائم</i><par n="آب__n_m"/></e>
     <e lm="ہیہضہ"><i>ہیہضہ</i><par n="آب__n_m"/></e>
@@ -8584,7 +8518,6 @@
     <e lm="سونف"><i>سونف</i><par n="آب__n_m"/></e>
     <e lm="برکھا"><i>برکھا</i><par n="آب__n_m"/></e>
     <e lm="کرود"><i>کرود</i><par n="آب__n_m"/></e>
-    <e lm="آگ"><i>آگ</i><par n="آب__n_m"/></e>
     <e lm="شبہ"><i>شبہ</i><par n="آب__n_m"/></e>
     <e lm="ضمار"><i>ضمار</i><par n="آب__n_m"/></e>
     <e lm="شہپورہ"><i>شہپورہ</i><par n="آب__n_m"/></e>
@@ -9175,7 +9108,6 @@
     <e lm="راکڑ"><i>راکڑ</i><par n="آب__n_m"/></e>
     <e lm="سکسینہ"><i>سکسینہ</i><par n="آب__n_m"/></e>
     <e lm="سنگم"><i>سنگم</i><par n="آب__n_m"/></e>
-    <e lm="کعبہ"><i>کعبہ</i><par n="آب__n_m"/></e>
     <e lm="کشی"><i>کشی</i><par n="آب__n_m"/></e>
     <e lm="صحیح"><i>صحیح</i><par n="آب__n_m"/></e>
     <e lm="محلہ"><i>محلہ</i><par n="آب__n_m"/></e>
@@ -9284,7 +9216,6 @@
     <e lm="کرنت"><i>کرنت</i><par n="آب__n_m"/></e>
     <e lm="ناڑا"><i>ناڑا</i><par n="آب__n_m"/></e>
     <e lm="ٹیکنیکلر"><i>ٹیکنیکلر</i><par n="آب__n_m"/></e>
-    <e lm="کاتب"><i>کاتب</i><par n="آب__n_m"/></e>
     <e lm="زدہ"><i>زدہ</i><par n="آب__n_m"/></e>
     <e lm="ماما"><i>ماما</i><par n="آب__n_m"/></e>
     <e lm="جلاہا"><i>جلاہا</i><par n="آب__n_m"/></e>
@@ -9294,7 +9225,6 @@
     <e lm="روپ"><i>روپ</i><par n="آب__n_m"/></e>
     <e lm="ناکوں"><i>ناکوں</i><par n="آب__n_m"/></e>
     <e lm="جاب"><i>جاب</i><par n="آب__n_m"/></e>
-    <e lm="سلاطین"><i>سلاطین</i><par n="آب__n_m"/></e>
     <e lm="شیریں"><i>شیریں</i><par n="آب__n_m"/></e>
     <e lm="کولا"><i>کولا</i><par n="آب__n_m"/></e>
     <e lm="پوکر"><i>پوکر</i><par n="آب__n_m"/></e>
@@ -9308,7 +9238,6 @@
     <e lm="گنا"><i>گنا</i><par n="آب__n_m"/></e>
     <e lm="معتزل"><i>معتزل</i><par n="آب__n_m"/></e>
     <e lm="ضحو"><i>ضحو</i><par n="آب__n_m"/></e>
-    <e lm="اطاعت"><i>اطاعت</i><par n="آب__n_m"/></e>
     <e lm="ٹولا"><i>ٹولا</i><par n="آب__n_m"/></e>
     <e lm="پتھورا"><i>پتھورا</i><par n="آب__n_m"/></e>
     <e lm="مضائقہ"><i>مضائقہ</i><par n="آب__n_m"/></e>
@@ -9817,7 +9746,6 @@
     <e lm="تمئیز"><i>تمئیز</i><par n="آب__n_m"/></e>
     <e lm="موالی"><i>موالی</i><par n="آب__n_m"/></e>
     <e lm="قماش"><i>قماش</i><par n="آب__n_m"/></e>
-    <e lm="قابو"><i>قابو</i><par n="آب__n_m"/></e>
     <e lm="ٹنکچر"><i>ٹنکچر</i><par n="آب__n_m"/></e>
     <e lm="فانہ"><i>فانہ</i><par n="آب__n_m"/></e>
     <e lm="شرارا"><i>شرارا</i><par n="آب__n_m"/></e>
@@ -10055,7 +9983,6 @@
     <e lm="دہی"><i>دہی</i><par n="آب__n_m"/></e>
     <e lm="بندہ"><i>بندہ</i><par n="آب__n_m"/></e>
     <e lm="دروازوں"><i>دروازوں</i><par n="آب__n_m"/></e>
-    <e lm="دیوان"><i>دیوان</i><par n="آب__n_m"/></e>
     <e lm="سٹارٹ"><i>سٹارٹ</i><par n="آب__n_m"/></e>
     <e lm="لفٹنگ"><i>لفٹنگ</i><par n="آب__n_m"/></e>
     <e lm="پکھو"><i>پکھو</i><par n="آب__n_m"/></e>
@@ -10183,7 +10110,6 @@
     <e lm="رولر"><i>رولر</i><par n="آب__n_m"/></e>
     <e lm="ندما"><i>ندما</i><par n="آب__n_m"/></e>
     <e lm="چھکڑا"><i>چھکڑا</i><par n="آب__n_m"/></e>
-    <e lm="پاس"><i>پاس</i><par n="آب__n_m"/></e>
     <e lm="راح"><i>راح</i><par n="آب__n_m"/></e>
     <e lm="تقدیس"><i>تقدیس</i><par n="آب__n_m"/></e>
     <e lm="معتقد"><i>معتقد</i><par n="آب__n_m"/></e>
@@ -11380,6 +11306,7 @@
     <e lm="حضرت"><i>حضرت</i><par n="آب__n_m"/></e>
     <e lm="سینٹ"><i>سینٹ</i><par n="آب__n_m"/></e>
     <e lm="کیلومیٹر"><i>کیلومیٹر</i><par n="آب__n_m"/></e>
+    <e lm="میٹروپولس"><i>میٹروپولس</i><par n="آب__n_m"/></e>
     <e lm="کلومیٹر"><i>کلومیٹر</i><par n="آب__n_m"/></e>
     <e lm="طور"><i>طور</i><par n="آب__n_m"/></e>
     <e lm="دریا"><i>دریا</i><par n="کلی__n_f"/></e>
@@ -13504,7 +13431,6 @@
     <e lm="کمینگی"><i>کمینگی</i><par n="کلی__n_f"/></e>
     <e lm="شمہ"><i>شم</i><par n="خط/ہ__n_m"/></e>
     <e lm="حوالدار"><i>حوالدار</i><par n="جج__n_m"/></e>
-    <e lm="پہاڑی"><i>پہاڑی</i><par n="کلی__n_f"/></e>
     <e lm="سیاح"><i>سیاح</i><par n="جج__n_m"/></e>
     <e lm="کھائی"><i>کھائی</i><par n="کلی__n_f"/></e>
     <e lm="بوتل"><i>بوتل</i><par n="ت__n_f"/></e>
@@ -13555,7 +13481,6 @@
     <e lm="چوزا"><i>چوز</i><par n="کو/ا__n_m"/></e>
     <e lm="گنڈا"><i>گنڈ</i><par n="کو/ا__n_m"/></e>
     <e lm="پھرکی"><i>پھرکی</i><par n="کلی__n_f"/></e>
-    <e lm="کاتب"><i>کاتب</i><par n="خط__n"/></e>
     <e lm="جلسہ"><i>جلس</i><par n="خط/ہ__n_m"/></e>
     <e lm="چلمن"><i>چلمن</i><par n="ت__n_f"/></e>
     <e lm="تحریر"><i>تحریر</i><par n="ت__n_f"/></e>
@@ -14336,7 +14261,7 @@
     <e lm="ماں"><i>ما</i><par n="ما/ں__n"/></e>
     <e lm="جہنمی"><i>جہنمی</i><par n="جج__n_m"/></e>
     <e lm="کوتاہی"><i>کوتاہی</i><par n="کلی__n_f"/></e>
-    <e lm="یادگار"><i>یادگار</i><par n="ت__n_f"/></e>
+    <e lm="یادگار"><i>یادگار</i><par n="جج__n_m"/></e>
     <e lm="لَڑْکا"><i>لَڑْک</i><par n="کو/ا__n_m"/></e>
     <e lm="کروڑ"><i>کروڑ</i><par n="جج__n_m"/></e>
     <e lm="کھوپڑی"><i>کھوپڑی</i><par n="کلی__n_f"/></e>
@@ -14391,7 +14316,6 @@
     <e lm="عاجز"><i>عاجز</i><par n="جج__n_m"/></e>
     <e lm="لذت"><i>لذت</i><par n="خط__n"/></e>
     <e lm="اجر"><i>اجر</i><par n="جج__n_m"/></e>
-    <e lm="مل"><i>مل</i><par n="جج__n_m"/></e>
     <e lm="تمنا"><i>تمنا</i><par n="دعا__n"/></e>
     <e lm="چور"><i>چور</i><par n="جج__n_m"/></e>
     <e lm="گلدستہ"><i>گلدست</i><par n="خط/ہ__n_m"/></e>
@@ -14503,6 +14427,10 @@
     <e lm="تفصیلات"><i>تفصیلات</i><par n="ت__n_f"/></e>
 
     <!-- Proper nouns -->
+    <e lm="مہر"><i>مہر</i><par n="عامل__np"/></e>
+    <e lm="آغا بولک لری"><i>آغا بولک لری</i><par n="عامل__np"/></e>
+    <e lm="یایا"><i>یایا</i><par n="عامل__np"/></e>
+    <e lm="سکبان"><i>سکبان</i><par n="عامل__np"/></e>
     <e lm="ولی"><i>ولی</i><par n="عامل__np"/></e>
     <e lm="شَمْشِیر"><i>شَمْشِیر</i><par n="عامل__np"/></e>
     <e lm="محمود"><i>محمود</i><par n="عامل__np"/></e>
@@ -14862,6 +14790,7 @@
     <e lm="جعفر آباد"><i>جعفر آباد</i><par n="پاکستان__np"/></e>
     <e lm="حیدر آباد"><i>حیدر آباد</i><par n="پاکستان__np"/></e>
     <e lm="حیدرآباد"><i>حیدرآباد</i><par n="پاکستان__np"/></e>
+    <e lm="ايشياء"><i>ايشياء</i><par n="پاکستان__np"/></e>
     <e lm="ایشیاء"><i>ایشیاء</i><par n="پاکستان__np"/></e>
     <e lm="کوریا"><i>کوریا</i><par n="پاکستان__np"/></e>
     <e lm="کوئٹہ"><i>کوئٹہ</i><par n="پاکستان__np"/></e>
@@ -14979,13 +14908,27 @@
     <e lm="مسوری"><i>مسوری</i><par n="پاکستان__np"/></e>
     <e lm="شملہ"><i>شملہ</i><par n="پاکستان__np"/></e>
     <e lm="مدینہ"><i>مدینہ</i><par n="پاکستان__np"/></e>
+    <e lm="جبرالٹر"><i>جبرالٹر</i><par n="پاکستان__np"/></e>
+    <e lm="آسٹریا"><i>آسٹریا</i><par n="پاکستان__np"/></e>
+    <e lm="قزوین"><i>قزوین</i><par n="پاکستان__np"/></e>
+    <e lm="سلوواکیہ"><i>سلوواکیہ</i><par n="پاکستان__np"/></e>
+    <e lm="یوکرین"><i>یوکرین</i><par n="پاکستان__np"/></e>
+    <e lm="ولاچیا"><i>ولاچیا</i><par n="پاکستان__np"/></e>
+    <e lm="صومالیہ"><i>صومالیہ</i><par n="پاکستان__np"/></e>
+    <e lm="مالدووا"><i>مالدووا</i><par n="پاکستان__np"/></e>
+    <e lm="ٹرانسلوانیا"><i>ٹرانسلوانیا</i><par n="پاکستان__np"/></e>
+    <e lm="کوسوو"><i>کوسوو</i><par n="پاکستان__np"/></e>
+    <e lm="نکوپولس"><i>نکوپولس</i><par n="پاکستان__np"/></e>
+    <e lm="موہاکس"><i>موہاکس</i><par n="پاکستان__np"/></e>
+    <e lm="ویانا"><i>ویانا</i><par n="پاکستان__np"/></e>
+    <e lm="وادیٔ سندھ"><i>وادیٔ سندھ</i><par n="پاکستان__np"/></e>
     <!-- Pronoun -->
     <e lm="میں"><i>م</i><par n="م/یں__prn"/></e>
     <e lm="ہم"><i>ہ</i><par n="ہ/م__prn"/></e>
     <e lm="تم"><i>ت</i><par n="ت/م__prn"/></e>
     <e lm="تُو"><i></i><par n="/تُو__prn"/></e>
     <e lm="آپ"><i></i><par n="/آپ__prn"/></e>   
-    <e lm="اپ"><i>ا</i><par n="ا/پ__prn"/></e>	
+    <e lm="اپ"><i></i><par n="/اپ__prn"/></e>	
     <e lm="یہ"><i></i><par n="/یہ__prn"/></e>
     <e lm="وہ"><i></i><par n="/وہ__prn"/></e>
     <e lm="جو"><i></i><par n="/جو__prn"/></e>
@@ -15000,7 +14943,9 @@
     <e lm="ویس"><i>ویس</i><par n="جیس__det"/></e>
 
     <!-- Adverbs -->
-
+    <e lm="آخر"><i>آخر</i><par n="غلط__adv"/></e>
+    <e lm="لگ بھگ"><i>لگ<b/>بھگ</i><par n="غلط__adv"/></e>
+    <e lm="بلاشبہ"><i>بلاشبہ</i><par n="غلط__adv"/></e>
     <e lm="دور"><i>دور</i><par n="غلط__adv"/></e>
     <e lm="بخوبی"><i>بخوبی</i><par n="غلط__adv"/></e>
     <e lm="گذشتہ"><i>گذشتہ</i><par n="غلط__adv"/></e>
@@ -15057,6 +15002,7 @@
     <e lm="واپس"><i>واپس</i><par n="غلط__adv"/></e>
     <e lm="قریب"><i>قریب</i><par n="غلط__adv"/></e>
     <e lm="تاہم"><i>تاہم</i><par n="غلط__adv"/></e>
+    <e lm="تقريبا"><i>تقريبا</i><par n="غلط__adv"/></e>
     <e lm="تقریبا"><i>تقریبا</i><par n="غلط__adv"/></e>
     <e lm="دیگر"><i>دیگر</i><par n="غلط__adv"/></e>
     <e lm="بلکہ"><i>بلکہ</i><par n="غلط__adv"/></e>
@@ -16087,6 +16033,14 @@
 	<e lm="کھیجھ"><i>کھیجھ</i><par n="بول__vblex_tv"/></e>
 
     <!-- Adjectives -->
+    <e lm="قابل دید"><i>قابل<b/>دید</i><par n="گرم__adj"/></e>
+    <e lm="عنان"><i>عنان</i><par n="گرم__adj"/></e>
+    <e lm="قابو"><i>قابو</i><par n="گرم__adj"/></e>
+    <e lm="آفندیسی"><i>آفندیسی</i><par n="گرم__adj"/></e>
+    <e lm="آغاسی"><i>آغاسی</i><par n="گرم__adj"/></e>
+    <e lm="قابض"><i>قابض</i><par n="گرم__adj"/></e>
+    <e lm="بارودی"><i>بارودی</i><par n="گرم__adj"/></e>
+    <e lm="زیر نگیں"><i>زیر نگیں</i><par n="گرم__adj"/></e>
     <e lm="کانہ"><i>کان</i><par n="موجود/ہ__adj"/></e>
     <e lm="رابط"><i>رابط</i><par n="گرم__adj"/></e>
     <e lm="جھونک"><i>جھونک</i><par n="گرم__adj"/></e>
@@ -16300,7 +16254,7 @@
     <e lm="نوبل"><i>نوبل</i><par n="گرم__adj"/></e>
     <e lm="ساڑھے"><i>ساڑھے</i><par n="گرم__adj"/></e>
     <e lm="سپریم"><i>سپریم</i><par n="گرم__adj"/></e>
-    <e lm="انگیز"><i>انگیز</i><par n="گرم__adj"/></e>
+    <e lm="حیرت انگیز"><i>حیرت انگیز</i><par n="گرم__adj"/></e>
     <e lm="مقناطیسی"><i>مقناطیسی</i><par n="گرم__adj"/></e>
     <e lm="سیلسیان"><i>سیلسیان</i><par n="گرم__adj"/></e>
     <e lm="خاموش"><i>خاموش</i><par n="گرم__adj"/></e>
@@ -16953,6 +16907,8 @@
     <e lm="نزدیک"><i>نزدیک</i><par n="گرم__adj"/></e>    
 
     <!-- Punctuation -->
+    <e lm="۔"><i>۔</i><par n="sent"/></e>
+    <e lm="؛"><i>؛</i><par n="sent"/></e>
     <e lm="؟"><i>؟</i><par n="sent"/></e>
     <e lm="."><i>.</i><par n="sent"/></e>
     <e lm="!"><i>!</i><par n="sent"/></e>
