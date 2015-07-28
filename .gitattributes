@@ -10,6 +10,7 @@
 /apertium-urd.urd.rlx -text
 /autogen.sh -text
 /configure.ac -text
+dev/apertium-urd.urd.dix -text
 dev/replace-list.tsv -text
 dev/speling-convertor-urdu.py -text
 dev/urdu.fullform -text
