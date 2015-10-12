@@ -15,3 +15,4 @@ dev/replace-list.tsv -text
 dev/speling-convertor-urdu.py -text
 dev/urdu.fullform -text
 /modes.xml -text
+/urd.prob -text svneol=unset#unset
