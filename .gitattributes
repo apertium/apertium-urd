@@ -6,6 +6,8 @@
 /NEWS -text
 /README -text
 /apertium-urd.pc.in -text
+/apertium-urd.post-urd.dix -text
+/apertium-urd.urd.acx -text
 /apertium-urd.urd.dix -text
 /apertium-urd.urd.rlx -text
 /autogen.sh -text
