@@ -1,25 +1,7 @@
-* text=auto !eol
-/AUTHORS -text
-/COPYING -text
-/ChangeLog -text
-/Makefile.am -text
-/NEWS -text
-/README -text
-/apertium-urd.pc.in -text
-/apertium-urd.post-urd.dix -text
-/apertium-urd.urd.acx -text
-/apertium-urd.urd.dix -text
-/apertium-urd.urd.rlx -text
-/autogen.sh -text
-/configure.ac -text
-dev/apertium-urd.urd.dix -text
-dev/replace-list.tsv -text
-dev/speling-convertor-urdu.py -text
-dev/urdu.fullform -text
-/modes.xml -text
-/urd.prob -text svneol=unset#unset
+* text eol=lf
 *.dix linguist-language=XML linguist-detectable=true
 *.lrx linguist-language=XML linguist-detectable=true
 *.lsx linguist-language=XML linguist-detectable=true
 *.tsx linguist-language=XML linguist-detectable=true
 *.t[[:digit:]]x linguist-language=XML linguist-detectable=true
+*.prob binary
