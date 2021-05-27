@@ -1,6 +1,6 @@
 AC_PREREQ(2.52)
 
-AC_INIT([Apertium Urdu], [0.1.1], [apertium-stuff@lists.sourceforge.net], [apertium-urd], [http://wiki.apertium.org/wiki/Apertium-urd])
+AC_INIT([Apertium Urdu], [0.1.1], [apertium-stuff@lists.sourceforge.net], [apertium-urd], [https://wiki.apertium.org/wiki/Apertium-urd])
 AM_INIT_AUTOMAKE
 AC_PROG_AWK
 
