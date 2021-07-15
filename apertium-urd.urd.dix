@@ -1,4 +1,4 @@
-﻿<!-- 
+﻿	<!-- 
   Generated from:
     http://www.lama.univ-savoie.fr/~humayoun/UrduMorph/
 
@@ -854,7 +854,9 @@
       <e><p><l>ے</l><r>ا<s n="num"/><s n="ord"/><s n ="mf"/></r></p></e>
     </pardef>
     <pardef n="یکم__ord">
-      <e><p><l></l><r><s n="num"/><s n="ord"/></r></p></e>
+      <e><p><l></l><r><s n="num"/><s n="ord"/><s n="m"/></r></p></e>
+      <e><p><l></l><r><s n="num"/><s n="ord"/><s n="f"/></r></p></e>
+      <e><p><l></l><r><s n="num"/><s n="ord"/><s n="mf"/></r></p></e>
     </pardef>
 	<pardef n="دو__num">
       <e><p><l></l><r><s n="num"/></r></p></e>
